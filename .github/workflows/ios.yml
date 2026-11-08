@@ -1,0 +1,168 @@
+# iOS build on a cloud Mac. Results (core test, build errors, autopilot screenshots, logs) go to the `ci` branch so they
+# can be read with git. The repo must be public while this runs (owner rule: public for CI, private again right after).
+name: iOS
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      testflight:
+        description: Upload to TestFlight
+        type: boolean
+        default: false
+      storeshots:
+        description: App Store screenshots
+        type: boolean
+        default: false
+defaults:
+  run:
+    shell: bash
+permissions:
+  contents: write
+jobs:
+  build:
+    # never spend paid macOS minutes: a push while the repo is private does nothing
+    if: ${{ !github.event.repository.private }}
+    runs-on: macos-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Xcode 26
+        run: |
+          X=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1)
+          if [ -n "$X" ]; then sudo xcode-select -s "$X"; fi
+          xcodebuild -version
+      - name: Core test (Swift rumour engine vs. the web build, line by line)
+        run: |
+          mkdir -p ci-out
+          swift run -c release coretest golden GameData/data.json Tests/golden.txt 2>&1 | tee ci-out/coretest.txt
+          swift run -c release coretest smoke GameData/data.json 2>&1 | tee -a ci-out/coretest.txt
+      - run: brew install xcodegen
+      - run: xcodegen generate
+      - name: Build for simulator
+        run: |
+          set +e
+          xcodebuild -project GossipTown.xcodeproj -scheme GossipTown -configuration Debug -sdk iphonesimulator \
+            -destination 'generic/platform=iOS Simulator' -derivedDataPath build CODE_SIGNING_ALLOWED=NO build > ci-out/build.log 2>&1
+          rc=$?
+          set -e
+          grep -E "error:|BUILD (SUCCEEDED|FAILED)" ci-out/build.log | sort -u | head -150 > ci-out/errors.txt || true
+          tail -5 ci-out/build.log
+          exit $rc
+      - name: Run in simulator (autopilot, normal + iPhone Duo half-folded)
+        run: |
+          exec > >(tee ci-out/run.log) 2>&1
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          devs = json.load(sys.stdin)['devices']
+          for rt in sorted(devs, reverse=True):
+              if 'iOS' in rt:
+                  for d in devs[rt]:
+                      if d['name'].startswith('iPhone') and 'Pro' in d['name'] and 'Max' not in d['name']:
+                          print(d['udid']); sys.exit()
+          ")
+          echo "device $UDID"
+          xcrun simctl boot "$UDID" || true
+          xcrun simctl bootstatus "$UDID" -b || echo "bootstatus failed $?"
+          APP=build/Build/Products/Debug-iphonesimulator/GossipTown.app
+          xcrun simctl install "$UDID" "$APP" || echo "install failed $?"
+          B=com.austin410203.gossiptown
+          xcrun simctl spawn "$UDID" log stream --style compact --predicate 'process == "GossipTown"' > ci-out/syslog.txt 2>&1 &
+          LOGPID=$!
+          run_tour() {   # $1 = output folder, rest = extra launch args
+            OUT=$1; shift
+            xcrun simctl terminate "$UDID" $B || true
+            DATA=$(xcrun simctl get_app_container "$UDID" $B data || true)
+            [ -n "$DATA" ] && rm -rf "$DATA/Documents/shots"
+            xcrun simctl launch "$UDID" $B -autotest tour -mock "$@" || echo "launch failed $?"
+            DATA=$(xcrun simctl get_app_container "$UDID" $B data || true)
+            for i in $(seq 1 60); do sleep 5; [ -f "$DATA/Documents/shots/done.txt" ] && { echo "$OUT done after $((i * 5)) s"; break; }; done
+            mkdir -p "ci-out/$OUT" && cp -R "$DATA/Documents/shots/." "ci-out/$OUT/" 2>/dev/null || true
+            ls "ci-out/$OUT" || true
+          }
+          run_tour shots -lang zh
+          run_tour fold -lang zh -fold
+          run_tour en -lang en
+          mkdir -p ci-out/sim
+          for L in ja ko es; do
+            xcrun simctl terminate "$UDID" $B || true
+            xcrun simctl launch "$UDID" $B -mock -lang $L || true
+            sleep 6
+            xcrun simctl io "$UDID" screenshot "ci-out/sim/title_$L.png" || true
+          done
+          find ~/Library/Logs/DiagnosticReports -name 'GossipTown*' -exec cp {} ci-out/ \; 2>/dev/null || true
+          kill $LOGPID 2>/dev/null || true
+          grep -iE "AUTOPILOT|error|fault|fatal|exception" ci-out/syslog.txt | head -80 || true
+      - name: Publish results to the ci branch
+        if: always()
+        run: |
+          cd ci-out
+          git init -q
+          git checkout -q -b ci
+          git add -A
+          git -c user.name=ci -c user.email=hello@emptyoffice.app commit -qm "run ${{ github.run_number }} ${{ github.sha }}"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" ci || echo "::warning::ci branch push lost a race with another run"
+
+  testflight:
+    if: ${{ !github.event.repository.private && ((github.event_name == 'workflow_dispatch' && inputs.testflight) || contains(github.event.head_commit.message, '[testflight]')) }}
+    needs: build
+    runs-on: macos-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Xcode 26
+        run: |
+          X=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1)
+          if [ -n "$X" ]; then sudo xcode-select -s "$X"; fi
+      - run: brew install xcodegen
+      - run: xcodegen generate
+      # Xcode cloud signing (Apple-managed Distribution certificate): the team is at its limit of Distribution
+      # certificates, so CI must never create one
+      - name: Write App Store Connect key
+        env:
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/keys"
+          K="$RUNNER_TEMP/keys/AuthKey.p8"
+          printf '%s\n' "$ASC_KEY_P8" | tr -d '\r' | sed '/^[[:space:]]*$/d' > "$K"
+          if ! grep -q 'BEGIN PRIVATE KEY' "$K"; then
+            { echo '-----BEGIN PRIVATE KEY-----'; tr -d ' \n' < "$K" | fold -w 64; echo; echo '-----END PRIVATE KEY-----'; } > "$K.tmp" && mv "$K.tmp" "$K"
+          fi
+          openssl pkey -in "$K" -noout || { echo "::error::ASC_KEY_P8 is not a valid private key"; exit 1; }
+      - name: Archive
+        env:
+          TEAM: ${{ secrets.APPLE_TEAM_ID }}
+          KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ISSUER: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          set -o pipefail
+          xcodebuild -project GossipTown.xcodeproj -scheme GossipTown -configuration Release \
+            -destination 'generic/platform=iOS' -archivePath build/App.xcarchive archive \
+            CURRENT_PROJECT_VERSION=${{ github.run_number }} DEVELOPMENT_TEAM="$TEAM" CODE_SIGN_STYLE=Automatic \
+            -allowProvisioningUpdates -authenticationKeyPath "$RUNNER_TEMP/keys/AuthKey.p8" \
+            -authenticationKeyID "$KEY_ID" -authenticationKeyIssuerID "$ISSUER" 2>&1 | tail -n 60
+      - name: Export and upload to TestFlight
+        env:
+          TEAM: ${{ secrets.APPLE_TEAM_ID }}
+          KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ISSUER: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          cat > ExportOptions.plist <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>method</key><string>app-store-connect</string>
+            <key>destination</key><string>upload</string>
+            <key>signingStyle</key><string>automatic</string>
+            <key>teamID</key><string>$TEAM</string>
+            <key>manageAppVersionAndBuildNumber</key><false/>
+          </dict></plist>
+          PLIST
+          xcodebuild -exportArchive -archivePath build/App.xcarchive -exportPath build/export \
+            -exportOptionsPlist ExportOptions.plist -allowProvisioningUpdates \
+            -authenticationKeyPath "$RUNNER_TEMP/keys/AuthKey.p8" \
+            -authenticationKeyID "$KEY_ID" -authenticationKeyIssuerID "$ISSUER" 2>&1 | tee upload.log | tail -n 60
+          if grep -qiE "upload failed|error:" upload.log; then echo "::error::upload failed"; exit 1; fi
+      - name: Remove the API key
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/keys"

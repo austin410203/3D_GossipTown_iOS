@@ -1,0 +1,2021 @@
+# seed 1
+T 1 -40,5,18,50,29,12,40,5,45,30,16;-45,8,15,50,9,17,40,5,45,12,10;6,16,35,50,12,10,40,5,45,10,23;16,24,30,50,24,9,40,5,45,9,23;19,8,12,6,21,27,40,5,45,15,13;22,29,28,22,50,26,40,5,60,27,12;27,18,28,23,50,22,40,5,45,50,15;8,15,13,21,50,18,7,5,45,12,9;13,27,12,9,50,19,13,40,45,7,13;22,21,8,18,50,55,25,40,5,29,27;5,10,6,30,50,23,45,40,5,45,25;25,11,7,9,50,19,12,40,5,45,27
+D 1 reconcile baker clock - granny heat
+W baker apology/clock/baker/- baker:believe
+W clock praised/baker/clock/- clock:doubt
+t 10 bakery baker>granny apology/baker/clock/- swap doubt 2
+t 11 bakery baker>fisher apology/clock/baker/- - believe 3
+A 5,5,18,50,29,12,40,5,45,30,16;-45,8,15,50,9,17,40,5,45,12,10;6,16,35,50,12,10,40,5,45,10,23;16,24,30,50,24,9,40,5,45,9,23;19,8,12,6,21,27,40,5,45,15,13;22,29,28,22,50,26,40,5,60,27,12;28,18,28,23,50,22,40,5,45,50,15;8,15,13,21,50,18,7,5,45,12,9;13,27,12,9,50,19,13,40,45,7,13;22,21,8,18,50,55,25,40,5,29,27;5,10,6,30,50,23,45,40,5,45,25;25,11,7,9,50,19,12,40,5,45,27
+P |||
+W granny apology/baker/clock/- granny:believe
+W baker praised/clock/baker/- baker:believe,post:doubt,florist:believe,cafe:believe,teacher:doubt
+t 12 cafe cafe>teacher likes/clock/baker/- escalate doubt 10
+t 12 cafe post>baker praised/clock/baker/- - agree 11
+t 12.5 cafe cafe>baker likes/clock/baker/- escalate believe 12
+t 12.5 cafe florist>teacher praised/clock/baker/- - doubt 13
+t 13.5 hall post>mayor praised/clock/baker/- - doubt 14
+t 13.5 pharmacy granny>pharma apology/baker/clock/- - believe 15
+t 14 cafe granny>cafe apology/clock/baker/- swap doubt 16
+t 14.5 school post>kid praised/clock/baker/- - believe 17
+t 14.5 cafe cafe>granny praised/clock/baker/- - doubt 18
+t 15 pharmacy clock>pharma praised/baker/clock/- - doubt 19
+t 15 park kid>mayor likes/clock/baker/- escalate doubt 20
+t 15 inn fisher>inn apology/baker/clock/- swap doubt 21
+t 15.5 pharmacy post>clock praised/clock/baker/- - self 22
+t 16 bakery baker>kid likes/clock/baker/- - doubt 23
+t 16 pharmacy pharma>teacher apology/baker/clock/- - doubt 24
+t 16.5 bakery kid>baker secret/clock/baker/- blur believe 25
+t 16.5 inn inn>fisher apology/clock/baker/- swap agree 26
+A 59,6,18,50,30,12,40,6,45,30,16;-37,8,15,50,9,17,40,5,45,12,10;6,16,35,50,12,10,40,5,45,10,23;16,27,30,50,24,9,40,5,45,9,23;19,8,12,6,21,27,40,5,45,15,13;22,32,28,22,50,26,40,5,60,27,12;28,18,28,23,50,22,40,5,45,51,15;8,15,13,21,50,18,7,5,45,12,9;13,30,13,9,50,19,13,40,45,7,13;22,21,8,18,50,55,25,40,5,29,27;5,10,6,30,50,23,45,40,5,45,25;25,11,7,9,50,19,12,40,5,46,27
+P |||
+W cafe apology/baker/clock/- cafe:believe
+W granny praised/baker/clock/- granny:believe,baker:self,clock:again,post:believe,fisher:believe,teacher:doubt,kid:believe,pharma:believe
+t 17 square clock>granny praised/baker/clock/- - agree 36
+t 17 square baker>pharma apology/clock/baker/- - believe 37
+t 17 square post>kid praised/baker/clock/- - agree 38
+t 17.5 square granny>baker praised/clock/baker/- - agree 39
+t 18 square baker>fisher likes/clock/baker/- - believe 40
+t 18 square kid>florist likes/clock/baker/- - believe 41
+t 18 square cafe>granny apology/clock/baker/- - believe 42
+t 18 square pharma>inn apology/clock/baker/- - believe 43
+t 18 square post>clock praised/baker/clock/- - doubt 44
+t 18.5 square fisher>baker likes/clock/baker/- - agree 45
+t 18.5 square granny>clock apology/baker/clock/- - believe 46
+t 18.5 square mayor>cafe praised/clock/baker/- - agree 47
+e makeup 18.5 square baker clock - 
+t 19 square florist>mayor likes/clock/baker/- - believe 48
+t 19 square fisher>cafe gift/clock/baker/- escalate believe 49
+t 19.5 square baker>florist engaged/clock/baker/- escalate doubt 50
+t 19.5 square mayor>granny likes/clock/baker/- - doubt 51
+t 19.5 square fisher>clock apology/clock/baker/- - self 52
+A 100,6,18,50,30,13,40,6,45,30,16;44,8,15,50,9,17,40,5,46,12,10;9,16,35,50,12,10,40,5,45,10,23;16,27,30,50,24,9,40,6,45,9,23;19,8,12,7,21,27,40,5,45,15,13;22,34,28,22,51,27,40,5,60,27,12;32,18,28,23,50,22,40,5,45,51,15;8,15,13,21,50,18,7,5,45,12,9;18,30,14,9,50,19,13,40,45,7,13;27,22,8,18,50,56,25,40,5,29,27;5,10,6,30,50,23,45,40,5,45,26;29,11,7,9,50,19,12,40,5,46,27
+P |baker+clock||
+R 2 10 2 true 53
+D 2 reconcile baker post - fisher wind
+W granny apology/baker/post/- granny:believe
+W baker praised/post/baker/- baker:believe
+t 10 bakery baker>granny praised/post/baker/- - believe 2
+t 10.5 bakery granny>baker praised/post/baker/- - agree 3
+t 11 bakery baker>fisher praised/baker/post/- swap believe 4
+t 11.5 bakery fisher>baker praised/baker/post/- - self 5
+A 95,-5,17,48,29,12,38,6,44,29,15;42,8,14,48,9,16,38,5,44,11,10;-50,15,33,48,11,10,38,5,43,10,22;15,26,29,48,23,9,38,6,43,9,22;18,8,11,7,20,26,38,5,43,14,12;21,32,27,21,48,26,38,5,57,26,11;34,17,27,22,48,21,38,5,43,48,14;8,14,12,20,48,17,7,5,43,11,9;17,29,13,9,48,18,12,38,43,7,12;27,21,11,17,48,53,24,38,5,28,26;5,10,6,29,48,22,43,38,5,43,25;28,10,7,9,48,18,11,38,5,44,26
+P |baker+clock||
+W cafe apology/baker/post/- cafe:believe,baker:self,post:believe,florist:believe,teacher:doubt
+W granny praised/baker/post/- granny:doubt
+t 12 cafe cafe>teacher apology/baker/post/- - doubt 12
+t 12 cafe florist>post apology/baker/post/- - agree 13
+e makeup 12 cafe baker post - 
+t 12.5 cafe baker>teacher likes/post/baker/- escalate doubt 14
+t 12.5 cafe post>florist apology/baker/post/- - agree 15
+t 13 pharmacy granny>pharma praised/baker/post/- - doubt 16
+t 13.5 pharmacy granny>pharma apology/baker/cafe/- shift doubt 17
+t 14 school post>kid apology/baker/post/- - believe 18
+t 14 cafe cafe>granny apology/post/baker/- swap believe 19
+t 14.5 school post>teacher apology/post/baker/- swap believe 20
+t 15 park kid>mayor apology/baker/teacher/- shift believe 21
+t 16 bakery kid>baker apology/baker/post/- - self 22
+t 16 pharmacy teacher>pharma apology/post/baker/- - believe 23
+t 16.5 bakery baker>kid praised/post/baker/- - doubt 24
+t 16.5 pharmacy pharma>teacher apology/post/baker/- - agree 25
+A 95,47,17,48,29,12,38,6,44,29,15;42,8,14,48,9,16,38,5,44,11,10;42,15,34,48,11,10,38,5,43,10,22;15,26,30,48,23,9,38,6,43,9,22;18,8,11,7,20,26,38,6,43,14,12;21,32,27,21,48,26,38,5,57,26,11;34,17,27,22,48,21,38,5,43,48,14;8,14,13,20,48,17,7,5,43,11,10;17,29,14,9,48,18,12,38,43,7,12;27,21,11,17,48,54,24,38,5,28,26;5,10,6,29,48,22,43,38,5,43,25;28,10,7,9,48,18,11,39,5,44,26
+P |baker+clock,baker+post||
+W post apology/baker/post/- post:again,baker:self,clock:believe,fisher:doubt,teacher:again,kid:agree,granny:again,pharma:believe
+W cafe praised/baker/post/- cafe:believe
+t 17 square fisher>teacher praised/post/baker/- swap doubt 35
+t 17 square pharma>clock praised/baker/post/- - believe 36
+t 17 square granny>kid praised/post/baker/- - believe 37
+t 17.5 square granny>teacher apology/baker/post/- - doubt 38
+t 17.5 square kid>pharma apology/baker/post/- - agree 39
+t 18 square post>fisher apology/baker/post/- - believe 40
+t 18 square cafe>inn likes/baker/post/- escalate doubt 41
+t 18.5 square cafe>florist praised/baker/post/- - doubt 42
+t 18.5 square pharma>baker apology/post/baker/- - believe 43
+t 18.5 square post>mayor apology/baker/post/- - believe 44
+t 18.5 square fisher>inn praised/baker/post/- - believe 45
+t 19 square baker>inn praised/post/baker/- - doubt 46
+t 19 square cafe>mayor secret/baker/post/- blur doubt 47
+t 19 square granny>fisher apology/baker/post/- - agree 48
+t 19 square pharma>florist apology/post/baker/- - believe 49
+t 19 square kid>clock praised/post/mayor/- shift doubt 50
+t 19.5 square granny>cafe apology/baker/post/- - agree 51
+t 19.5 square teacher>clock apology/post/baker/- - doubt 52
+t 19.5 square inn>post likes/baker/post/- - doubt 53
+t 19.5 square baker>florist apology/post/baker/- - agree 54
+A 95,85,17,48,29,12,38,6,44,29,16;45,8,14,48,9,16,38,5,44,11,11;42,15,34,48,11,10,38,5,43,10,22;16,26,30,48,23,9,38,6,43,9,23;18,8,12,7,20,26,38,6,43,14,12;24,32,27,21,48,26,38,5,58,26,11;34,17,28,22,48,21,38,5,43,48,14;8,14,13,20,48,17,7,5,43,11,10;17,29,17,9,48,18,12,38,44,7,12;27,21,11,17,48,54,24,38,5,28,26;8,10,6,29,48,22,44,38,5,43,25;28,10,7,9,48,18,11,39,6,44,26
+P |baker+clock,baker+post||
+R 2 11 2 true 55
+D 3 date baker clock - post heat
+W cafe likes/baker/clock/- cafe:believe
+W granny gift/baker/clock/- granny:believe
+t 10 cafe cafe>mayor likes/baker/clock/- - doubt 2
+A 90,81,16,46,28,11,36,6,42,28,15;43,8,13,46,9,15,36,5,42,10,10;40,14,32,46,10,10,36,5,41,10,21;15,25,29,46,22,9,36,6,41,9,22;17,8,11,7,19,25,36,6,41,13,11;23,30,26,20,46,25,36,5,55,25,10;32,16,27,21,46,20,36,5,41,46,13;8,13,12,19,46,16,7,5,41,10,10;16,28,16,9,46,17,11,36,42,7,11;26,20,10,16,46,51,23,36,5,27,25;8,10,6,28,46,21,42,36,5,41,24;27,10,7,9,46,17,10,37,6,42,25
+P |baker+clock,baker+post||
+W clock likes/baker/clock/- clock:doubt,inn:believe,pharma:doubt
+W cafe gift/baker/clock/- cafe:doubt,baker:self,post:believe,florist:believe,teacher:believe
+t 12 cafe teacher>cafe gift/baker/clock/- - doubt 11
+t 12 cafe florist>baker gift/baker/clock/- - self 12
+t 12 inn inn>clock likes/baker/clock/- - believe 13
+t 12.5 cafe post>florist gift/baker/clock/- - agree 14
+t 12.5 cafe cafe>baker likes/baker/clock/- - self 15
+t 13 hall mayor>post likes/baker/clock/- - believe 16
+t 13.5 school teacher>kid gift/baker/clock/- - believe 17
+t 13.5 pharmacy granny>pharma gift/baker/clock/- - doubt 18
+t 14 school post>kid likes/baker/clock/- - believe 19
+t 14 cafe granny>cafe gift/baker/clock/- - believe 20
+t 15 pharmacy pharma>clock engaged/baker/clock/- escalate believe 21
+t 15 park kid>mayor engaged/baker/clock/- escalate doubt 22
+t 15 inn inn>fisher secret/baker/clock/- blur believe 23
+t 15.5 pharmacy pharma>post likes/baker/clock/- - agree 24
+t 15.5 park kid>mayor gift/baker/clock/- - doubt 25
+t 16 bakery kid>baker gift/baker/clock/- - self 26
+t 16.5 bakery kid>baker likes/clock/baker/- swap doubt 27
+A 100,81,16,46,28,11,36,6,42,28,15;75,8,13,46,9,15,36,5,42,11,11;40,14,32,47,10,10,36,5,41,10,22;15,25,30,46,22,9,36,6,41,9,22;17,8,11,7,19,25,36,6,41,13,11;23,30,26,20,46,25,36,5,56,25,10;32,16,27,21,46,20,36,5,41,47,13;8,13,12,19,46,16,7,5,41,10,10;16,28,17,9,46,17,11,37,42,7,11;26,20,10,16,46,51,23,36,5,27,25;8,10,6,28,46,21,42,36,5,41,24;27,10,7,9,46,17,10,37,6,42,25
+P |baker+clock,baker+post||
+W baker likes/clock/baker/- baker:believe,clock:self,post:doubt,fisher:believe,teacher:believe,kid:doubt,granny:believe,pharma:doubt
+W clock gift/baker/clock/- clock:believe,baker:self,post:again,fisher:believe,teacher:again,kid:agree,granny:again,pharma:doubt
+t 17 square teacher>baker likes/clock/baker/- - agree 44
+t 17 square post>clock secret/baker/clock/- blur believe 45
+e date 17 square baker clock - 
+t 17.5 square granny>fisher likes/clock/baker/- - agree 46
+t 17.5 square post>pharma likes/clock/baker/- - doubt 47
+t 17.5 square florist>kid gift/baker/clock/- - agree 48
+t 18 square granny>florist gift/clock/baker/- swap doubt 49
+t 18 square kid>teacher secret/baker/clock/- blur believe 50
+t 18.5 square cafe>pharma gift/baker/clock/- - believe 51
+t 18.5 square granny>mayor likes/clock/baker/- - doubt 52
+t 18.5 square post>baker likes/baker/clock/- - self 53
+t 19 square inn>mayor likes/baker/clock/- - doubt 54
+t 19 square baker>post likes/clock/baker/- - doubt 55
+t 19 square kid>fisher secret/clock/baker/- blur believe 56
+t 19.5 square baker>mayor likes/clock/baker/- - believe 57
+t 19.5 square cafe>florist likes/baker/clock/- escalate doubt 58
+t 19.5 square clock>fisher engaged/baker/clock/- - believe 59
+t 19.5 square kid>inn likes/clock/baker/- - doubt 60
+t 19.5 square post>granny gift/baker/clock/- - agree 61
+A 100,81,16,46,28,11,36,6,42,28,15;98,9,13,46,9,15,36,5,42,11,11;40,14,32,47,10,10,36,5,41,10,22;15,25,30,46,22,9,36,6,41,9,22;18,8,11,7,19,25,36,6,41,13,11;23,30,26,20,46,25,36,5,56,25,10;32,17,27,21,46,20,36,6,42,47,13;8,13,12,19,46,16,7,6,41,10,10;16,28,17,9,46,17,11,37,42,7,11;26,20,11,16,46,51,23,36,5,27,25;8,10,6,28,46,21,42,36,5,41,24;27,10,7,9,46,18,10,37,6,42,25
+P |baker+clock,baker+post|baker+clock|
+R 2 10 1 true 62
+D 4 protest mayor - dock kid soldout
+W teacher demolish/mayor/-/dock teacher:believe,kid:believe
+W cafe demolish/mayor/-/dock cafe:doubt
+t 8 school kid>teacher demolish/mayor/-/park shift doubt 3
+t 10 cafe cafe>mayor demolish/mayor/-/cafe shift self 4
+A 95,77,15,44,27,10,34,6,40,27,14;93,9,12,44,9,14,34,5,40,10,10;38,13,30,45,10,10,34,5,39,10,21;14,24,29,44,21,9,34,6,39,9,21;17,8,10,7,18,24,34,6,39,12,10;22,29,25,19,44,24,34,5,53,24,10;30,16,26,20,44,19,34,6,40,45,12;8,12,11,18,38,15,7,6,39,10,10;15,27,16,9,26,16,10,35,40,7,10;25,19,10,15,44,48,22,34,5,26,24;8,10,6,27,44,20,40,34,5,39,23;26,10,7,9,44,17,10,35,6,40,24
+P dock:kid|baker+clock,baker+post|baker+clock|
+W granny demolish/mayor/-/dock granny:believe
+W teacher demolish/mayor/-/dock teacher:again,baker:doubt,post:doubt,florist:believe,cafe:again
+t 12 cafe post>cafe demolish/mayor/-/dock - believe 11
+t 12 cafe teacher>florist demolish/mayor/-/park - believe 12
+t 12.5 cafe baker>florist demolish/mayor/-/dock - agree 13
+t 12.5 cafe post>teacher demolish/mayor/-/dock - agree 14
+t 13 hall post>mayor demolish/mayor/-/dock - self 15
+t 13 school teacher>kid demolish/mayor/-/dock - agree 16
+t 13 pharmacy granny>pharma demolish/mayor/-/dock - believe 17
+t 14 cafe cafe>granny demolish/mayor/-/cafe shift doubt 18
+t 14.5 school kid>post demolish/mayor/-/dock - believe 19
+t 14.5 cafe granny>cafe demolish/mayor/-/bakery shift doubt 20
+t 15 pharmacy post>clock demolish/mayor/-/dock - doubt 21
+t 15 cafe cafe>granny demolish/mayor/-/square shift doubt 22
+t 15.5 park kid>mayor demolish/mayor/-/square shift self 23
+A 95,77,15,44,27,10,34,6,40,27,14;93,9,12,44,9,14,34,5,40,10,10;38,13,30,27,10,10,34,6,39,10,21;15,24,29,16,21,9,35,6,39,9,21;17,8,10,7,18,24,34,6,39,12,10;22,29,26,19,26,24,34,5,53,24,10;30,16,26,20,44,19,34,6,40,45,12;8,12,12,18,34,15,7,6,39,10,10;15,27,16,9,15,16,10,36,40,7,10;25,19,10,15,26,48,22,34,5,26,24;8,10,6,27,44,20,40,34,5,39,23;26,10,7,9,38,17,10,35,6,41,24
+P dock:kid,granny,cafe,post park:florist|baker+clock,baker+post|baker+clock|
+W kid demolish/mayor/-/dock kid:again,baker:again,clock:believe,post:again,fisher:believe,teacher:again,granny:again,pharma:agree
+W granny demolish/mayor/-/dock granny:again,baker:again,clock:again,post:again,fisher:again,teacher:again,kid:again,pharma:again
+t 17 square fisher>kid demolish/mayor/-/park shift doubt 40
+t 17 square pharma>baker demolish/mayor/-/dock - doubt 41
+t 17 square granny>teacher demolish/mayor/-/cafe - doubt 42
+e protest 17 dock mayor - dock kid,granny,cafe,post,fisher
+t 17.5 square teacher>florist demolish/mayor/-/cafe - doubt 43
+t 17.5 square baker>clock demolish/mayor/-/park shift believe 44
+t 18 square baker>teacher demolish/mayor/-/cafe shift doubt 45
+t 18 dock kid>cafe demolish/mayor/-/square shift doubt 46
+t 18 dock post>fisher demolish/mayor/-/dock - agree 47
+t 18 dock granny>mayor demolish/mayor/-/park shift self 48
+t 18.5 dock granny>kid demolish/mayor/-/square - believe 49
+t 18.5 dock fisher>cafe demolish/mayor/-/bakery shift doubt 50
+t 19 square teacher>baker demolish/mayor/-/dock - believe 51
+t 19 dock cafe>fisher demolish/mayor/-/square - doubt 52
+t 19.5 square baker>pharma demolish/mayor/-/dock - agree 53
+t 19.5 dock post>granny demolish/mayor/-/dock - agree 54
+t 19.5 dock fisher>cafe demolish/mayor/-/school shift doubt 55
+A 95,77,15,38,27,10,35,6,40,27,14;94,9,12,32,9,14,34,5,40,10,10;38,13,30,27,10,10,34,6,39,10,21;15,24,29,16,21,9,35,6,39,9,21;17,8,10,7,18,24,34,6,39,12,10;22,29,26,19,26,24,34,5,53,24,10;30,16,27,20,15,19,34,6,40,45,12;8,12,12,18,34,15,7,6,39,10,10;15,27,16,9,9,16,10,36,41,7,10;25,19,11,15,15,48,22,34,5,26,24;8,10,6,27,44,20,40,34,5,39,23;26,10,7,9,32,17,10,35,6,41,24
+P dock:kid,granny,cafe,post,fisher park:florist|baker+clock,baker+post|baker+clock|dock
+R 2 10 2 true 56
+# seed 7
+T 7 -40,7,29,50,18,15,40,5,45,23,11;-45,24,18,50,14,12,40,5,45,11,27;10,9,35,50,19,24,40,5,45,21,22;29,21,30,50,6,9,40,5,45,7,24;14,16,17,29,23,22,40,5,45,8,28;13,10,21,13,50,22,40,5,60,21,28;8,18,21,27,50,26,40,5,45,50,25;5,18,13,23,50,24,29,5,45,16,21;23,19,13,11,50,6,29,40,45,5,20;20,23,30,12,50,55,25,40,5,8,30;18,19,9,15,50,25,45,40,5,45,20;23,29,17,11,50,25,26,40,5,45,18
+D 1 reconcile baker clock - granny rain
+W cafe apology/baker/clock/- cafe:believe
+W granny praised/baker/clock/- granny:believe
+t 10.5 bakery granny>baker praised/baker/clock/- - self 2
+A -32,7,29,50,18,15,40,5,45,23,11;-45,24,18,50,14,12,40,5,45,11,27;10,9,35,50,19,24,40,5,45,21,22;29,21,30,50,6,9,40,5,45,7,24;14,16,17,29,23,22,40,5,45,8,28;13,10,21,13,50,22,40,5,60,21,28;8,18,21,27,50,26,40,5,45,50,25;5,18,13,23,50,24,29,5,45,16,21;23,19,13,11,50,6,29,40,45,5,20;23,23,30,12,50,55,25,40,5,8,30;18,19,9,15,50,25,45,40,5,45,20;23,29,17,11,50,25,26,40,5,45,18
+P |||
+W clock apology/baker/clock/- clock:believe,inn:believe,pharma:doubt
+W cafe praised/baker/clock/- cafe:doubt,baker:self,post:doubt,florist:believe,teacher:believe
+t 12 cafe cafe>post apology/baker/clock/- - believe 11
+t 12 inn pharma>inn apology/clock/baker/- swap doubt 12
+t 12.5 cafe cafe>teacher apology/baker/clock/- - believe 13
+t 13.5 pharmacy granny>pharma praised/baker/clock/- - doubt 14
+t 14 cafe cafe>granny praised/baker/clock/- - agree 15
+t 14.5 school teacher>post praised/baker/clock/- - believe 16
+t 14.5 cafe granny>cafe likes/baker/clock/- escalate believe 17
+t 15 pharmacy pharma>post praised/baker/clock/- - agree 18
+t 15.5 cafe cafe>granny likes/clock/baker/- swap believe 19
+t 16 inn inn>fisher gift/baker/clock/- escalate believe 20
+t 16.5 inn fisher>inn gift/clock/baker/- swap believe 21
+t 16.5 pharmacy pharma>teacher likes/baker/clock/- escalate believe 22
+A -24,7,29,50,18,15,40,5,45,23,11;0,24,18,50,14,12,40,5,45,11,27;14,9,35,50,20,24,41,5,45,21,22;32,21,30,50,6,9,40,5,45,7,24;14,16,17,29,23,22,40,5,45,8,28;13,10,21,13,50,22,40,5,61,21,28;8,18,21,27,50,26,40,5,45,51,25;8,18,13,23,50,25,29,5,45,16,22;23,19,13,11,50,6,29,40,45,5,20;25,23,30,12,50,57,25,40,5,8,30;18,19,9,15,50,25,46,40,5,45,20;23,29,17,11,50,25,26,40,5,45,18
+P |||
+W baker apology/clock/baker/- baker:believe,clock:self,post:believe,fisher:doubt,teacher:doubt,kid:believe,granny:believe,pharma:doubt
+W clock praised/baker/clock/- clock:believe,baker:self,post:again,fisher:believe,teacher:again,kid:believe,granny:again,pharma:believe
+t 17 square granny>teacher likes/baker/clock/- swap agree 39
+t 17 square clock>kid praised/baker/clock/- - agree 40
+t 17 square post>fisher apology/baker/clock/- - believe 41
+e makeup 17 square baker clock - 
+t 17.5 square kid>pharma apology/baker/clock/- swap doubt 42
+t 17.5 square granny>baker apology/baker/clock/- swap self 43
+t 17.5 square teacher>post apology/clock/baker/- - agree 44
+t 17.5 square fisher>florist praised/baker/clock/- - agree 45
+t 18 square kid>mayor apology/clock/baker/- - believe 46
+t 18 square granny>inn likes/clock/baker/- - doubt 47
+t 18 square baker>cafe apology/clock/baker/- - believe 48
+t 18.5 square pharma>baker apology/baker/clock/- - self 49
+t 18.5 square cafe>granny apology/baker/clock/- - believe 50
+t 18.5 square florist>fisher praised/baker/clock/- - agree 51
+t 19 square baker>florist apology/baker/clock/- swap believe 52
+t 19 square cafe>pharma praised/baker/clock/- - agree 53
+t 19 square granny>mayor apology/baker/clock/- - doubt 54
+t 19.5 square cafe>inn secret/baker/clock/- blur doubt 55
+t 19.5 square granny>teacher apology/baker/cafe/- shift doubt 56
+t 19.5 square baker>pharma apology/clock/baker/- - believe 57
+A 81,7,29,50,18,15,40,5,45,23,11;56,24,18,50,14,12,40,5,45,11,27;14,9,35,50,20,24,42,5,45,21,22;35,21,30,50,6,10,40,5,45,7,24;14,16,17,29,23,22,40,6,45,8,28;14,10,21,13,50,22,40,5,61,21,28;13,18,22,28,50,26,40,5,45,51,25;8,18,13,23,50,25,29,5,46,16,22;28,20,13,11,50,6,29,40,45,5,20;25,23,30,12,50,58,25,40,5,8,30;18,19,9,15,50,25,46,40,5,45,20;28,29,17,11,50,25,26,40,5,45,18
+P |baker+clock||
+R 3 11 3 true 58
+D 2 protest mayor - bakery kid clockslow
+W teacher demolish/mayor/-/bakery teacher:doubt,kid:believe
+W cafe demolish/mayor/-/bakery cafe:doubt
+t 8 school kid>teacher demolish/mayor/-/park shift doubt 3
+t 9.5 school teacher>kid demolish/mayor/-/park - doubt 4
+t 10 cafe cafe>mayor demolish/mayor/-/bakery - self 5
+t 11 school teacher>kid demolish/mayor/-/bakery - agree 6
+t 11.5 school kid>teacher demolish/mayor/-/park - again 7
+A 77,7,28,48,17,14,38,5,43,22,10;53,23,17,48,13,11,38,5,43,10,26;13,9,33,48,19,23,40,5,43,20,21;33,20,29,48,6,10,38,5,43,7,23;13,15,16,28,22,21,38,6,43,8,27;13,10,20,12,48,21,38,5,58,20,27;12,17,21,27,48,25,38,5,43,48,24;8,17,12,22,48,24,28,5,44,15,21;27,19,12,10,19,6,28,39,43,5,19;24,22,29,11,48,55,24,38,5,8,29;17,18,9,14,48,24,44,38,5,43,19;27,28,16,10,48,24,25,38,5,43,17
+P bakery:kid|baker+clock||
+W granny demolish/mayor/-/bakery granny:believe
+W teacher demolish/mayor/-/bakery teacher:again,baker:believe,post:believe,florist:doubt,cafe:again
+t 12 cafe baker>teacher demolish/mayor/-/bakery - believe 14
+t 12 cafe cafe>post demolish/mayor/-/bakery - agree 15
+e protest 12 bakery mayor - bakery kid,granny,baker,post,teacher
+t 12.5 bakery post>teacher demolish/mayor/-/cafe shift doubt 16
+t 12.5 bakery baker>granny demolish/mayor/-/school shift doubt 17
+t 12.5 cafe cafe>florist demolish/mayor/-/bakery - believe 18
+t 13 bakery baker>mayor demolish/mayor/-/bakery - self 19
+t 13 bakery granny>teacher demolish/mayor/-/school - doubt 20
+t 13.5 bakery granny>post demolish/mayor/-/bakery - agree 21
+t 13.5 bakery baker>kid demolish/mayor/-/bakery - agree 22
+t 14 bakery baker>post demolish/mayor/-/bakery - agree 23
+t 14.5 bakery kid>granny demolish/mayor/-/bakery - agree 24
+t 14.5 bakery post>baker demolish/mayor/-/bakery - agree 25
+t 15.5 bakery granny>post demolish/mayor/-/school - doubt 26
+t 15.5 bakery kid>baker demolish/mayor/-/park - doubt 27
+t 16 bakery granny>teacher demolish/mayor/-/bakery - agree 28
+t 16.5 bakery teacher>post demolish/mayor/-/bakery - agree 29
+t 16.5 bakery kid>baker demolish/mayor/-/school shift doubt 30
+A 77,8,28,19,17,14,38,5,43,22,10;53,23,17,48,13,11,38,5,43,10,26;13,9,33,13,20,23,40,5,43,20,21;33,20,29,42,7,10,38,5,43,7,23;13,15,16,28,22,21,38,6,43,8,27;13,10,20,12,48,21,38,5,58,20,27;12,17,21,27,48,25,38,5,43,48,24;9,17,12,22,24,24,28,5,44,15,21;27,19,12,10,13,6,28,39,43,5,19;24,22,29,11,19,55,24,38,6,8,29;17,18,9,14,48,24,44,38,5,43,19;27,28,16,10,48,24,25,38,5,43,17
+P bakery:kid,granny,baker,post,teacher|baker+clock||bakery
+W kid demolish/mayor/-/bakery kid:again,baker:again,clock:believe,post:again,fisher:doubt,teacher:again,granny:again,pharma:doubt
+W granny demolish/mayor/-/bakery granny:again,baker:again,clock:again,post:again,fisher:again,teacher:again,kid:again,pharma:again
+t 17 bakery post>granny demolish/mayor/-/bakery - agree 47
+t 17 bakery kid>mayor demolish/mayor/-/bakery - self 48
+t 17 bakery teacher>baker demolish/mayor/-/bakery - agree 49
+t 17.5 bakery baker>teacher demolish/mayor/-/school - doubt 50
+t 17.5 bakery kid>post demolish/mayor/-/school shift believe 51
+t 17.5 bakery granny>mayor demolish/mayor/-/park shift self 52
+t 17.5 square fisher>clock demolish/mayor/-/bakery - agree 53
+t 18 bakery post>kid demolish/mayor/-/bakery - agree 54
+t 18 square fisher>pharma demolish/mayor/-/cafe shift doubt 55
+t 18.5 bakery post>granny demolish/mayor/-/school - doubt 56
+t 18.5 bakery baker>kid demolish/mayor/-/school - believe 57
+t 18.5 bakery teacher>mayor demolish/mayor/-/school - self 58
+t 18.5 square cafe>fisher demolish/mayor/-/cafe shift doubt 59
+t 18.5 square clock>inn demolish/mayor/-/bakery - believe 60
+t 19 bakery post>baker demolish/mayor/-/school - believe 61
+t 19 bakery teacher>granny demolish/mayor/-/bakery - agree 62
+t 19 square inn>cafe demolish/mayor/-/bakery - believe 63
+t 19 square pharma>clock demolish/mayor/-/bakery - agree 64
+t 19.5 bakery post>mayor demolish/mayor/-/bakery - self 65
+A 77,9,28,-5,17,14,38,5,43,22,10;53,23,17,36,13,12,38,5,43,10,26;13,9,33,7,20,23,40,6,43,20,21;33,20,29,42,7,10,38,5,43,7,23;13,15,16,28,22,21,38,6,43,8,27;13,10,20,12,30,21,38,5,58,21,27;12,17,21,27,48,25,38,5,43,48,24;9,17,12,22,24,24,28,5,44,15,21;28,19,12,10,-5,6,28,39,43,5,19;24,22,29,11,13,55,24,38,6,8,29;17,19,9,14,42,24,44,38,5,43,19;27,28,16,10,48,24,25,38,5,43,17
+P bakery:kid,granny,baker,post,teacher,cafe school:kid,baker|baker+clock||bakery
+R 1 7 1 true 66
+D 3 reconcile cafe florist - fisher catfish
+W cafe apology/florist/cafe/- cafe:believe
+W florist praised/cafe/florist/- florist:believe
+t 10.5 cafe cafe>mayor apology/florist/cafe/- - doubt 2
+t 11.5 flower florist>post praised/cafe/florist/- - believe 3
+A 73,9,27,-5,16,13,36,5,41,21,10;50,22,16,34,12,11,36,5,41,10,25;12,9,32,7,22,22,38,6,41,19,20;31,19,28,40,-30,10,36,5,41,7,22;12,14,15,27,21,20,36,6,41,8,26;12,10,19,0,29,20,36,5,55,20,26;11,16,20,26,46,24,36,5,41,46,23;9,16,11,21,23,23,27,5,42,14,20;27,18,11,10,-5,6,27,37,41,5,18;23,21,28,10,12,52,23,36,6,8,28;16,18,9,13,40,23,42,36,5,41,18;26,27,15,10,46,23,24,36,5,41,16
+P |baker+clock||bakery
+W granny apology/cafe/florist/- granny:doubt
+W cafe praised/florist/cafe/- cafe:believe,baker:doubt,post:doubt,florist:self,teacher:doubt
+t 12 cafe baker>cafe praised/florist/cafe/- - agree 10
+t 12.5 cafe teacher>florist praised/florist/cafe/- - self 11
+t 12.5 cafe cafe>post gift/florist/cafe/- escalate believe 12
+t 13 hall mayor>post apology/florist/cafe/- - doubt 13
+t 13.5 school teacher>kid praised/florist/cafe/- - believe 14
+t 13.5 pharmacy granny>pharma apology/cafe/florist/- - doubt 15
+t 14 cafe cafe>granny apology/cafe/florist/- swap believe 16
+t 15 pharmacy post>pharma apology/florist/cafe/- - believe 17
+t 15 park kid>mayor praised/cafe/florist/- swap believe 18
+t 15 cafe cafe>granny praised/cafe/florist/- swap doubt 19
+t 16 bakery baker>kid praised/florist/cafe/- - agree 20
+t 16 pharmacy pharma>teacher apology/florist/cafe/- - doubt 21
+A 73,9,27,-5,16,13,36,5,41,21,10;50,22,16,34,12,11,36,5,41,10,25;12,9,32,7,23,22,38,6,41,19,20;31,19,28,40,-14,10,36,5,41,7,22;12,14,15,27,24,20,36,7,41,8,26;13,10,19,32,29,20,36,5,55,20,26;11,16,20,26,46,24,36,5,41,46,23;9,16,11,21,23,23,27,5,42,14,20;28,18,11,15,-5,6,27,38,41,5,18;23,21,28,10,12,53,23,36,6,8,28;16,18,9,13,40,23,42,36,5,41,18;26,27,16,10,46,23,24,36,5,41,16
+P |baker+clock||bakery
+W cafe apology/florist/cafe/- cafe:again
+W granny praised/cafe/florist/- granny:doubt,baker:doubt,clock:doubt,post:agree,fisher:believe,teacher:doubt,kid:believe,pharma:doubt
+t 17 square teacher>clock praised/cafe/florist/- - doubt 31
+t 17 square baker>granny praised/cafe/florist/- - believe 32
+t 17 square post>pharma likes/florist/cafe/- escalate doubt 33
+t 17 square fisher>kid likes/cafe/florist/- escalate believe 34
+t 17.5 square florist>pharma praised/cafe/florist/- - believe 35
+t 17.5 square baker>teacher praised/cafe/florist/- - doubt 36
+t 18 square florist>baker praised/cafe/florist/- - doubt 37
+t 18 square teacher>pharma apology/florist/cafe/- - agree 38
+t 18 square cafe>fisher praised/florist/cafe/- - doubt 39
+t 18 square post>inn apology/cafe/florist/- swap doubt 40
+t 18.5 square fisher>granny likes/florist/cafe/- escalate believe 41
+t 18.5 square teacher>post praised/cafe/florist/- - agree 42
+t 18.5 square baker>clock praised/cafe/florist/- - believe 43
+t 18.5 square mayor>florist praised/cafe/florist/- - agree 44
+t 18.5 square kid>inn likes/cafe/florist/- - believe 45
+t 19 square florist>mayor praised/cafe/florist/- - agree 46
+t 19.5 square post>granny gift/florist/cafe/- - believe 47
+t 19.5 square kid>teacher likes/florist/cafe/- swap doubt 48
+t 19.5 square cafe>florist apology/florist/cafe/- - self 49
+t 19.5 square fisher>pharma likes/cafe/florist/- escalate believe 50
+t 19.5 square baker>inn likes/cafe/florist/- escalate agree 51
+e makeup 19.5 square cafe florist - 
+A 73,9,27,-5,16,13,36,5,41,21,10;51,22,16,34,15,11,36,5,41,10,25;12,9,32,7,26,22,38,6,41,19,20;31,19,28,41,34,10,36,5,41,7,22;12,14,15,28,26,20,36,7,41,8,26;13,10,19,52,29,20,36,5,55,20,26;11,16,20,26,46,27,36,5,41,46,23;9,16,11,21,23,23,27,5,42,14,20;28,18,11,15,-5,9,28,38,41,5,18;24,21,29,10,12,56,24,36,6,8,28;17,18,9,13,40,23,42,36,6,41,18;26,27,16,11,46,26,25,37,5,41,16
+P |baker+clock,cafe+florist||bakery
+R 1 9 2 true 52
+D 4 date granny teacher - cafe catfish
+W granny likes/teacher/granny/- granny:believe
+W granny gift/teacher/granny/- granny:believe
+t 10.5 bakery granny>baker likes/teacher/granny/- - doubt 2
+t 11 bakery baker>fisher likes/teacher/granny/- - doubt 3
+t 11.5 bakery fisher>baker engaged/teacher/granny/- escalate believe 4
+A 69,9,26,-5,15,13,34,5,39,20,10;48,21,15,32,14,10,34,5,39,10,24;11,9,30,7,25,21,36,6,39,18,19;29,18,27,39,32,10,34,5,39,7,21;11,13,14,27,25,19,34,7,39,8,25;12,10,18,49,28,19,34,5,52,19,25;10,15,19,25,44,26,34,5,39,44,22;9,15,10,20,22,22,26,5,40,13,19;27,17,10,14,-5,9,27,36,39,5,17;23,20,28,10,11,53,23,71,6,8,27;16,17,9,12,38,22,40,34,6,39,17;25,26,15,10,44,25,24,35,5,39,15
+P |baker+clock,cafe+florist||bakery
+W cafe likes/granny/teacher/- cafe:believe,baker:doubt,post:believe,florist:believe,teacher:believe
+W granny gift/teacher/granny/- granny:again
+t 12 cafe baker>teacher engaged/teacher/granny/- - self 11
+t 12.5 cafe teacher>post likes/granny/teacher/- - agree 12
+t 12.5 cafe cafe>florist engaged/granny/teacher/- escalate doubt 13
+t 13 hall post>mayor likes/granny/teacher/- - believe 14
+t 13.5 hall mayor>post likes/granny/teacher/- - agree 15
+t 13.5 pharmacy granny>pharma likes/teacher/granny/- escalate believe 16
+t 14 cafe cafe>granny engaged/granny/teacher/- escalate self 17
+t 15 pharmacy post>clock likes/granny/teacher/- - doubt 18
+t 15.5 cafe granny>cafe gift/teacher/granny/- - believe 19
+t 16 bakery baker>kid engaged/teacher/granny/- - doubt 20
+t 16 inn fisher>inn likes/granny/teacher/- swap doubt 21
+t 16.5 bakery kid>baker engaged/teacher/granny/- - agree 22
+t 16.5 inn inn>fisher likes/granny/teacher/- - doubt 23
+A 69,9,26,-5,15,13,34,6,39,20,10;48,21,15,32,14,10,34,5,39,10,24;11,9,30,7,25,21,37,6,39,18,19;29,18,27,39,32,10,34,5,39,7,21;11,13,15,27,25,19,34,7,39,8,25;12,10,18,49,28,19,34,5,53,19,25;10,15,19,25,44,26,34,5,39,44,22;9,15,10,20,22,22,26,5,70,13,19;27,17,10,14,-5,9,27,36,39,5,17;23,20,28,10,11,53,23,79,6,8,27;16,17,9,12,38,22,40,34,6,39,17;25,26,15,10,44,25,24,35,5,40,15
+P |baker+clock,cafe+florist||bakery
+W teacher likes/granny/teacher/- teacher:again,baker:again,clock:doubt,post:again,fisher:believe,kid:believe,granny:self,pharma:doubt
+W cafe gift/granny/teacher/- cafe:doubt
+t 17 square granny>fisher gift/teacher/granny/- - believe 33
+t 17 square post>pharma likes/granny/teacher/- - believe 34
+t 17 square kid>teacher likes/granny/teacher/- - agree 35
+e date 17 square granny teacher - 
+t 17.5 square fisher>pharma likes/teacher/granny/- escalate agree 36
+t 17.5 square baker>clock likes/granny/teacher/- - believe 37
+t 18 square granny>baker gift/granny/teacher/- swap believe 38
+t 18 square inn>mayor likes/teacher/granny/- swap doubt 39
+t 18 square fisher>florist likes/granny/teacher/- - agree 40
+t 18 square cafe>teacher gift/granny/teacher/- swap doubt 41
+t 18 square kid>post likes/granny/teacher/- - agree 42
+t 18.5 square florist>fisher likes/granny/teacher/- - agree 43
+t 18.5 square cafe>pharma gift/teacher/granny/- - believe 44
+t 18.5 square kid>clock likes/granny/teacher/- - agree 45
+t 18.5 square baker>post engaged/teacher/granny/- - doubt 46
+t 19 square fisher>clock gift/granny/teacher/- swap doubt 47
+t 19 square granny>mayor likes/teacher/granny/- - doubt 48
+t 19.5 square inn>teacher likes/teacher/granny/- swap self 49
+t 19.5 square post>kid likes/granny/teacher/- - agree 50
+A 69,9,26,-5,15,13,34,6,40,20,10;49,21,15,32,14,10,34,5,39,10,24;11,9,30,7,25,21,37,6,39,18,19;29,18,27,39,32,11,34,5,39,7,21;11,13,15,27,25,19,34,7,39,8,25;12,10,18,49,28,19,34,5,53,19,25;10,15,19,25,44,26,34,5,40,44,22;9,15,10,20,22,22,26,6,91,13,19;27,17,11,14,-5,9,27,36,39,5,17;23,20,28,10,11,53,23,87,6,8,27;16,17,9,12,38,22,40,34,6,39,17;25,26,16,10,44,26,25,35,5,40,15
+P |baker+clock,cafe+florist|granny+teacher|bakery
+R 2 11 2 true 51
+# seed 42
+T 42 -40,16,26,50,9,18,40,5,45,17,11;-45,24,13,50,18,22,40,5,45,26,6;20,6,35,50,10,25,40,5,45,26,17;25,13,30,50,6,19,40,5,45,10,13;23,26,18,10,12,12,40,5,45,22,28;7,29,16,29,50,8,40,5,60,20,27;7,23,28,12,50,9,40,5,45,50,19;28,16,19,13,50,13,23,5,45,26,22;30,27,16,19,50,8,22,40,45,28,7;17,26,8,29,50,55,22,40,5,9,21;13,10,21,27,50,25,45,40,5,45,5;23,21,27,28,50,20,17,40,5,45,23
+D 1 reconcile baker clock - granny wind
+W clock apology/baker/clock/- clock:doubt
+W cafe praised/baker/clock/- cafe:believe
+t 10 cafe cafe>mayor praised/baker/clock/- - doubt 2
+A -40,16,26,50,9,18,40,5,45,17,11;-45,24,13,50,18,22,40,5,45,26,6;20,6,35,50,10,25,40,5,45,26,17;25,13,30,50,6,19,40,5,45,10,13;23,26,18,10,12,12,40,5,45,22,28;10,29,16,29,50,8,40,5,60,20,27;7,23,28,12,50,9,40,5,45,50,19;28,16,19,13,50,13,23,5,45,26,22;30,27,16,19,50,8,22,40,45,28,7;17,26,8,29,50,55,22,40,5,9,21;13,10,21,27,50,25,45,40,5,45,5;23,21,27,28,50,20,17,40,5,45,23
+P |||
+W baker apology/clock/baker/- baker:believe,post:believe,florist:doubt,cafe:doubt,teacher:believe
+W clock praised/baker/clock/- clock:believe,inn:doubt,pharma:doubt
+t 12 cafe florist>cafe apology/clock/baker/- - doubt 11
+t 12.5 cafe baker>cafe apology/baker/clock/- swap doubt 12
+t 12.5 cafe florist>teacher apology/clock/baker/- - agree 13
+t 13.5 hall mayor>post praised/baker/clock/- - believe 14
+t 13.5 pharmacy pharma>granny praised/baker/clock/- - believe 15
+t 14 school post>kid praised/baker/clock/- - believe 16
+t 14 cafe cafe>granny apology/clock/baker/- - believe 17
+t 14.5 school kid>teacher praised/baker/mayor/- shift doubt 18
+t 15 park kid>mayor praised/clock/baker/- swap believe 19
+t 15 cafe cafe>granny gift/baker/clock/- escalate believe 20
+t 15 inn inn>fisher praised/clock/baker/- swap believe 21
+t 15.5 pharmacy post>clock gift/clock/baker/- escalate self 22
+t 16 bakery kid>baker praised/baker/clock/- - self 23
+t 16 inn fisher>inn praised/baker/clock/- swap believe 24
+t 16.5 bakery baker>kid apology/clock/baker/- - believe 25
+A 13,16,26,50,9,18,40,5,45,17,11;-17,24,13,50,18,22,40,5,45,26,6;23,6,35,51,10,25,40,5,45,26,17;25,13,30,50,6,19,40,5,45,10,13;23,29,18,10,12,12,40,6,45,22,28;10,29,16,29,50,8,40,5,60,20,27;7,26,28,12,50,9,40,5,45,51,19;28,16,19,14,50,13,23,5,45,26,22;34,27,17,19,50,8,22,40,45,28,7;20,26,8,29,50,57,22,40,5,9,22;16,10,21,27,50,25,46,40,5,45,5;23,21,27,28,50,20,17,40,5,45,23
+P |||
+W granny apology/baker/clock/- granny:believe,baker:self,clock:again,post:believe,fisher:doubt,teacher:doubt,kid:doubt,pharma:doubt
+W baker praised/clock/baker/- baker:believe,clock:self,post:believe,fisher:agree,teacher:doubt,kid:believe,granny:doubt,pharma:doubt
+t 17 square post>granny apology/clock/baker/- swap agree 42
+t 17 square pharma>teacher praised/baker/clock/- - doubt 43
+t 17.5 square granny>baker apology/clock/baker/- swap agree 44
+t 17.5 square fisher>pharma apology/baker/clock/- - believe 45
+t 17.5 square kid>clock praised/clock/teacher/- shift self 46
+t 18 square baker>fisher praised/clock/baker/- - agree 47
+t 18 square clock>pharma praised/baker/clock/- - doubt 48
+t 18 square post>inn apology/baker/clock/- swap believe 49
+t 18 square kid>granny gift/clock/baker/- escalate believe 50
+t 18.5 square clock>fisher apology/baker/clock/- - believe 51
+t 18.5 square florist>baker apology/clock/baker/- - agree 52
+t 18.5 square post>inn likes/clock/baker/- escalate doubt 53
+t 18.5 square cafe>pharma praised/baker/clock/- - doubt 54
+t 18.5 square granny>teacher apology/clock/baker/- - agree 55
+t 18.5 square kid>mayor secret/clock/baker/- blur doubt 56
+t 19 square post>mayor apology/clock/baker/- - believe 57
+t 19 square kid>baker apology/baker/clock/- - self 58
+t 19 square cafe>clock praised/baker/clock/- - agree 59
+t 19 square pharma>inn apology/baker/clock/- - agree 60
+t 19 square granny>teacher gift/baker/cafe/- shift doubt 61
+e makeup 19 square baker clock - 
+t 19.5 square granny>post gift/clock/baker/- swap doubt 62
+t 19.5 square baker>inn praised/clock/teacher/- shift believe 63
+t 19.5 square kid>cafe praised/clock/baker/- - doubt 64
+A 100,16,26,50,9,18,40,5,46,17,11;23,24,13,50,19,22,48,5,45,26,6;23,9,35,51,10,25,40,5,45,26,17;25,13,30,50,6,19,40,5,45,10,13;23,29,19,10,12,12,40,6,45,22,28;10,29,16,29,50,8,40,5,60,20,27;7,30,28,12,50,9,40,5,45,51,19;28,16,19,14,50,13,23,5,45,26,22;34,30,17,19,50,8,22,40,45,28,7;20,26,9,29,50,57,22,40,6,9,22;17,13,22,27,50,25,46,40,5,45,6;23,21,27,28,50,20,18,40,5,45,23
+P |baker+clock||
+R 3 11 3 true 65
+D 2 protest mayor - dock kid heat
+W granny demolish/mayor/-/dock granny:believe
+W teacher demolish/mayor/-/dock teacher:believe,kid:doubt
+t 8 school kid>teacher demolish/mayor/-/bakery shift doubt 3
+t 9.5 school teacher>kid demolish/mayor/-/dock - believe 4
+t 10 bakery granny>baker demolish/mayor/-/dock - doubt 5
+t 11.5 school teacher>kid demolish/mayor/-/bakery - believe 6
+A 95,15,25,48,9,17,38,5,44,16,10;22,23,12,48,18,21,46,5,43,25,6;22,9,33,48,10,24,38,5,43,25,16;24,12,29,48,6,18,38,5,43,10,12;22,28,18,10,11,11,38,6,43,21,27;10,28,15,28,48,8,38,5,57,19,26;7,29,27,11,48,9,38,5,43,48,18;27,15,18,13,42,12,22,5,43,25,21;32,29,16,18,12,8,21,40,43,27,7;19,25,9,28,30,54,21,38,6,9,21;16,12,21,26,48,24,44,38,5,43,6;22,20,26,27,48,19,17,38,5,43,22
+P dock:granny,kid bakery:kid|baker+clock||
+W kid demolish/mayor/-/dock kid:again
+W granny demolish/mayor/-/dock granny:again
+t 13.5 pharmacy granny>pharma demolish/mayor/-/dock - doubt 9
+t 14 school teacher>post demolish/mayor/-/dock - doubt 10
+t 15 cafe granny>cafe demolish/mayor/-/dock - believe 11
+t 15.5 park kid>mayor demolish/mayor/-/dock - self 12
+t 15.5 cafe cafe>granny demolish/mayor/-/dock - agree 13
+t 16 bakery kid>baker demolish/mayor/-/bakery shift doubt 14
+t 16.5 bakery kid>baker demolish/mayor/-/bakery - again 15
+A 95,15,25,48,9,17,38,5,44,16,10;22,23,12,48,18,21,46,5,43,25,6;22,9,33,48,10,24,38,5,43,25,16;24,12,29,48,6,18,38,5,43,10,12;22,28,18,10,11,11,38,6,43,21,27;10,28,15,28,30,8,38,5,58,19,26;7,29,27,11,48,9,38,5,43,48,18;27,15,18,13,42,12,22,5,43,25,21;32,29,16,18,12,8,21,40,43,27,7;19,25,9,28,19,55,21,38,6,9,21;16,12,21,26,48,24,44,38,5,43,6;22,20,26,27,48,19,17,38,5,43,22
+P dock:granny,kid,cafe bakery:kid|baker+clock||
+W cafe demolish/mayor/-/dock cafe:agree
+W kid demolish/mayor/-/dock kid:again,baker:doubt,clock:doubt,post:believe,fisher:believe,teacher:again,granny:again,pharma:doubt
+t 17 square pharma>teacher demolish/mayor/-/dock - agree 25
+t 17 square fisher>granny demolish/mayor/-/dock - agree 26
+t 17 square clock>post demolish/mayor/-/dock - agree 27
+t 17 square baker>kid demolish/mayor/-/bakery - agree 28
+e protest 17 dock mayor - dock granny,kid,cafe,post,fisher
+t 17.5 square baker>pharma demolish/mayor/-/bakery - doubt 29
+t 17.5 square teacher>florist demolish/mayor/-/dock - believe 30
+t 17.5 dock granny>fisher demolish/mayor/-/dock - agree 31
+t 17.5 dock cafe>kid demolish/mayor/-/dock - agree 32
+t 18 square florist>teacher demolish/mayor/-/cafe shift doubt 33
+t 18 dock kid>granny demolish/mayor/-/park shift doubt 34
+t 18.5 square baker>clock demolish/mayor/-/dock - believe 35
+t 18.5 dock post>cafe demolish/mayor/-/cafe shift doubt 36
+t 18.5 dock granny>mayor demolish/mayor/-/park - self 37
+t 19 square teacher>baker demolish/mayor/-/dock - believe 38
+t 19 dock cafe>fisher demolish/mayor/-/cafe - doubt 39
+t 19 dock kid>post demolish/mayor/-/cafe shift doubt 40
+t 19.5 square baker>teacher demolish/mayor/-/dock - agree 41
+t 19.5 dock cafe>post demolish/mayor/-/dock - agree 42
+t 19.5 dock fisher>kid demolish/mayor/-/dock - agree 43
+A 95,15,25,42,9,17,39,5,44,16,10;23,23,12,42,18,21,46,5,43,25,6;22,9,33,24,10,24,38,5,43,25,16;24,12,29,42,6,18,39,5,43,10,12;22,28,18,10,11,11,38,6,43,21,27;10,28,15,28,19,8,38,5,58,19,26;7,29,27,11,19,9,38,5,44,48,18;27,15,18,13,36,12,22,5,43,25,22;33,29,16,18,-5,8,21,40,43,27,7;19,25,9,28,13,55,21,38,6,9,21;16,12,21,26,48,24,44,38,5,43,6;22,20,26,27,48,19,17,38,5,43,22
+P dock:granny,kid,cafe,post,fisher bakery:kid|baker+clock||dock
+R 2 10 2 true 44
+D 3 reconcile baker fisher - post market
+W granny apology/baker/fisher/- granny:believe
+W baker praised/fisher/baker/- baker:believe
+t 9 bakery baker>post praised/fisher/baker/- - believe 2
+t 10 bakery baker>granny badmouth/fisher/baker/- sour believe 3
+t 11 bakery baker>fisher praised/fisher/baker/- - self 4
+t 11 flower post>florist praised/fisher/baker/- - believe 5
+A 90,14,24,40,9,-25,37,5,42,15,10;22,22,11,40,17,20,44,5,41,24,6;22,9,31,23,10,26,36,5,41,24,15;23,11,29,40,6,20,37,5,41,10,11;21,27,17,10,10,10,36,6,41,20,26;10,27,14,27,18,8,36,5,55,18,25;-42,28,26,10,18,9,36,5,42,46,17;26,14,17,12,34,11,21,5,41,24,21;31,28,15,17,-5,8,20,38,41,26,7;19,24,9,27,12,52,16,36,6,9,20;15,11,20,25,46,23,42,36,5,41,6;21,19,25,26,46,18,16,36,5,41,21
+P |baker+clock||dock
+W cafe apology/baker/fisher/- cafe:believe,baker:self,post:doubt,florist:doubt,teacher:believe
+W granny praised/baker/fisher/- granny:believe
+t 12.5 cafe post>baker apology/baker/fisher/- - self 12
+t 13 hall post>mayor praised/fisher/baker/- - doubt 13
+t 13 pharmacy granny>pharma badmouth/fisher/baker/- - doubt 14
+t 13.5 hall mayor>post likes/fisher/baker/- escalate believe 15
+t 14 cafe cafe>granny gift/baker/fisher/- escalate believe 16
+t 14.5 school post>kid likes/fisher/baker/- - believe 17
+t 14.5 cafe granny>cafe secret/baker/fisher/- blur believe 18
+t 15 pharmacy post>clock likes/fisher/baker/- - believe 19
+t 15 park kid>mayor engaged/fisher/baker/- escalate doubt 20
+t 15.5 cafe granny>cafe gift/fisher/baker/- swap doubt 21
+t 16 bakery baker>kid likes/fisher/baker/- escalate agree 22
+t 16 pharmacy teacher>pharma apology/baker/fisher/- - doubt 23
+t 16.5 bakery kid>baker likes/fisher/granny/- shift doubt 24
+A 90,14,24,40,9,7,37,5,42,15,10;22,23,11,40,17,20,44,5,41,24,6;22,9,31,24,10,26,36,5,41,24,15;23,11,29,40,6,20,37,5,41,10,11;21,27,17,10,10,10,36,6,41,20,26;10,27,14,27,18,8,36,5,56,18,25;-42,28,26,10,18,9,36,5,42,46,17;26,14,17,12,34,11,21,5,41,24,21;32,28,16,17,-5,8,20,38,41,26,7;22,24,9,27,12,53,16,36,6,9,20;15,11,20,25,46,23,42,36,5,41,6;21,19,25,26,46,18,16,36,5,41,21
+P |baker+clock||dock
+W fisher apology/baker/fisher/- fisher:doubt,baker:self,clock:believe,post:again,teacher:again,kid:believe,granny:again,pharma:believe
+W cafe praised/baker/fisher/- cafe:doubt
+t 17 square post>clock apology/baker/fisher/- - agree 34
+t 17 square granny>teacher likes/baker/fisher/- escalate doubt 35
+t 17 square baker>kid likes/fisher/granny/- - doubt 36
+t 17.5 square florist>kid apology/baker/fisher/- - agree 37
+t 18 square kid>granny apology/baker/fisher/- - agree 38
+t 18 square post>teacher likes/baker/fisher/- swap believe 39
+t 18 square fisher>baker badmouth/baker/fisher/- sour self 40
+t 18 square cafe>florist gift/fisher/baker/- - doubt 41
+t 18.5 square kid>post gift/baker/fisher/- escalate doubt 42
+t 18.5 square pharma>mayor apology/baker/fisher/- - believe 43
+t 18.5 square cafe>inn secret/fisher/baker/- swap doubt 44
+t 18.5 square baker>clock praised/fisher/baker/- - doubt 45
+t 19 square kid>teacher likes/baker/fisher/- swap agree 46
+t 19 square granny>inn secret/baker/fisher/- blur doubt 47
+t 19 square mayor>baker apology/fisher/baker/- swap doubt 48
+t 19.5 square teacher>clock likes/baker/fisher/- - doubt 49
+t 19.5 square granny>baker badmouth/baker/fisher/- swap self 50
+t 19.5 square cafe>fisher secret/baker/fisher/- - believe 51
+t 19.5 square post>pharma praised/fisher/teacher/- shift believe 52
+A 90,14,24,40,9,18,37,5,37,15,10;22,24,11,40,17,20,44,5,41,24,6;22,9,31,24,10,26,36,5,41,24,15;23,11,29,40,6,20,37,5,41,10,11;21,27,17,10,10,10,36,6,41,20,27;10,27,14,27,18,8,36,5,56,18,25;-42,28,26,10,18,10,36,5,42,46,17;26,14,18,12,34,11,21,5,41,24,21;32,28,16,18,-5,8,20,38,41,26,7;22,24,9,27,12,53,16,36,7,9,20;15,11,20,25,46,23,42,36,5,41,6;21,19,26,26,46,18,19,36,5,41,21
+P |baker+clock||dock
+R 1 10 2 false 53
+D 4 protest mayor - park kid rain
+W cafe demolish/mayor/-/park cafe:doubt
+W kid demolish/mayor/-/park kid:believe,teacher:doubt
+t 8 school teacher>kid demolish/mayor/-/park - agree 3
+t 10 cafe cafe>mayor demolish/mayor/-/cafe shift self 4
+t 10 school kid>teacher demolish/mayor/-/park - believe 5
+A 86,13,23,38,9,17,35,5,35,14,10;21,23,10,38,16,19,42,5,39,23,6;21,9,29,23,10,25,34,5,39,23,14;22,10,28,38,6,19,35,5,39,10,10;20,26,16,10,10,10,34,6,39,19,26;10,26,13,26,17,8,34,5,53,17,24;-40,27,25,10,17,10,34,5,40,44,16;25,13,17,11,14,10,20,6,39,23,20;30,27,15,17,-34,8,19,37,39,25,7;21,23,9,26,11,50,15,34,7,9,19;14,10,19,24,44,22,40,34,5,39,6;20,18,25,25,44,17,18,34,5,39,20
+P park:kid,teacher|baker+clock||dock
+W teacher demolish/mayor/-/park teacher:again,baker:believe,post:believe,florist:doubt,cafe:again
+W cafe demolish/mayor/-/park cafe:again,baker:again,post:again,florist:again,teacher:again
+t 12.5 cafe teacher>baker demolish/mayor/-/park - agree 16
+t 12.5 cafe cafe>florist demolish/mayor/-/park - believe 17
+e protest 12.5 park mayor - park kid,teacher,baker,post,florist
+t 13 park baker>florist demolish/mayor/-/square shift doubt 18
+t 13.5 park baker>post demolish/mayor/-/park - agree 19
+t 13.5 park teacher>mayor demolish/mayor/-/park - self 20
+t 14 park baker>kid demolish/mayor/-/park - agree 21
+t 14 cafe cafe>granny demolish/mayor/-/park - believe 22
+t 14.5 park post>teacher demolish/mayor/-/park - agree 23
+t 15 park post>florist demolish/mayor/-/park - agree 24
+t 15 cafe granny>cafe demolish/mayor/-/park - believe 25
+t 15.5 park baker>teacher demolish/mayor/-/cafe shift doubt 26
+t 16 park kid>baker demolish/mayor/-/bakery shift doubt 27
+t 16 park florist>teacher demolish/mayor/-/square - believe 28
+t 16 park post>mayor demolish/mayor/-/park - self 29
+t 16.5 park post>baker demolish/mayor/-/park - agree 30
+A 86,13,23,3,9,17,36,5,35,14,10;21,23,10,38,16,19,42,5,39,23,6;22,9,29,-6,10,25,34,5,39,23,14;22,10,28,14,7,19,35,5,39,10,10;20,26,16,10,10,10,34,6,39,19,26;10,26,13,26,11,8,34,5,54,17,24;-40,27,25,10,17,10,34,5,40,44,16;25,13,17,12,2,10,20,6,39,23,20;30,27,15,17,-40,8,19,37,39,25,7;21,23,9,26,-7,51,15,34,7,9,19;14,10,19,24,44,22,40,34,5,39,6;20,18,25,25,44,17,18,34,5,39,20
+P park:kid,teacher,baker,post,florist,granny|baker+clock||dock,park
+W granny demolish/mayor/-/park granny:agree,baker:again,clock:doubt,post:again,fisher:believe,teacher:again,kid:again,pharma:doubt
+W teacher demolish/mayor/-/park teacher:again,baker:again,clock:again,post:again,fisher:again,kid:again,granny:again,pharma:again
+t 17.5 park post>kid demolish/mayor/-/bakery shift believe 47
+t 17.5 park teacher>florist demolish/mayor/-/square - doubt 48
+t 18 park kid>baker demolish/mayor/-/school shift doubt 49
+t 18 park florist>teacher demolish/mayor/-/cafe shift doubt 50
+t 18 square cafe>pharma demolish/mayor/-/park - believe 51
+t 18.5 park kid>post demolish/mayor/-/square shift believe 52
+t 18.5 park teacher>baker demolish/mayor/-/square - doubt 53
+t 18.5 square clock>granny demolish/mayor/-/park - agree 54
+t 18.5 square cafe>inn demolish/mayor/-/dock shift doubt 55
+t 19 park kid>teacher demolish/mayor/-/dock shift doubt 56
+t 19 park post>florist demolish/mayor/-/square - believe 57
+t 19 square cafe>fisher demolish/mayor/-/bakery shift doubt 58
+t 19 square clock>inn demolish/mayor/-/park - believe 59
+t 19.5 park kid>post demolish/mayor/-/school shift believe 60
+t 19.5 square pharma>granny demolish/mayor/-/park - agree 61
+t 19.5 square cafe>clock demolish/mayor/-/park - believe 62
+A 86,13,23,3,9,17,36,5,35,14,10;21,23,10,32,17,19,42,5,39,23,6;22,9,29,-18,10,25,34,7,39,23,14;22,10,29,8,7,19,35,5,39,10,10;20,26,16,10,10,10,34,6,39,19,26;10,26,13,26,11,8,34,5,54,17,24;-40,27,25,10,-1,10,34,5,40,44,16;25,13,17,12,2,10,20,6,39,23,20;30,27,16,17,-58,8,19,37,39,25,7;21,23,9,26,-24,51,15,34,7,9,19;14,11,19,24,38,22,40,34,5,39,6;20,18,25,25,38,18,18,34,5,39,20
+P park:kid,teacher,baker,post,florist,granny,fisher bakery:kid|baker+clock||dock,park
+R 1 8 2 true 63
+# seed 1234
+T 1234 -40,23,28,50,6,8,40,5,45,8,19;-45,30,19,50,15,17,40,5,45,18,30;28,11,35,50,19,20,40,5,45,9,18;13,22,30,50,16,5,40,5,45,23,7;7,13,25,7,23,9,40,5,45,12,23;13,17,26,16,50,12,40,5,60,23,22;16,29,20,26,50,24,40,5,45,50,6;22,11,13,8,50,30,13,5,45,10,12;21,29,18,15,50,24,11,40,45,29,15;26,21,26,5,50,55,17,40,5,28,11;12,7,13,25,50,24,45,40,5,45,17;15,20,18,19,50,27,15,40,5,45,14
+D 1 reconcile baker clock - granny wind
+W clock apology/baker/clock/- clock:believe
+W cafe praised/baker/clock/- cafe:believe
+t 10 cafe cafe>mayor praised/baker/clock/- - believe 2
+t 10.5 cafe mayor>cafe praised/baker/clock/- - agree 3
+A -40,23,28,50,6,8,40,5,45,8,19;0,30,19,50,15,17,40,5,45,18,30;28,11,35,50,19,20,40,5,45,9,18;13,22,30,50,16,5,40,5,45,23,7;10,13,25,7,24,9,40,5,45,12,23;18,17,26,16,51,12,40,5,60,23,22;16,29,20,26,50,24,40,5,45,50,6;22,11,13,8,50,30,13,5,45,10,12;21,29,18,15,50,24,11,40,45,29,15;26,21,26,5,50,55,17,40,5,28,11;12,7,13,25,50,24,45,40,5,45,17;15,20,18,19,50,27,15,40,5,45,14
+P |||
+W baker apology/clock/baker/- baker:doubt,post:doubt,florist:doubt,cafe:doubt,teacher:believe
+W clock praised/baker/clock/- clock:doubt,inn:doubt,pharma:believe
+t 12 cafe baker>cafe apology/clock/baker/- - believe 12
+t 12.5 cafe baker>florist apology/clock/baker/- - believe 13
+t 12.5 inn inn>clock likes/baker/clock/- escalate doubt 14
+t 13 hall mayor>post praised/baker/clock/- - believe 15
+t 13.5 hall post>mayor apology/clock/baker/- - believe 16
+t 14.5 cafe cafe>granny apology/clock/baker/- - believe 17
+t 15 pharmacy pharma>post praised/baker/clock/- - agree 18
+t 15 cafe granny>cafe apology/clock/baker/- - agree 19
+t 15 inn inn>fisher praised/baker/clock/- - believe 20
+t 15.5 park mayor>kid apology/clock/baker/- - believe 21
+t 15.5 cafe cafe>granny praised/baker/clock/- - doubt 22
+t 16 bakery baker>kid badmouth/clock/baker/- sour believe 23
+t 16.5 pharmacy teacher>pharma apology/clock/baker/- - believe 24
+A -40,23,28,50,6,8,40,5,45,8,19;0,30,19,50,15,17,40,5,45,18,30;33,11,35,51,19,20,40,5,45,9,19;14,22,30,50,16,5,40,5,45,23,7;10,13,26,7,24,9,40,5,45,12,23;19,17,26,16,51,12,40,5,60,23,22;19,29,20,26,50,24,40,5,45,51,6;22,11,13,8,50,30,13,5,45,10,12;22,25,18,15,51,24,11,40,45,29,15;26,21,26,5,50,56,17,40,5,28,11;12,7,13,25,50,24,45,40,5,45,17;18,20,18,19,50,27,15,41,5,45,14
+P |||
+W granny apology/baker/clock/- granny:doubt,baker:self,clock:again,post:believe,fisher:believe,teacher:doubt,kid:believe,pharma:believe
+W baker praised/clock/baker/- baker:believe,clock:self,post:believe,fisher:believe,teacher:doubt,kid:believe,granny:believe,pharma:doubt
+t 17 square baker>post praised/clock/baker/- - agree 41
+t 17.5 square post>florist praised/clock/baker/- - doubt 42
+t 17.5 square granny>teacher apology/clock/baker/- - agree 43
+t 18 square pharma>kid apology/baker/clock/- - agree 44
+t 18 square florist>baker apology/clock/baker/- - believe 45
+t 18 square inn>teacher praised/baker/clock/- - doubt 46
+t 18 square post>granny praised/baker/clock/- - doubt 47
+e makeup 18 square baker clock - 
+t 18.5 square kid>mayor apology/baker/clock/- swap believe 48
+t 18.5 square granny>post praised/clock/baker/- - agree 49
+t 18.5 square cafe>teacher praised/clock/baker/- swap believe 50
+t 18.5 square fisher>pharma praised/clock/baker/- - doubt 51
+t 18.5 square florist>inn praised/clock/baker/- - believe 52
+t 19 square inn>clock praised/clock/baker/- - self 53
+t 19 square kid>florist secret/clock/baker/- blur believe 54
+t 19 square cafe>teacher apology/clock/baker/- - agree 55
+t 19 square fisher>granny praised/baker/clock/- - believe 56
+t 19 square post>baker apology/baker/clock/- - self 57
+t 19 square mayor>pharma apology/baker/clock/- - agree 58
+t 19.5 square fisher>clock apology/baker/clock/- - agree 59
+t 19.5 square baker>pharma apology/clock/baker/- - agree 60
+t 19.5 square cafe>florist gift/clock/baker/- escalate doubt 61
+t 19.5 square inn>post praised/clock/baker/- - agree 62
+t 19.5 square teacher>granny apology/baker/clock/- - doubt 63
+A 77,23,29,50,6,8,40,5,45,8,19;49,30,19,50,15,18,40,5,45,18,30;34,17,35,51,19,20,40,5,45,9,19;14,22,30,50,16,5,40,6,45,23,7;10,13,26,7,24,9,40,6,45,12,23;19,17,26,16,51,12,40,5,60,23,22;19,32,20,26,50,24,40,5,45,51,6;22,14,13,8,50,31,13,5,46,10,12;22,28,18,15,51,24,11,40,45,29,16;29,24,26,5,50,56,18,40,5,28,11;12,10,13,26,50,24,45,40,5,45,17;19,20,18,19,51,27,15,41,5,45,14
+P |baker+clock||
+R 2 10 2 true 64
+D 2 date mayor teacher - baker heat
+W mayor likes/teacher/mayor/- mayor:doubt
+W teacher gift/mayor/teacher/- teacher:doubt,kid:doubt
+t 9.5 school kid>teacher gift/teacher/mayor/- swap self 3
+t 10 cafe mayor>cafe likes/teacher/mayor/- - believe 4
+A 73,22,28,48,6,8,38,5,43,8,18;47,29,18,48,14,17,38,5,43,17,29;32,16,33,48,18,19,38,5,43,9,18;13,21,29,48,15,5,38,6,43,22,7;10,12,25,7,23,9,38,6,43,11,22;18,16,25,15,49,11,38,5,57,22,21;18,30,19,25,48,23,38,5,43,48,6;21,13,12,8,56,29,12,5,44,10,11;21,27,17,14,48,23,10,38,43,28,15;28,23,25,5,48,53,17,38,5,27,10;11,10,12,25,48,23,43,38,5,43,16;18,19,17,18,48,26,14,39,5,43,13
+P |baker+clock||
+W granny likes/mayor/teacher/- granny:doubt
+W mayor gift/teacher/mayor/- mayor:doubt
+t 12 cafe cafe>teacher likes/teacher/mayor/- - self 7
+t 12.5 cafe teacher>florist gift/teacher/mayor/- swap believe 8
+t 13 hall mayor>post gift/teacher/mayor/- - believe 9
+t 13 pharmacy granny>pharma likes/mayor/teacher/- - believe 10
+t 14 school kid>post gift/mayor/teacher/- - doubt 11
+t 14 cafe cafe>granny likes/teacher/mayor/- - doubt 12
+t 14.5 cafe granny>cafe likes/mayor/teacher/- - believe 13
+t 15 pharmacy post>pharma gift/teacher/mayor/- - doubt 14
+t 15 park kid>mayor secret/mayor/teacher/- blur self 15
+t 15 cafe cafe>granny likes/mayor/teacher/- - doubt 16
+t 16 pharmacy teacher>pharma gift/mayor/teacher/- - doubt 17
+A 73,22,28,48,6,8,38,5,43,8,18;47,29,18,48,14,17,38,5,43,17,29;32,16,33,49,18,19,38,5,43,9,18;13,21,29,48,15,5,39,6,43,22,7;10,12,25,7,23,9,38,6,43,11,22;18,16,25,15,49,11,38,5,58,22,21;18,30,19,25,48,23,38,5,43,48,6;21,13,12,8,64,29,12,5,44,10,11;21,27,17,14,48,23,10,38,43,28,15;28,23,25,5,48,53,17,38,5,27,10;11,10,12,25,48,23,43,38,5,43,16;18,19,17,18,48,26,14,39,5,44,13
+P |baker+clock||
+W cafe likes/mayor/teacher/- cafe:agree
+W granny gift/mayor/teacher/- granny:doubt,baker:doubt,clock:believe,post:believe,fisher:doubt,teacher:again,kid:again,pharma:believe
+t 17 square granny>teacher likes/mayor/teacher/- escalate doubt 27
+t 17 square post>fisher gift/teacher/mayor/- - doubt 28
+t 17.5 square teacher>baker likes/mayor/teacher/- - believe 29
+t 17.5 square fisher>pharma likes/teacher/mayor/- escalate doubt 30
+t 17.5 square florist>clock gift/teacher/mayor/- - doubt 31
+t 18 square fisher>pharma secret/mayor/teacher/- blur believe 32
+t 18 square kid>inn likes/mayor/teacher/- escalate doubt 33
+t 18 square granny>florist likes/teacher/mayor/- - doubt 34
+t 18 square mayor>clock likes/teacher/mayor/- - believe 35
+t 18 square cafe>post likes/teacher/mayor/- - doubt 36
+t 18.5 square cafe>clock likes/mayor/post/- shift believe 37
+t 18.5 square fisher>florist likes/mayor/teacher/- escalate doubt 38
+t 18.5 square post>baker secret/teacher/mayor/- blur believe 39
+t 19 square cafe>inn likes/mayor/teacher/- - believe 40
+t 19 square baker>clock likes/teacher/mayor/- swap agree 41
+t 19 square pharma>florist secret/mayor/teacher/- - believe 42
+t 19 square fisher>kid gift/teacher/mayor/- - believe 43
+t 19.5 square baker>kid likes/mayor/teacher/- - believe 44
+t 19.5 square clock>inn engaged/mayor/post/- escalate doubt 45
+t 19.5 square florist>post likes/teacher/mayor/- - doubt 46
+t 19.5 square granny>mayor likes/mayor/teacher/- escalate self 47
+A 73,23,28,48,6,8,39,5,43,8,18;48,29,18,49,15,17,38,5,43,17,29;32,16,33,49,18,19,38,5,43,9,18;13,21,29,48,15,5,39,6,43,22,8;10,12,25,7,23,9,46,6,43,11,22;18,16,25,15,49,11,38,5,58,22,21;18,30,19,25,48,23,38,5,43,48,6;21,13,12,8,64,29,12,5,44,10,11;22,27,17,14,48,23,11,38,43,28,15;28,23,25,5,48,53,17,38,5,27,10;11,10,12,25,48,24,43,38,5,43,16;18,19,17,18,48,26,15,39,5,44,13
+P |baker+clock||
+R 1 10 2 false 48
+D 3 reconcile inn post - granny wind
+W granny apology/inn/post/- granny:believe
+W inn praised/post/inn/- inn:doubt
+t 10.5 bakery granny>baker apology/post/inn/- swap believe 2
+A 69,22,27,46,6,8,37,5,42,8,17;46,28,17,47,14,16,36,5,41,16,28;30,15,31,47,17,18,36,5,41,-50,17;12,20,28,46,14,5,37,6,41,21,8;10,11,24,7,22,9,44,6,41,10,21;17,15,24,14,47,10,36,5,55,21,20;17,29,18,24,46,22,36,5,41,46,6;20,12,11,8,61,28,11,5,42,10,10;21,26,16,13,46,22,10,36,41,27,14;27,22,24,5,46,50,16,36,5,26,10;10,10,-45,24,46,23,41,36,5,41,15;17,18,16,17,46,25,14,37,5,42,12
+P |baker+clock||
+W cafe apology/inn/post/- cafe:doubt,baker:doubt,post:believe,florist:believe,teacher:doubt
+W granny praised/inn/post/- granny:doubt
+t 12 cafe baker>teacher apology/post/inn/- - doubt 9
+t 12 cafe cafe>post apology/post/inn/- swap self 10
+t 12 inn inn>clock badmouth/post/inn/- sour doubt 11
+t 12.5 cafe florist>post apology/inn/post/- - agree 12
+t 12.5 cafe cafe>teacher apology/inn/post/- - doubt 13
+t 12.5 inn clock>pharma badmouth/post/inn/- - doubt 14
+t 13 hall post>mayor apology/inn/post/- - believe 15
+t 13 pharmacy granny>pharma apology/inn/post/- - doubt 16
+t 13.5 hall mayor>post apology/inn/post/- - agree 17
+t 14 cafe granny>cafe apology/inn/post/- - believe 18
+t 14.5 school post>teacher apology/inn/post/- - doubt 19
+t 14.5 cafe cafe>granny apology/inn/post/- - agree 20
+t 15 pharmacy clock>post badmouth/post/inn/- - self 21
+t 15.5 pharmacy post>pharma gift/inn/post/- escalate doubt 22
+t 15.5 cafe granny>cafe praised/inn/post/- - believe 23
+t 16 bakery baker>kid apology/inn/clock/- shift doubt 24
+t 16.5 bakery kid>baker gift/inn/clock/- escalate doubt 25
+t 16.5 pharmacy teacher>pharma apology/inn/post/- - believe 26
+A 69,22,27,46,6,8,37,5,42,8,17;46,28,17,47,14,16,36,5,41,16,28;30,10,32,47,17,18,36,5,41,32,17;12,20,28,46,14,5,37,6,41,21,8;10,11,25,7,22,9,44,6,41,10,21;17,15,24,14,47,10,36,5,57,24,20;17,29,18,24,46,22,36,5,41,46,6;20,12,11,8,61,28,11,5,42,10,10;21,26,16,13,46,22,10,36,41,27,14;27,22,24,5,46,51,16,36,5,26,10;10,10,-45,24,46,23,41,36,5,41,15;17,18,16,17,46,25,14,38,5,42,12
+P |baker+clock||
+W post apology/inn/post/- post:again,baker:again,clock:doubt,fisher:doubt,teacher:again,kid:believe,granny:again,pharma:agree
+W cafe praised/inn/post/- cafe:agree
+t 17 square kid>post apology/inn/post/- - agree 36
+t 17.5 square post>florist apology/inn/post/- - agree 37
+t 17.5 square granny>clock gift/inn/post/- escalate believe 38
+t 17.5 square kid>teacher gift/inn/post/- escalate doubt 39
+t 18 square granny>baker praised/inn/post/- - doubt 40
+t 18 square cafe>pharma praised/inn/post/- - doubt 41
+t 18 square kid>florist secret/inn/post/- blur believe 42
+t 18.5 square baker>inn apology/post/inn/- - doubt 43
+t 18.5 square cafe>teacher praised/inn/post/- - doubt 44
+t 18.5 square florist>post secret/inn/post/- - doubt 45
+t 18.5 square kid>fisher apology/inn/post/- - believe 46
+t 18.5 square granny>pharma praised/post/inn/- swap believe 47
+t 19 square cafe>post praised/inn/post/- - believe 48
+t 19 square fisher>baker apology/inn/mayor/- shift believe 49
+t 19 square kid>inn apology/inn/clock/- - self 50
+t 19 square granny>mayor apology/inn/post/- - agree 51
+t 19.5 square post>kid praised/inn/post/- - believe 52
+A 69,22,27,46,6,9,37,5,42,8,17;46,28,17,47,14,16,36,5,42,16,28;30,10,32,47,18,18,36,5,41,52,17;12,20,29,46,14,5,37,7,41,21,8;10,11,25,7,22,9,44,6,42,10,21;17,15,24,14,47,10,36,5,57,26,20;17,29,18,24,46,22,36,6,41,46,6;20,12,11,8,61,28,11,5,42,10,10;21,26,17,13,46,22,10,36,41,30,14;27,22,24,5,46,51,16,36,5,26,10;10,26,-45,24,46,23,41,36,5,41,15;17,18,19,17,46,25,14,38,5,43,12
+P |baker+clock||
+R 1 10 2 false 53
+D 4 protest mayor - park kid heat
+W cafe demolish/mayor/-/park cafe:believe
+W kid demolish/mayor/-/park kid:doubt,teacher:doubt
+t 8 school teacher>kid demolish/mayor/-/park - doubt 3
+t 8.5 school kid>teacher demolish/mayor/-/bakery shift doubt 4
+t 10.5 cafe cafe>mayor demolish/mayor/-/park - self 5
+t 11.5 school teacher>kid demolish/mayor/-/bakery - believe 6
+A 66,21,26,44,6,9,35,5,40,8,16;44,27,16,45,13,15,34,5,40,15,27;29,10,30,45,17,17,34,5,39,49,16;11,19,28,44,13,5,35,7,39,20,8;10,10,24,7,21,9,42,6,40,10,20;16,14,23,13,39,10,34,5,54,25,19;16,28,17,23,44,21,34,6,39,44,6;19,11,10,8,58,27,10,5,40,10,10;20,25,16,12,26,21,10,35,39,29,13;26,21,23,5,44,48,15,34,5,25,10;10,25,-43,23,44,22,39,34,5,39,14;16,17,18,16,44,24,13,36,5,41,11
+P bakery:kid|baker+clock||
+W teacher demolish/mayor/-/park teacher:again,baker:believe,post:believe,florist:doubt,cafe:again
+W cafe demolish/mayor/-/park cafe:again,baker:again,post:again,florist:again,teacher:again
+t 12.5 cafe teacher>post demolish/mayor/-/park - agree 17
+t 12.5 cafe florist>cafe demolish/mayor/-/park - agree 18
+t 13 school kid>teacher demolish/mayor/-/bakery - again 19
+t 14.5 school kid>post demolish/mayor/-/bakery - doubt 20
+t 14.5 cafe cafe>granny demolish/mayor/-/park - doubt 21
+t 15 park kid>mayor demolish/mayor/-/bakery - self 22
+t 16 pharmacy teacher>pharma demolish/mayor/-/school shift doubt 23
+t 16.5 bakery baker>kid demolish/mayor/-/park - believe 24
+A 66,21,26,26,6,9,35,5,40,8,16;44,27,16,45,13,15,34,5,40,15,27;29,10,30,16,17,17,35,5,39,49,16;11,19,28,44,13,5,35,7,39,20,8;10,10,24,7,21,9,42,6,40,10,20;16,14,23,14,35,10,34,5,54,25,19;16,28,17,23,44,21,34,6,39,44,6;19,11,10,8,58,27,10,5,40,10,10;21,25,16,12,8,21,10,35,39,29,13;26,21,23,5,44,48,15,34,5,25,10;10,25,-43,23,44,22,39,34,5,39,14;16,17,18,16,44,24,13,36,5,41,11
+P bakery:kid park:baker,post,kid|baker+clock||
+W granny demolish/mayor/-/park granny:believe,baker:again,clock:doubt,post:again,fisher:believe,teacher:again,kid:again,pharma:believe
+W teacher demolish/mayor/-/park teacher:again,baker:again,clock:again,post:again,fisher:again,kid:again,granny:again,pharma:again
+t 17 square kid>post demolish/mayor/-/cafe shift believe 41
+e protest 17 park mayor - park baker,post,kid,granny,fisher
+t 17.5 park fisher>post demolish/mayor/-/park - agree 42
+t 17.5 park granny>mayor demolish/mayor/-/park - self 43
+t 17.5 park kid>baker demolish/mayor/-/school shift doubt 44
+t 17.5 square florist>pharma demolish/mayor/-/park - agree 45
+t 17.5 square teacher>clock demolish/mayor/-/bakery - doubt 46
+t 18 park post>granny demolish/mayor/-/park - agree 47
+t 18 square teacher>cafe demolish/mayor/-/park - agree 48
+t 18.5 park granny>baker demolish/mayor/-/bakery shift doubt 49
+t 18.5 park post>kid demolish/mayor/-/cafe - believe 50
+t 18.5 square cafe>teacher demolish/mayor/-/park - believe 51
+t 19 park granny>post demolish/mayor/-/school shift believe 52
+t 19 park baker>fisher demolish/mayor/-/bakery shift believe 53
+t 19 square cafe>inn demolish/mayor/-/bakery shift doubt 54
+t 19.5 park post>baker demolish/mayor/-/school - believe 55
+t 19.5 park kid>granny demolish/mayor/-/school shift doubt 56
+t 19.5 square florist>clock demolish/mayor/-/park - doubt 57
+t 19.5 square inn>teacher demolish/mayor/-/bakery - doubt 58
+A 66,22,26,8,6,9,35,5,40,8,16;44,27,16,45,13,15,34,5,40,15,27;29,10,30,-2,17,17,35,6,40,49,16;11,19,28,44,13,5,35,7,39,20,8;10,10,24,7,21,9,42,6,40,10,20;16,14,23,14,33,10,34,5,54,25,19;17,28,17,23,8,21,34,6,39,44,6;19,11,10,8,40,28,10,5,40,10,10;21,25,17,12,2,21,10,35,39,29,13;26,21,23,5,20,48,15,34,5,25,10;10,25,-43,23,44,22,39,34,5,39,14;16,17,18,17,34,24,13,36,5,41,11
+P bakery:kid,fisher park:baker,post,kid,granny,fisher,teacher school:baker|baker+clock||park
+R 1 9 2 true 59
+# seed 99991
+T 99991 -40,17,21,50,8,20,40,5,45,14,6;-45,20,22,50,15,19,40,5,45,5,18;10,8,35,50,24,19,40,5,45,14,16;27,14,30,50,21,23,40,5,45,16,29;10,20,17,25,10,17,40,5,45,24,12;21,16,20,26,50,5,40,5,60,23,23;20,7,26,22,50,16,40,5,45,50,11;12,13,23,25,50,22,8,5,45,18,19;22,26,25,21,50,16,14,40,45,27,10;11,7,5,8,50,55,7,40,5,19,9;14,21,10,30,50,22,45,40,5,45,11;9,28,10,16,50,18,23,40,5,45,27
+D 1 reconcile baker clock - granny wind
+W cafe apology/baker/clock/- cafe:believe
+W granny praised/baker/clock/- granny:believe
+t 10.5 cafe cafe>mayor apology/clock/baker/- swap doubt 2
+A -40,17,21,50,8,20,40,5,45,14,6;-45,20,22,50,15,19,40,5,45,5,18;10,8,35,50,24,19,40,5,45,14,16;27,14,30,50,21,23,40,5,45,16,29;10,20,17,25,10,17,40,5,45,24,12;21,16,20,26,50,5,40,5,60,23,23;20,7,26,22,50,16,40,5,45,50,11;12,13,23,25,50,22,8,5,45,18,19;22,26,25,21,50,16,14,40,45,27,10;14,7,5,8,50,55,7,40,5,19,9;14,21,10,30,50,22,45,40,5,45,11;9,28,10,16,50,18,23,40,5,45,27
+P |||
+W clock apology/baker/clock/- clock:believe,inn:believe,pharma:doubt
+W cafe praised/baker/clock/- cafe:believe,baker:self,post:believe,florist:believe,teacher:doubt
+t 12 inn inn>clock apology/clock/baker/- swap self 11
+t 12.5 cafe cafe>post secret/baker/clock/- blur believe 12
+t 12.5 inn inn>pharma apology/baker/clock/- - believe 13
+t 13 hall mayor>post apology/clock/baker/- - believe 14
+t 13 school teacher>kid praised/baker/clock/- - believe 15
+t 13 pharmacy granny>pharma praised/baker/clock/- - doubt 16
+t 14 school teacher>post praised/baker/clock/- - agree 17
+t 14 cafe granny>cafe likes/baker/clock/- escalate doubt 18
+t 14.5 school kid>post likes/baker/clock/- escalate believe 19
+t 15 pharmacy post>pharma likes/baker/clock/- - believe 20
+t 15 park mayor>kid apology/clock/baker/- - doubt 21
+t 15 inn inn>fisher apology/baker/mayor/- shift doubt 22
+t 15.5 pharmacy pharma>clock apology/baker/clock/- - agree 23
+t 15.5 park kid>mayor praised/baker/granny/- shift believe 24
+t 16 bakery kid>baker apology/clock/baker/- - believe 25
+t 16 inn fisher>inn gift/baker/mayor/- escalate doubt 26
+t 16.5 bakery baker>kid apology/clock/baker/- - doubt 27
+t 16.5 pharmacy teacher>pharma praised/baker/clock/- - believe 28
+A 13,17,21,50,8,20,40,6,45,14,6;29,20,22,50,15,19,40,5,45,5,19;15,8,35,51,25,19,41,6,45,14,16;30,14,30,50,21,23,40,5,45,16,29;13,20,17,25,10,17,40,6,45,24,12;24,16,20,26,50,5,40,5,60,23,23;20,7,26,22,50,16,40,5,45,50,11;12,13,23,25,50,22,8,5,45,18,19;25,26,25,21,50,16,14,41,45,27,10;14,7,5,8,50,55,7,40,5,19,9;14,21,10,30,50,22,45,40,5,45,11;12,28,11,16,50,18,23,41,5,45,28
+P |||
+W baker apology/clock/baker/- baker:agree,clock:self,post:agree,fisher:doubt,teacher:doubt,kid:doubt,granny:believe,pharma:believe
+W clock praised/baker/clock/- clock:believe,baker:self,post:again,fisher:doubt,teacher:again,kid:agree,granny:again,pharma:agree
+t 17 square teacher>clock apology/clock/baker/- - self 45
+t 17 square baker>fisher gift/clock/baker/- escalate believe 46
+t 17 square kid>granny praised/baker/teacher/- shift doubt 47
+e makeup 17 square baker clock - 
+t 17.5 square kid>baker praised/baker/clock/- - self 48
+t 17.5 square pharma>granny apology/clock/baker/- - agree 49
+t 17.5 square teacher>florist apology/clock/baker/- - believe 50
+t 18 square florist>baker apology/clock/baker/- - agree 51
+t 18 square kid>teacher praised/baker/granny/- shift doubt 52
+t 18 square clock>post praised/baker/clock/- - agree 53
+t 18 square fisher>cafe gift/baker/clock/- swap doubt 54
+t 18.5 square teacher>granny praised/baker/granny/- - believe 55
+t 18.5 square kid>florist gift/clock/baker/- escalate doubt 56
+t 18.5 square cafe>pharma likes/baker/clock/- - agree 57
+t 19 square granny>inn apology/clock/baker/- - believe 58
+t 19 square post>pharma praised/baker/clock/- - agree 59
+t 19 square florist>fisher apology/clock/baker/- - believe 60
+t 19 square kid>clock apology/baker/clock/- swap agree 61
+t 19.5 square fisher>baker gift/clock/baker/- escalate doubt 62
+t 19.5 square pharma>post praised/baker/clock/- - agree 63
+t 19.5 square inn>mayor apology/clock/mayor/- shift believe 64
+A 70,17,21,50,8,20,40,6,45,14,6;100,20,22,50,15,19,40,5,45,5,19;16,8,35,51,25,19,41,6,45,14,16;30,14,30,50,21,23,41,5,45,16,29;13,42,17,25,10,17,40,6,45,25,12;24,16,20,26,50,5,40,5,60,23,23;21,7,26,23,50,16,40,5,45,50,11;12,13,23,25,50,22,8,5,45,18,19;27,26,25,21,50,16,14,41,45,27,10;34,7,5,8,50,55,7,41,5,19,10;14,21,10,30,50,22,45,40,5,46,11;13,28,11,16,50,19,23,41,5,45,28
+P |baker+clock||
+R 3 11 3 true 65
+D 2 protest mayor - school kid soldout
+W teacher demolish/mayor/-/school teacher:doubt,kid:believe
+W cafe demolish/mayor/-/school cafe:believe
+t 8 school kid>teacher demolish/mayor/-/square shift doubt 3
+t 8.5 school teacher>kid demolish/mayor/-/school - agree 4
+t 9.5 school teacher>kid demolish/mayor/-/square - believe 5
+t 10 cafe cafe>mayor demolish/mayor/-/school - self 6
+t 10 school kid>teacher demolish/mayor/-/bakery shift doubt 7
+A 67,16,20,48,8,19,38,6,43,13,6;95,19,21,48,14,18,38,5,43,5,18;15,8,33,48,24,18,39,6,43,13,15;29,13,29,48,20,22,39,5,43,15,28;12,40,16,24,10,16,38,6,43,24,11;23,15,19,25,42,5,38,5,57,22,22;20,7,25,22,48,15,38,5,43,48,10;11,12,22,24,48,21,8,5,43,17,18;26,25,24,20,13,15,13,41,43,26,10;32,7,5,8,48,52,7,39,5,18,10;13,20,10,29,48,21,43,38,5,44,10;12,27,10,15,48,18,22,39,5,43,27
+P school:kid|baker+clock||
+W granny demolish/mayor/-/school granny:doubt
+W teacher demolish/mayor/-/school teacher:again,baker:doubt,post:believe,florist:believe,cafe:again
+t 12 cafe baker>post demolish/mayor/-/school - agree 14
+t 12 cafe cafe>teacher demolish/mayor/-/bakery shift doubt 15
+t 12.5 cafe post>cafe demolish/mayor/-/school - agree 16
+t 13.5 hall post>mayor demolish/mayor/-/school - self 17
+t 14 school kid>post demolish/mayor/-/bakery shift doubt 18
+t 14 cafe granny>cafe demolish/mayor/-/bakery shift believe 19
+t 14.5 cafe cafe>granny demolish/mayor/-/bakery - doubt 20
+t 15 pharmacy post>clock demolish/mayor/-/school - believe 21
+t 15 park kid>mayor demolish/mayor/-/dock shift self 22
+t 15.5 park kid>mayor demolish/mayor/-/square shift self 23
+t 16 bakery kid>baker demolish/mayor/-/bakery shift doubt 24
+A 67,16,20,48,8,19,38,6,43,13,6;95,20,21,42,14,18,38,5,43,5,18;16,8,33,38,24,18,39,6,43,13,15;29,13,29,30,20,22,39,5,43,15,28;12,40,16,24,10,16,38,6,43,24,11;23,15,20,25,20,5,38,5,58,22,22;20,7,25,22,48,15,38,5,43,48,10;11,12,22,24,48,21,8,5,43,17,18;26,25,24,20,13,15,13,41,43,26,10;32,7,5,8,48,52,7,39,5,18,10;13,20,10,29,48,21,43,38,5,44,10;12,27,10,15,48,18,22,39,5,43,27
+P school:kid,florist bakery:cafe|baker+clock||
+W kid demolish/mayor/-/school kid:again,baker:again,clock:agree,post:again,fisher:believe,teacher:again,granny:again,pharma:doubt
+W granny demolish/mayor/-/school granny:again,baker:again,clock:again,post:again,fisher:again,teacher:again,kid:again,pharma:again
+t 17 square granny>teacher demolish/mayor/-/school - believe 41
+t 17 square baker>post demolish/mayor/-/cafe shift doubt 42
+t 17.5 square baker>teacher demolish/mayor/-/dock shift doubt 43
+t 17.5 square pharma>post demolish/mayor/-/school - agree 44
+t 17.5 square clock>kid demolish/mayor/-/school - agree 45
+t 17.5 square granny>fisher demolish/mayor/-/park shift believe 46
+t 18 square kid>post demolish/mayor/-/park shift believe 47
+t 18 square clock>baker demolish/mayor/-/school - believe 48
+t 18 square granny>pharma demolish/mayor/-/school - believe 49
+e protest 18 school mayor - school kid,florist,teacher,baker,pharma
+t 18.5 school kid>florist demolish/mayor/-/school shift agree 50
+t 18.5 square granny>inn demolish/mayor/-/square shift doubt 51
+t 18.5 square cafe>fisher demolish/mayor/-/bakery - believe 52
+t 19 school baker>florist demolish/mayor/-/bakery shift believe 53
+t 19.5 school florist>pharma demolish/mayor/-/bakery - doubt 54
+A 68,16,20,30,8,19,38,6,43,13,6;95,20,21,38,14,18,38,5,43,5,18;16,8,33,18,24,18,39,7,43,13,15;30,13,29,13,20,22,39,6,43,15,28;12,40,16,24,10,16,38,6,43,24,11;23,15,20,25,20,5,38,5,58,22,22;20,7,25,22,6,16,38,5,44,48,10;11,12,22,24,30,21,8,5,44,17,18;26,25,24,20,7,15,13,41,43,26,10;32,7,5,8,48,52,7,39,5,18,10;13,20,10,29,48,21,43,38,5,44,10;12,27,10,15,30,18,22,39,5,44,27
+P school:kid,florist,teacher,baker,pharma bakery:cafe,fisher park:fisher,post|baker+clock||school
+R 1 9 2 true 55
+D 3 reconcile inn post - fisher market
+W inn apology/post/inn/- inn:doubt
+W post praised/inn/post/- post:doubt
+t 10.5 clock post>clock praised/inn/post/- - believe 2
+t 11 flower post>florist praised/inn/post/- - believe 3
+A 65,15,19,29,8,18,36,6,41,12,6;90,20,20,36,13,17,36,5,41,8,17;15,8,31,17,23,17,37,7,41,-50,14;29,12,29,12,19,21,37,6,41,17,27;11,38,15,23,10,15,36,6,41,23,10;22,14,19,24,19,5,36,5,55,21,21;19,7,24,21,6,15,36,5,42,46,10;10,11,21,23,29,20,8,5,42,16,17;25,24,23,19,7,14,12,39,41,25,10;30,7,5,8,46,49,7,37,5,17,10;12,19,-45,28,46,20,41,36,5,42,10;11,26,10,14,29,17,21,37,5,42,26
+P |baker+clock||school
+W granny apology/inn/post/- granny:believe
+W inn praised/post/inn/- inn:doubt,clock:doubt,pharma:believe
+t 12 inn inn>pharma badmouth/post/inn/- sour doubt 8
+t 12.5 cafe post>cafe praised/inn/post/- - doubt 9
+t 12.5 cafe florist>baker praised/inn/post/- - believe 10
+t 13 pharmacy granny>pharma apology/inn/post/- - believe 11
+t 13.5 hall post>mayor praised/inn/post/- - doubt 12
+t 14 school post>kid praised/inn/post/- - believe 13
+t 14 cafe cafe>granny praised/inn/post/- - believe 14
+t 15 park kid>mayor praised/inn/post/- - believe 15
+t 15 cafe granny>cafe praised/inn/post/- - believe 16
+t 15 inn inn>fisher apology/post/inn/- - doubt 17
+t 15.5 pharmacy post>pharma badmouth/inn/post/- sour doubt 18
+t 15.5 cafe granny>cafe apology/inn/post/- - doubt 19
+t 15.5 inn fisher>inn apology/post/inn/- - believe 20
+t 16 bakery kid>baker likes/inn/post/- escalate believe 21
+t 16 pharmacy pharma>teacher apology/inn/post/- - doubt 22
+A 65,15,20,29,8,18,36,7,41,15,6;90,20,20,36,13,17,36,5,41,8,17;15,8,31,17,23,17,37,7,41,-50,14;29,12,29,12,19,21,37,6,41,17,27;11,38,15,23,10,15,36,7,41,26,10;22,14,19,24,19,5,36,5,56,24,21;19,7,24,21,6,15,36,5,42,46,10;10,11,21,23,29,20,8,5,42,16,17;25,24,24,19,7,14,12,39,41,28,10;30,7,5,8,46,50,7,37,5,20,10;12,19,0,28,46,20,42,36,5,42,10;11,26,13,14,29,17,21,37,5,43,26
+P |baker+clock||school
+W cafe apology/inn/post/- cafe:doubt
+W granny praised/inn/post/- granny:agree,baker:agree,clock:agree,post:again,fisher:doubt,teacher:doubt,kid:agree,pharma:believe
+t 17 square teacher>post apology/inn/post/- - believe 32
+t 17 square granny>fisher gift/inn/post/- escalate believe 33
+t 17 square kid>pharma praised/inn/post/- - agree 34
+t 17.5 square granny>teacher apology/inn/post/- - doubt 35
+t 17.5 square baker>post engaged/inn/post/- escalate believe 36
+t 17.5 square kid>florist praised/post/inn/- swap believe 37
+t 18 square kid>teacher praised/inn/post/- - believe 38
+t 18 square baker>mayor praised/inn/post/- - agree 39
+t 18 square inn>clock gift/post/inn/- escalate doubt 40
+t 18 square granny>fisher praised/inn/post/- - believe 41
+e makeup 18 square inn post - 
+t 18.5 square granny>mayor apology/inn/post/- - believe 42
+t 18.5 square fisher>cafe gift/inn/post/- - doubt 43
+t 18.5 square kid>clock praised/inn/granny/- shift doubt 44
+t 19 square teacher>clock apology/inn/post/- - believe 45
+t 19 square granny>florist praised/inn/post/- - agree 46
+t 19 square cafe>baker gift/inn/post/- - believe 47
+t 19 square kid>post likes/inn/post/- escalate doubt 48
+t 19 square mayor>fisher apology/inn/post/- - doubt 49
+t 19.5 square post>mayor engaged/inn/post/- - believe 50
+t 19.5 square baker>granny engaged/inn/post/- escalate believe 51
+t 19.5 square cafe>pharma praised/inn/post/- - agree 52
+t 19.5 square florist>inn praised/inn/post/- - self 53
+t 19.5 square kid>fisher praised/post/inn/- swap believe 54
+A 65,15,20,29,9,18,36,7,41,17,6;90,20,20,36,13,17,37,5,41,10,17;16,8,31,17,23,17,38,7,41,25,14;29,12,32,12,19,21,37,7,42,19,27;11,38,16,23,10,15,36,7,42,27,10;22,14,19,24,19,5,36,5,56,24,21;19,7,27,21,6,15,36,6,44,49,10;10,11,21,23,29,20,8,6,42,19,17;25,24,24,19,7,14,12,39,41,30,10;31,7,5,8,46,50,7,37,5,22,10;12,19,28,28,46,20,42,36,5,42,10;11,26,13,14,29,17,21,37,6,43,32
+P |baker+clock,inn+post||school
+R 2 12 2 true 55
+D 4 protest mayor - dock kid wind
+W kid demolish/mayor/-/dock kid:believe,teacher:believe
+W granny demolish/mayor/-/dock granny:doubt
+t 8 school kid>teacher demolish/mayor/-/park shift doubt 3
+t 10.5 bakery granny>baker demolish/mayor/-/school shift believe 4
+A 62,14,19,10,9,17,34,7,40,16,6;86,19,19,34,12,16,35,5,39,10,16;15,8,29,16,22,16,36,7,39,24,13;28,11,30,11,18,20,35,7,40,18,26;10,36,15,22,10,14,34,7,40,26,10;21,13,18,23,18,5,34,5,53,23,20;18,7,26,20,6,14,34,6,42,47,10;10,10,20,22,22,19,8,6,40,18,16;24,23,23,18,-11,13,11,37,39,29,10;29,7,5,8,44,48,7,35,5,21,10;11,18,27,27,44,19,40,34,5,40,10;10,25,12,13,28,16,20,35,6,41,30
+P dock:kid school:baker|baker+clock,inn+post||school
+W cafe demolish/mayor/-/dock cafe:believe,baker:believe,post:believe,florist:believe,teacher:again
+W kid demolish/mayor/-/dock kid:again
+t 12 cafe cafe>teacher demolish/mayor/-/square shift doubt 11
+t 12 cafe post>florist demolish/mayor/-/bakery shift believe 12
+t 12.5 cafe post>teacher demolish/mayor/-/dock - agree 13
+t 12.5 cafe cafe>florist demolish/mayor/-/cafe shift doubt 14
+t 13 pharmacy granny>pharma demolish/mayor/-/dock - doubt 15
+t 13.5 hall post>mayor demolish/mayor/-/dock - self 16
+t 14 school teacher>post demolish/mayor/-/dock - agree 17
+t 14 cafe granny>cafe demolish/mayor/-/dock - agree 18
+t 14.5 school post>kid demolish/mayor/-/dock - agree 19
+t 14.5 cafe cafe>granny demolish/mayor/-/dock - believe 20
+t 16 bakery kid>baker demolish/mayor/-/dock - agree 21
+t 16 pharmacy pharma>teacher demolish/mayor/-/dock - agree 22
+t 16.5 bakery baker>kid demolish/mayor/-/square shift believe 23
+A 62,14,19,0,9,17,34,8,40,16,6;86,19,19,34,12,16,35,5,39,10,16;15,8,29,-13,22,16,37,7,39,24,13;28,11,31,-1,18,20,35,7,40,18,26;10,36,15,22,10,14,34,7,40,26,10;21,13,18,23,-11,5,34,5,54,23,20;18,7,26,20,6,14,34,6,42,47,10;10,10,21,22,16,19,8,6,40,18,16;25,23,24,18,-28,13,11,37,39,29,10;29,7,5,8,26,49,7,35,5,21,10;11,18,27,27,44,19,40,34,5,40,10;10,25,12,13,28,16,20,35,6,41,30
+P dock:kid,cafe,post,granny school:baker|baker+clock,inn+post||school
+W teacher demolish/mayor/-/dock teacher:again,baker:again,clock:believe,post:again,fisher:believe,kid:again,granny:again,pharma:doubt
+W cafe demolish/mayor/-/dock cafe:again
+t 17 square kid>fisher demolish/mayor/-/bakery shift believe 33
+e protest 17 dock mayor - dock kid,cafe,post,granny,fisher
+t 17.5 dock post>cafe demolish/mayor/-/dock - agree 34
+t 17.5 dock granny>kid demolish/mayor/-/dock - agree 35
+t 18 dock granny>fisher demolish/mayor/-/dock - agree 36
+t 18 dock cafe>post demolish/mayor/-/dock - agree 37
+t 18 dock kid>mayor demolish/mayor/-/square - self 38
+t 18.5 square florist>teacher demolish/mayor/-/bakery - believe 39
+t 18.5 square clock>pharma demolish/mayor/-/dock - believe 40
+t 18.5 dock kid>post demolish/mayor/-/dock shift agree 41
+t 18.5 dock granny>mayor demolish/mayor/-/dock - self 42
+t 18.5 dock cafe>fisher demolish/mayor/-/dock - agree 43
+t 19 square baker>pharma demolish/mayor/-/school - doubt 44
+t 19 square florist>teacher demolish/mayor/-/dock - agree 45
+t 19 dock cafe>kid demolish/mayor/-/cafe shift believe 46
+t 19 dock granny>post demolish/mayor/-/park shift believe 47
+t 19 dock fisher>mayor demolish/mayor/-/bakery - self 48
+t 19.5 square florist>pharma demolish/mayor/-/cafe - doubt 49
+t 19.5 dock fisher>cafe demolish/mayor/-/cafe shift believe 50
+t 19.5 dock post>granny demolish/mayor/-/park - believe 51
+A 62,14,19,0,9,17,34,8,40,16,6;86,19,19,28,12,16,35,5,39,10,16;15,8,29,-37,22,16,37,7,40,24,13;28,11,31,-1,18,20,35,7,40,18,26;10,36,15,22,10,14,34,7,40,26,10;21,13,18,23,-23,6,34,5,54,23,20;18,7,26,20,-47,14,34,7,43,47,10;10,10,21,23,-2,19,8,6,40,18,16;25,23,24,18,-40,14,11,37,39,29,10;29,7,6,8,8,49,7,35,5,21,10;11,18,27,27,44,19,40,34,5,40,10;10,26,12,13,22,16,20,35,6,41,30
+P dock:kid,cafe,post,granny,fisher school:baker bakery:fisher,teacher park:post,granny|baker+clock,inn+post||school,dock
+R 2 10 2 true 52
+# seed 314159
+T 314159 -40,16,15,50,24,11,40,5,45,14,9;-45,24,13,50,21,13,40,5,45,11,27;13,6,35,50,28,21,40,5,45,17,8;10,7,30,50,7,28,40,5,45,6,19;25,5,26,24,19,25,40,5,45,25,20;24,12,11,21,50,17,40,5,60,6,6;12,10,7,15,50,26,40,5,45,50,18;10,12,29,13,50,17,8,5,45,18,26;8,14,12,14,50,24,28,40,45,25,7;15,28,14,11,50,55,16,40,5,28,27;25,21,16,13,50,17,45,40,5,45,11;11,21,25,10,50,23,17,40,5,45,29
+D 1 reconcile baker clock - granny wind
+W cafe apology/baker/clock/- cafe:doubt
+W granny praised/baker/clock/- granny:believe
+t 10 bakery granny>baker praised/clock/baker/- swap doubt 2
+t 10.5 cafe cafe>mayor apology/baker/clock/- - believe 3
+t 11 bakery baker>fisher praised/baker/clock/- swap doubt 4
+t 11.5 bakery fisher>baker praised/clock/baker/- swap believe 5
+A -20,16,15,50,24,12,40,5,45,14,9;-45,24,13,50,21,13,40,5,45,11,27;13,6,35,50,28,21,40,5,45,17,8;10,7,30,50,7,28,40,5,45,6,19;25,5,26,24,20,25,40,5,45,25,20;24,12,11,21,50,17,40,5,60,6,6;12,10,7,15,50,26,40,5,45,50,18;10,12,29,13,50,17,8,5,45,18,26;8,14,12,14,50,24,28,40,45,25,7;18,28,14,11,50,55,16,40,5,28,27;25,21,16,13,50,17,45,40,5,45,11;11,21,25,10,50,23,17,40,5,45,29
+P |||
+W clock apology/baker/clock/- clock:believe,inn:doubt,pharma:doubt
+W cafe praised/baker/clock/- cafe:doubt,baker:self,post:believe,florist:doubt,teacher:doubt
+t 12 cafe cafe>teacher apology/baker/clock/- - doubt 14
+t 12 cafe post>baker praised/clock/baker/- swap agree 15
+t 12.5 cafe cafe>baker praised/baker/clock/- - self 16
+t 12.5 cafe teacher>post apology/baker/clock/- - doubt 17
+t 12.5 inn inn>clock apology/baker/clock/- - agree 18
+t 13 hall post>mayor praised/baker/clock/- - believe 19
+t 13.5 pharmacy pharma>granny apology/clock/baker/- swap believe 20
+t 14 school teacher>post praised/baker/clock/- - agree 21
+t 14 cafe cafe>granny apology/baker/clock/- - believe 22
+t 15 pharmacy clock>post apology/baker/clock/- - doubt 23
+t 15 inn inn>fisher gift/baker/clock/- escalate believe 24
+t 15.5 pharmacy post>clock apology/baker/clock/- - agree 25
+t 15.5 cafe granny>cafe secret/clock/baker/- blur believe 26
+t 15.5 inn fisher>inn gift/baker/clock/- - doubt 27
+t 16 inn inn>fisher gift/clock/baker/- swap doubt 28
+t 16 pharmacy teacher>pharma apology/baker/clock/- - believe 29
+A 3,16,15,50,24,12,40,5,45,14,9;21,24,13,50,21,13,40,5,45,12,27;18,6,35,50,28,21,41,5,45,17,8;10,7,30,50,7,28,40,5,45,6,19;28,5,27,24,20,25,40,5,45,25,20;24,12,11,21,50,17,40,5,61,6,6;12,10,7,15,50,26,40,5,45,51,18;10,12,29,13,50,17,8,5,45,18,26;8,14,12,14,50,24,28,40,45,25,7;18,28,14,11,50,56,16,40,5,28,28;25,21,16,13,50,17,45,40,5,45,11;11,21,25,10,50,23,17,41,5,45,29
+P |||
+W baker apology/clock/baker/- baker:believe,clock:self,post:doubt,fisher:believe,teacher:doubt,kid:believe,granny:agree,pharma:believe
+W clock praised/baker/clock/- clock:doubt,baker:self,post:again,fisher:doubt,teacher:again,kid:believe,granny:again,pharma:doubt
+t 17 square fisher>granny apology/clock/baker/- - agree 46
+t 17 square baker>teacher apology/clock/baker/- - believe 47
+e makeup 17 square baker clock - 
+t 17.5 square granny>florist apology/baker/clock/- - believe 48
+t 17.5 square kid>post likes/baker/clock/- escalate doubt 49
+t 18 square clock>inn apology/baker/clock/- - believe 50
+t 18 square teacher>baker apology/clock/baker/- - agree 51
+t 18.5 square teacher>granny apology/clock/baker/- - agree 52
+t 18.5 square pharma>post apology/clock/baker/- - doubt 53
+t 18.5 square cafe>fisher secret/clock/baker/- - believe 54
+t 18.5 square inn>kid apology/clock/baker/- swap agree 55
+t 19 square fisher>cafe secret/baker/clock/- swap doubt 56
+t 19 square teacher>inn apology/clock/baker/- - believe 57
+t 19 square granny>florist apology/baker/clock/- swap again 58
+t 19 square kid>baker apology/baker/clock/- swap self 59
+t 19 square clock>mayor apology/baker/clock/- - agree 60
+t 19 square post>pharma apology/clock/baker/- - agree 61
+t 19.5 square baker>granny praised/clock/baker/- - believe 62
+t 19.5 square post>mayor engaged/baker/clock/- escalate doubt 63
+t 19.5 square cafe>florist apology/baker/clock/- - agree 64
+t 19.5 square pharma>inn apology/baker/clock/- - agree 65
+t 19.5 square kid>teacher gift/clock/baker/- escalate believe 66
+A 82,16,15,50,24,12,41,5,45,14,9;57,24,13,50,21,13,40,5,45,12,27;18,6,35,50,28,21,41,5,45,17,8;10,7,30,50,8,28,40,5,46,6,19;28,6,27,24,20,25,40,5,45,25,20;24,12,11,21,50,17,40,5,61,6,6;12,10,7,15,50,27,40,5,45,51,18;11,12,29,13,50,17,8,6,45,18,26;11,14,12,14,50,24,28,40,45,26,7;19,31,14,11,50,56,16,40,5,28,28;25,22,16,13,50,17,45,41,5,45,11;11,21,26,10,50,23,17,41,5,45,29
+P |baker+clock||
+R 2 9 3 true 67
+D 2 reconcile baker fisher - inn clockslow
+W fisher apology/baker/fisher/- fisher:believe
+W cafe praised/baker/fisher/- cafe:doubt
+t 10 cafe cafe>mayor likes/baker/fisher/- escalate doubt 2
+A 78,15,14,48,23,-45,39,5,43,13,9;54,23,12,48,20,12,38,5,43,11,26;17,6,33,48,27,20,39,5,43,16,8;10,7,29,48,8,27,38,5,44,6,18;27,6,26,23,19,24,38,5,43,24,19;23,11,10,20,48,16,38,5,58,6,6;-5,10,7,14,48,26,38,5,43,48,17;10,11,28,12,48,16,8,6,43,17,25;10,13,11,13,48,23,27,38,43,25,7;18,29,13,10,48,53,15,38,5,27,27;24,21,15,12,48,16,43,39,5,43,10;10,20,25,10,48,22,16,39,5,43,28
+P |baker+clock||
+W baker apology/fisher/baker/- baker:believe,post:doubt,florist:believe,cafe:believe,teacher:doubt
+W fisher praised/baker/fisher/- fisher:believe
+t 12 cafe cafe>baker apology/fisher/baker/- - agree 9
+t 12 cafe post>florist apology/baker/fisher/- swap doubt 10
+t 12.5 cafe baker>florist apology/fisher/baker/- - agree 11
+t 12.5 cafe teacher>post apology/fisher/baker/- - believe 12
+t 13 school teacher>kid apology/fisher/baker/- - believe 13
+t 13.5 hall post>mayor apology/fisher/baker/- - doubt 14
+t 13.5 school kid>teacher apology/baker/fisher/- swap doubt 15
+t 14 school post>teacher apology/fisher/baker/- - believe 16
+t 14.5 school kid>post apology/baker/fisher/- swap believe 17
+t 14.5 cafe cafe>granny praised/fisher/baker/- swap believe 18
+t 15 pharmacy post>pharma apology/baker/fisher/- - believe 19
+t 15 cafe granny>cafe praised/fisher/baker/- - doubt 20
+t 15 inn fisher>inn apology/baker/fisher/- - believe 21
+t 15.5 park kid>mayor apology/fisher/baker/- - doubt 22
+t 15.5 cafe cafe>granny apology/fisher/baker/- - believe 23
+t 16 bakery baker>kid apology/fisher/baker/- - agree 24
+t 16.5 inn inn>fisher gift/baker/fisher/- escalate believe 25
+A 78,15,14,48,24,13,39,5,43,13,9;54,23,12,48,20,12,38,5,43,11,26;17,6,33,48,27,20,40,6,43,16,8;11,7,29,48,8,27,38,5,44,6,18;27,6,26,23,19,24,38,5,43,24,19;23,11,10,20,48,16,38,5,58,6,6;30,10,7,14,48,26,38,5,43,49,17;10,11,29,12,48,16,8,6,43,17,25;11,13,11,13,48,23,27,39,43,25,7;18,29,13,10,48,55,18,38,5,27,27;24,21,15,12,48,16,44,39,5,43,10;10,20,26,10,48,22,16,39,5,43,28
+P |baker+clock||
+W granny apology/baker/fisher/- granny:doubt,baker:self,clock:believe,post:agree,fisher:again,teacher:doubt,kid:believe,pharma:agree
+W baker praised/fisher/baker/- baker:believe,clock:believe,post:believe,fisher:self,teacher:doubt,kid:believe,granny:agree,pharma:believe
+t 17 square fisher>teacher likes/baker/fisher/- escalate doubt 42
+t 17 square clock>pharma gift/baker/fisher/- escalate doubt 43
+t 17 square kid>post gift/baker/fisher/- escalate believe 44
+e makeup 17 square baker fisher - 
+t 17.5 square granny>baker apology/baker/fisher/- swap self 45
+t 17.5 square florist>fisher apology/fisher/baker/- swap self 46
+t 17.5 square post>clock gift/baker/fisher/- - believe 47
+t 18 square teacher>baker apology/fisher/baker/- - agree 48
+t 18 square kid>fisher praised/fisher/baker/- - self 49
+t 18 square cafe>inn praised/baker/fisher/- swap doubt 50
+t 18.5 square baker>fisher apology/fisher/baker/- - self 51
+t 18.5 square granny>inn apology/baker/fisher/- - agree 52
+t 18.5 square cafe>kid praised/baker/fisher/- - believe 53
+t 18.5 square florist>post apology/fisher/baker/- - agree 54
+t 19 square baker>fisher praised/baker/fisher/- swap agree 55
+t 19 square cafe>post apology/fisher/baker/- - agree 56
+t 19 square teacher>mayor likes/baker/fisher/- - believe 57
+t 19 square clock>granny praised/fisher/baker/- - agree 58
+t 19 square pharma>kid praised/fisher/baker/- - agree 59
+t 19 square florist>inn apology/baker/fisher/- swap agree 60
+t 19.5 square granny>clock secret/fisher/baker/- blur doubt 61
+t 19.5 square baker>post praised/baker/fisher/- swap doubt 62
+t 19.5 square cafe>teacher praised/fisher/baker/- - believe 63
+t 19.5 square fisher>florist apology/fisher/baker/- swap agree 64
+A 78,15,14,48,24,93,39,5,43,13,9;54,24,12,48,20,15,38,5,43,11,26;17,6,33,48,27,23,40,7,43,16,8;11,7,29,48,8,27,38,5,44,6,18;27,6,26,23,19,24,39,5,43,24,19;23,11,10,20,48,16,38,5,58,6,6;100,10,7,14,48,26,38,5,43,49,17;10,11,29,12,48,17,11,6,43,17,25;14,13,11,13,48,24,32,39,43,25,8;18,29,13,10,48,55,21,38,5,27,27;24,21,15,12,48,16,44,39,5,44,10;10,20,26,10,48,22,19,39,5,43,28
+P |baker+clock,baker+fisher||
+R 2 11 2 true 65
+D 3 date cafe granny - florist clockslow
+W cafe likes/granny/cafe/- cafe:doubt
+W granny gift/cafe/granny/- granny:believe
+t 10 cafe cafe>mayor likes/granny/cafe/- - believe 2
+A 74,14,13,46,23,88,37,5,41,12,9;51,23,11,46,19,14,36,5,41,10,25;16,6,31,46,26,22,38,7,41,15,8;10,7,28,46,8,26,36,5,42,6,17;26,6,25,22,19,23,37,5,41,23,18;22,10,10,19,46,15,36,5,55,6,6;95,10,7,13,46,25,36,5,41,47,16;10,10,28,11,46,16,10,6,41,16,24;13,12,10,12,46,23,30,37,41,24,8;17,28,12,10,46,67,20,36,5,26,26;23,20,14,11,46,15,42,37,5,42,10;10,19,25,10,46,21,18,37,5,41,27
+P |baker+clock,baker+fisher||
+W granny likes/cafe/granny/- granny:believe
+W cafe gift/granny/cafe/- cafe:doubt,baker:believe,post:doubt,florist:believe,teacher:doubt
+t 12 cafe cafe>post gift/granny/cafe/- - doubt 9
+t 12 cafe teacher>florist gift/granny/cafe/- - agree 10
+t 12.5 cafe cafe>baker likes/granny/cafe/- - believe 11
+t 12.5 cafe teacher>post gift/granny/cafe/- - believe 12
+t 14 cafe cafe>granny likes/granny/cafe/- - self 13
+e date 14 cafe cafe granny - 
+t 15 cafe cafe>granny gift/granny/cafe/- - self 14
+t 15.5 cafe granny>cafe gift/cafe/granny/- - self 15
+t 16 bakery baker>kid gift/granny/cafe/- - doubt 16
+t 16.5 bakery kid>baker gift/cafe/granny/- swap believe 17
+A 74,14,13,46,24,88,37,6,41,12,9;51,23,11,46,19,14,36,5,41,10,25;16,6,31,46,26,22,39,7,41,15,8;10,7,28,46,8,26,37,5,42,6,17;26,6,25,22,19,23,37,5,41,23,18;22,10,10,19,46,15,36,5,63,6,6;95,10,7,13,46,25,36,5,41,47,16;10,10,28,11,46,16,10,6,41,16,24;13,12,10,12,46,23,30,37,41,24,8;17,28,12,10,46,100,20,36,5,26,26;23,20,14,11,46,15,42,37,5,42,10;10,19,25,10,46,21,18,37,5,41,27
+P |baker+clock,baker+fisher|cafe+granny|
+W cafe likes/granny/cafe/- cafe:again
+W granny gift/cafe/granny/- granny:again,baker:agree,clock:doubt,post:doubt,fisher:believe,teacher:doubt,kid:doubt,pharma:doubt
+t 17 square kid>post gift/granny/cafe/- swap agree 27
+t 17 square fisher>teacher gift/cafe/granny/- - doubt 28
+t 17.5 square granny>baker likes/cafe/granny/- - believe 29
+t 17.5 square post>kid gift/granny/cafe/- - believe 30
+t 17.5 square pharma>clock secret/cafe/granny/- blur doubt 31
+t 17.5 square florist>fisher gift/cafe/granny/- swap agree 32
+t 18 square teacher>baker gift/cafe/granny/- - agree 33
+t 18 square kid>fisher likes/granny/cafe/- escalate believe 34
+t 18 square florist>cafe gift/granny/cafe/- - believe 35
+t 18 square mayor>post likes/granny/cafe/- - doubt 36
+t 18 square granny>pharma likes/granny/cafe/- swap doubt 37
+t 18.5 square florist>baker gift/granny/teacher/- shift believe 38
+t 18.5 square fisher>inn likes/granny/mayor/- shift doubt 39
+t 18.5 square granny>clock gift/cafe/granny/- - doubt 40
+t 18.5 square cafe>teacher likes/granny/cafe/- escalate doubt 41
+t 18.5 square kid>mayor gift/cafe/mayor/- shift doubt 42
+t 18.5 square pharma>post engaged/granny/cafe/- escalate doubt 43
+t 19 square baker>cafe likes/granny/cafe/- - believe 44
+t 19 square clock>mayor secret/cafe/granny/- - believe 45
+t 19 square kid>granny gift/granny/cafe/- - self 46
+t 19.5 square florist>granny gift/granny/cafe/- - self 47
+t 19.5 square clock>baker gift/cafe/granny/- - agree 48
+t 19.5 square kid>teacher gift/granny/cafe/- - doubt 49
+A 74,14,14,46,24,88,37,6,42,12,9;51,23,11,46,19,14,36,5,41,10,25;16,6,31,46,26,22,39,7,41,15,8;10,7,28,46,8,26,37,5,42,6,17;26,7,25,22,19,23,37,5,41,23,18;23,10,10,20,46,15,36,5,100,6,6;95,10,7,14,46,25,36,6,41,47,16;10,10,28,11,46,16,10,6,41,16,24;13,12,11,12,46,23,30,37,41,24,8;17,28,12,10,46,100,20,36,5,26,26;23,20,14,11,46,15,42,37,5,42,10;10,19,25,10,46,21,18,37,5,41,27
+P |baker+clock,baker+fisher|cafe+granny|
+R 1 9 2 true 50
+D 4 protest mayor - park kid rain
+W kid demolish/mayor/-/park kid:doubt,teacher:doubt
+W granny demolish/mayor/-/park granny:doubt
+t 8.5 school kid>teacher demolish/mayor/-/dock shift doubt 3
+t 9.5 school teacher>kid demolish/mayor/-/park - believe 4
+t 10 bakery granny>baker demolish/mayor/-/cafe shift believe 5
+t 10 school teacher>kid demolish/mayor/-/dock - doubt 6
+t 11 bakery baker>fisher demolish/mayor/-/cafe - doubt 7
+A 70,13,13,38,23,84,35,6,41,11,9;48,22,10,44,18,13,34,5,39,10,24;15,6,29,44,25,21,37,7,39,14,8;10,7,27,44,8,25,35,5,40,6,16;25,7,24,21,18,22,35,5,39,22,17;22,10,10,19,44,14,34,5,95,6,6;90,10,7,13,44,24,34,6,39,45,15;10,10,27,10,44,15,10,6,39,15,23;12,11,10,11,26,22,29,36,39,23,8;16,27,11,10,44,95,19,34,5,25,25;22,19,13,10,44,14,40,35,5,40,10;10,18,24,10,44,20,17,35,5,39,26
+P park:kid|baker+clock,baker+fisher|cafe+granny|
+W cafe demolish/mayor/-/park cafe:believe,baker:believe,post:doubt,florist:believe,teacher:again
+W kid demolish/mayor/-/park kid:again
+t 12 cafe cafe>teacher demolish/mayor/-/dock shift doubt 14
+t 12.5 cafe post>florist demolish/mayor/-/park - agree 15
+t 12.5 cafe teacher>cafe demolish/mayor/-/dock - doubt 16
+t 13 school kid>teacher demolish/mayor/-/bakery shift believe 17
+t 13.5 pharmacy granny>pharma demolish/mayor/-/park - believe 18
+t 14 school kid>post demolish/mayor/-/park - believe 19
+t 14 cafe cafe>granny demolish/mayor/-/bakery shift doubt 20
+t 14.5 school kid>post demolish/mayor/-/bakery shift doubt 21
+t 14.5 cafe cafe>granny demolish/mayor/-/dock - believe 22
+t 15 pharmacy post>pharma demolish/mayor/-/park - agree 23
+t 15 park kid>mayor demolish/mayor/-/park - self 24
+t 15 cafe granny>cafe demolish/mayor/-/square shift doubt 25
+t 16 bakery kid>baker demolish/mayor/-/bakery shift doubt 26
+t 16.5 bakery kid>baker demolish/mayor/-/bakery shift again 27
+A 70,13,13,20,23,84,35,6,41,11,9;48,22,10,44,18,13,34,5,39,10,24;15,6,29,26,25,21,37,8,39,14,8;10,7,28,15,8,25,35,5,40,6,16;25,7,24,21,18,22,35,5,39,22,17;22,10,10,19,38,14,34,5,95,6,6;90,10,7,13,44,24,34,6,39,45,15;10,10,27,10,26,15,10,7,39,15,23;12,11,10,11,26,22,29,36,39,23,8;16,27,11,10,26,96,19,34,5,25,25;22,19,13,10,44,14,40,35,5,40,10;10,18,25,10,34,20,17,35,5,40,26
+P park:kid,baker,florist,post bakery:teacher dock:granny|baker+clock,baker+fisher|cafe+granny|
+W teacher demolish/mayor/-/park teacher:again,baker:again,clock:doubt,post:again,fisher:believe,kid:again,granny:again,pharma:agree
+W cafe demolish/mayor/-/park cafe:again
+t 17 square baker>granny demolish/mayor/-/school shift believe 37
+t 17 square pharma>kid demolish/mayor/-/park - agree 38
+t 17 square post>teacher demolish/mayor/-/bakery - agree 39
+e protest 17 park mayor - park kid,baker,florist,post,fisher
+t 17.5 square granny>clock demolish/mayor/-/school - believe 40
+t 18 park post>fisher demolish/mayor/-/park - agree 41
+t 18 park florist>kid demolish/mayor/-/park - agree 42
+t 18 square granny>cafe demolish/mayor/-/dock - believe 43
+t 18.5 park kid>florist demolish/mayor/-/dock - doubt 44
+t 18.5 park baker>post demolish/mayor/-/bakery shift believe 45
+t 18.5 square teacher>granny demolish/mayor/-/bakery - believe 46
+t 19 park fisher>baker demolish/mayor/-/park shift agree 47
+t 19 square cafe>clock demolish/mayor/-/bakery shift believe 48
+t 19.5 park fisher>florist demolish/mayor/-/park shift agree 49
+t 19.5 park post>baker demolish/mayor/-/bakery - believe 50
+t 19.5 square cafe>pharma demolish/mayor/-/square - believe 51
+t 19.5 square granny>teacher demolish/mayor/-/bakery - agree 52
+A 70,14,13,-9,23,85,35,6,41,11,9;48,22,10,32,19,13,34,5,40,10,24;16,6,29,8,25,21,37,8,39,14,8;10,7,28,9,8,25,35,5,40,6,16;25,7,24,21,18,22,35,5,39,22,17;22,10,10,19,20,14,34,5,96,6,6;90,10,8,13,15,24,34,6,39,45,15;10,10,28,10,9,15,10,7,39,15,23;12,11,10,11,20,22,29,36,39,23,8;17,27,11,10,-10,96,19,35,5,25,25;22,19,13,10,44,14,40,35,5,40,10;10,18,25,10,26,21,17,35,5,40,26
+P park:kid,baker,florist,post,fisher bakery:teacher,post,granny,baker dock:granny,cafe school:granny|baker+clock,baker+fisher|cafe+granny|park
+R 2 10 2 true 53
+# seed 2718281
+T 2718281 -40,12,19,50,10,22,40,5,45,20,29;-45,23,28,50,17,27,40,5,45,15,26;17,16,35,50,10,26,40,5,45,30,7;9,6,30,50,17,11,40,5,45,16,14;23,15,26,27,10,15,40,5,45,8,7;21,27,29,6,50,21,40,5,60,26,24;7,6,21,20,50,9,40,5,45,50,13;9,18,12,11,50,22,21,5,45,17,6;25,29,12,22,50,6,9,40,45,21,14;22,6,27,8,50,55,22,40,5,21,10;26,15,29,29,50,27,45,40,5,45,26;19,21,19,6,50,24,19,40,5,45,13
+D 1 reconcile baker clock - granny clockslow
+W baker apology/clock/baker/- baker:believe
+W clock praised/baker/clock/- clock:believe
+t 10 bakery baker>granny apology/clock/baker/- - doubt 2
+t 10.5 bakery granny>baker secret/clock/baker/- blur believe 3
+t 11.5 bakery baker>fisher secret/clock/baker/- - doubt 4
+A 5,12,19,50,10,22,40,5,46,20,29;-25,23,28,50,17,27,40,5,45,15,26;17,16,35,50,10,26,40,5,45,30,7;9,6,30,50,17,11,40,5,45,16,14;23,15,26,27,10,15,40,5,45,8,7;21,27,29,6,50,21,40,5,60,26,24;7,6,21,20,50,9,40,5,45,50,13;9,18,12,11,50,22,21,5,45,17,6;25,29,12,22,50,6,9,40,45,21,14;22,6,27,8,50,55,22,40,5,21,10;26,15,29,29,50,27,45,40,5,45,26;19,21,19,6,50,24,19,40,5,45,13
+P |||
+W granny apology/baker/clock/- granny:believe
+W baker praised/clock/baker/- baker:believe,post:believe,florist:believe,cafe:doubt,teacher:doubt
+t 12 cafe baker>teacher apology/clock/baker/- - believe 11
+t 12 cafe cafe>florist praised/clock/baker/- - agree 12
+t 12 inn clock>pharma praised/baker/clock/- - doubt 13
+t 12.5 cafe post>cafe praised/clock/baker/- - believe 14
+t 12.5 cafe baker>florist secret/clock/baker/- blur doubt 15
+t 12.5 inn clock>inn praised/baker/clock/- - believe 16
+t 13 pharmacy granny>pharma apology/clock/baker/- - believe 17
+t 13.5 hall post>mayor praised/clock/baker/- - doubt 18
+t 13.5 pharmacy granny>pharma apology/baker/clock/- - believe 19
+t 14 school post>kid praised/clock/baker/- - believe 20
+t 14 cafe granny>cafe apology/clock/baker/- swap believe 21
+t 15 cafe cafe>granny apology/clock/baker/- - doubt 22
+t 15.5 pharmacy clock>post praised/baker/clock/- - doubt 23
+t 15.5 inn inn>fisher praised/baker/clock/- - believe 24
+t 16.5 bakery baker>kid praised/clock/baker/- - agree 25
+A 25,12,19,50,10,22,40,5,46,20,29;-25,23,28,50,17,27,40,5,45,15,26;17,19,35,50,10,26,40,5,45,30,7;9,11,30,50,18,11,40,5,45,16,14;23,15,26,27,10,15,40,5,45,8,7;21,30,30,6,50,21,40,5,61,26,24;10,6,21,20,50,9,40,5,45,51,13;10,18,12,11,50,22,21,5,45,17,6;26,34,13,22,50,6,9,40,45,21,14;22,6,27,8,50,55,22,40,5,21,10;29,16,29,29,50,27,45,40,5,45,26;19,21,19,6,50,24,19,40,5,47,13
+P |||
+W cafe apology/baker/clock/- cafe:doubt
+W granny praised/baker/clock/- granny:believe,baker:self,clock:again,post:doubt,fisher:agree,teacher:doubt,kid:believe,pharma:believe
+t 17.5 square florist>baker praised/clock/baker/- - agree 35
+t 17.5 square teacher>granny apology/clock/baker/- - believe 36
+t 17.5 square pharma>kid apology/clock/baker/- - doubt 37
+t 18 square inn>granny praised/baker/clock/- - agree 38
+t 18 square kid>clock secret/baker/clock/- blur believe 39
+t 18 square baker>pharma gift/clock/baker/- escalate doubt 40
+t 18.5 square kid>florist likes/clock/baker/- escalate doubt 41
+t 18.5 square baker>teacher praised/clock/baker/- - believe 42
+t 18.5 square post>inn praised/clock/baker/- - believe 43
+t 19 square baker>mayor likes/clock/baker/- escalate believe 44
+t 19 square granny>fisher secret/baker/clock/- blur believe 45
+t 19 square post>teacher praised/clock/baker/- - agree 46
+t 19.5 square mayor>fisher likes/baker/clock/- swap believe 47
+t 19.5 square florist>cafe likes/clock/baker/- - doubt 48
+t 19.5 square inn>pharma praised/clock/baker/- - doubt 49
+t 19.5 square granny>teacher gift/clock/baker/- escalate doubt 50
+A 45,12,20,50,10,22,40,5,46,20,29;-25,23,28,50,17,27,40,6,45,15,26;17,19,35,50,10,26,40,5,45,30,7;9,11,30,50,18,11,40,5,45,16,14;24,15,26,27,10,15,40,5,45,8,7;21,30,30,6,50,21,40,5,61,26,24;12,6,21,20,51,9,40,5,46,51,13;11,22,12,11,50,22,21,5,45,17,6;29,34,13,22,50,6,9,40,45,21,14;27,6,27,8,50,55,22,41,5,22,10;29,19,30,29,50,27,45,40,5,45,26;22,21,19,6,50,24,19,40,5,47,13
+P |||
+R 1 10 2 false 51
+D 2 protest mayor - park kid market
+W kid demolish/mayor/-/park kid:believe,teacher:doubt
+W granny demolish/mayor/-/park granny:doubt
+t 8.5 school kid>teacher demolish/mayor/-/park - believe 3
+t 9.5 school teacher>kid demolish/mayor/-/park - agree 4
+A 43,11,19,48,10,21,38,5,44,19,28;-24,22,27,48,16,26,38,6,43,14,25;16,18,33,48,10,25,38,5,43,29,7;9,10,29,48,17,10,38,5,43,15,13;23,14,25,26,10,14,38,5,43,8,7;20,29,29,6,48,20,38,5,58,25,23;11,6,20,19,48,9,38,5,44,48,12;10,21,11,10,30,21,20,6,43,16,6;28,32,12,21,19,6,9,39,43,20,13;26,6,26,8,48,52,21,39,5,21,10;28,18,29,28,48,26,43,38,5,43,25;21,20,18,6,48,23,18,38,5,45,12
+P park:kid,teacher|||
+W cafe demolish/mayor/-/park cafe:doubt,baker:believe,post:doubt,florist:believe,teacher:again
+W kid demolish/mayor/-/park kid:again
+t 12 cafe baker>teacher demolish/mayor/-/school shift believe 11
+t 12.5 cafe post>teacher demolish/mayor/-/park - agree 12
+t 13.5 hall post>mayor demolish/mayor/-/park - self 13
+t 14 school teacher>kid demolish/mayor/-/school - doubt 14
+t 14 cafe cafe>granny demolish/mayor/-/park - believe 15
+e protest 14 park mayor - park kid,teacher,baker,florist,granny
+t 14.5 park teacher>florist demolish/mayor/-/park - agree 16
+t 14.5 park kid>mayor demolish/mayor/-/dock shift self 17
+t 15 park teacher>granny demolish/mayor/-/school - believe 18
+t 15 park florist>baker demolish/mayor/-/park - agree 19
+t 15 park kid>mayor demolish/mayor/-/school shift self 20
+t 15 pharmacy post>pharma demolish/mayor/-/park - doubt 21
+t 15.5 park florist>teacher demolish/mayor/-/park - agree 22
+t 15.5 pharmacy pharma>post demolish/mayor/-/park - believe 23
+t 16 park granny>florist demolish/mayor/-/square shift doubt 24
+t 16 park kid>teacher demolish/mayor/-/bakery shift doubt 25
+t 16.5 park granny>baker demolish/mayor/-/park - agree 26
+t 16.5 park kid>florist demolish/mayor/-/square shift believe 27
+A 43,11,20,13,10,21,38,5,44,19,28;-24,22,27,48,16,26,38,6,43,14,25;16,18,33,30,10,25,38,5,43,29,8;9,10,29,13,17,10,39,6,43,15,13;23,14,25,26,10,14,38,5,43,8,7;20,29,29,6,48,20,38,5,58,25,23;11,6,20,19,48,9,38,5,44,48,12;11,21,11,10,6,21,20,6,43,16,6;28,32,12,21,19,6,9,39,43,20,13;26,6,26,8,12,53,21,40,5,21,10;28,18,29,28,48,26,43,38,5,43,25;21,20,18,6,48,23,18,38,5,45,12
+P park:kid,teacher,baker,florist,granny,post school:teacher,granny|||park
+W teacher demolish/mayor/-/park teacher:again,baker:again,clock:believe,post:again,fisher:believe,kid:again,granny:again,pharma:doubt
+W cafe demolish/mayor/-/park cafe:again
+t 17 park granny>florist demolish/mayor/-/square shift again 37
+t 17 park baker>mayor demolish/mayor/-/park - self 38
+t 17 square post>clock demolish/mayor/-/park - agree 39
+t 17.5 park florist>teacher demolish/mayor/-/square - believe 40
+t 17.5 park granny>kid demolish/mayor/-/park - agree 41
+t 18 park kid>florist demolish/mayor/-/bakery shift believe 42
+t 18 park baker>granny demolish/mayor/-/park - agree 43
+t 18 square pharma>clock demolish/mayor/-/park - agree 44
+t 18 square post>cafe demolish/mayor/-/park - doubt 45
+t 18.5 park granny>kid demolish/mayor/-/school - believe 46
+t 18.5 park baker>florist demolish/mayor/-/school shift believe 47
+t 18.5 square cafe>fisher demolish/mayor/-/park - agree 48
+t 19 park baker>kid demolish/mayor/-/park - agree 49
+t 19 park florist>teacher demolish/mayor/-/bakery - doubt 50
+t 19 park granny>mayor demolish/mayor/-/park shift self 51
+t 19 square cafe>pharma demolish/mayor/-/park - believe 52
+t 19 square fisher>inn demolish/mayor/-/dock shift doubt 53
+t 19.5 square inn>fisher demolish/mayor/-/dock - believe 54
+t 19.5 square cafe>clock demolish/mayor/-/park - agree 55
+A 43,11,20,13,10,21,38,5,44,19,28;-24,23,27,36,16,26,38,6,43,14,25;16,18,33,30,10,25,38,5,43,29,8;10,10,29,-11,17,10,39,7,43,15,13;23,14,25,26,10,14,38,5,43,8,7;20,29,29,6,48,20,38,5,58,25,23;11,6,20,19,1,10,38,5,44,49,12;11,21,11,11,0,21,20,6,43,16,6;28,32,12,21,-5,6,9,39,44,20,13;26,6,26,8,6,53,21,40,5,21,10;28,18,29,28,48,26,43,38,5,43,25;21,20,18,6,42,24,18,38,5,45,12
+P park:kid,teacher,baker,florist,granny,post,fisher school:teacher,granny,kid,florist dock:fisher|||park
+R 2 11 2 true 56
+D 3 date cafe granny - pharma traveler
+W cafe likes/granny/cafe/- cafe:believe
+W granny gift/cafe/granny/- granny:doubt
+t 10 bakery granny>baker gift/cafe/granny/- - doubt 2
+t 10 cafe cafe>mayor engaged/granny/cafe/- escalate doubt 3
+t 10.5 cafe mayor>cafe engaged/granny/cafe/- - doubt 4
+A 41,10,19,12,10,20,36,5,42,18,27;-23,22,26,34,15,25,36,6,41,13,24;15,17,31,29,10,24,36,5,41,28,8;10,10,28,-10,16,10,37,7,41,14,12;22,13,24,25,10,13,36,5,41,8,7;19,28,28,6,46,19,36,5,77,24,22;10,6,19,18,1,10,36,5,42,47,11;10,20,10,10,0,20,19,6,41,15,6;27,30,11,20,-5,6,9,37,42,19,12;25,6,25,8,6,50,20,38,5,20,10;27,17,28,27,46,25,41,36,5,41,24;20,19,17,6,40,23,17,36,5,43,11
+P |||park
+W granny likes/cafe/granny/- granny:doubt
+W cafe gift/granny/cafe/- cafe:believe,baker:believe,post:believe,florist:doubt,teacher:believe
+t 12 cafe post>teacher likes/granny/cafe/- escalate doubt 11
+t 12.5 cafe baker>cafe gift/cafe/granny/- - self 12
+t 12.5 cafe post>florist gift/granny/cafe/- - believe 13
+t 13 pharmacy granny>pharma likes/cafe/granny/- - believe 14
+t 13.5 hall mayor>post engaged/granny/cafe/- - believe 15
+t 13.5 school teacher>kid likes/granny/cafe/- - believe 16
+e date 14 cafe cafe granny - 
+t 14.5 school kid>post likes/granny/cafe/- - believe 17
+t 14.5 cafe granny>cafe engaged/cafe/granny/- escalate self 18
+t 15 pharmacy post>pharma likes/granny/cafe/- - doubt 19
+t 15 park mayor>kid engaged/granny/cafe/- - believe 20
+t 15.5 park kid>mayor engaged/granny/cafe/- - believe 21
+t 15.5 cafe cafe>granny gift/granny/cafe/- - self 22
+t 16 bakery baker>kid gift/granny/cafe/- - doubt 23
+t 16.5 pharmacy teacher>pharma gift/granny/cafe/- - believe 24
+A 41,10,19,12,10,20,36,5,42,18,27;-23,22,26,34,15,25,36,6,41,13,24;15,17,31,30,10,24,36,6,41,28,8;10,10,29,-10,16,10,37,7,41,14,12;22,13,24,25,10,13,36,6,41,8,7;19,28,28,6,46,19,36,5,100,24,22;10,6,19,18,1,10,36,5,42,47,11;10,20,10,10,0,20,19,6,41,15,6;27,30,11,20,-4,6,9,38,42,19,12;25,6,25,8,6,58,20,38,5,20,10;27,17,28,27,46,25,41,36,5,41,24;20,19,17,6,40,23,17,37,5,44,11
+P ||cafe+granny|park
+W cafe likes/granny/cafe/- cafe:again
+W granny gift/cafe/granny/- granny:again,baker:believe,clock:believe,post:believe,fisher:believe,teacher:doubt,kid:believe,pharma:believe
+t 17 square kid>teacher engaged/granny/baker/- shift doubt 34
+t 17 square baker>granny gift/cafe/granny/- - believe 35
+t 17 square clock>pharma gift/cafe/granny/- - agree 36
+t 17 square post>fisher gift/granny/cafe/- swap believe 37
+t 17.5 square post>florist secret/granny/cafe/- blur doubt 38
+t 17.5 square clock>fisher gift/cafe/granny/- - agree 39
+t 17.5 square kid>granny secret/cafe/granny/- blur believe 40
+t 17.5 square pharma>teacher gift/cafe/granny/- - doubt 41
+t 18 square cafe>pharma likes/granny/cafe/- - believe 42
+t 18 square baker>teacher likes/granny/cafe/- escalate believe 43
+t 18.5 square post>kid likes/granny/cafe/- - agree 44
+t 18.5 square cafe>granny likes/granny/cafe/- - self 45
+t 19 square post>florist likes/granny/cafe/- - doubt 46
+t 19.5 square florist>granny secret/granny/cafe/- - self 47
+t 19.5 square pharma>teacher gift/granny/cafe/- - agree 48
+t 19.5 square kid>inn likes/cafe/granny/- swap doubt 49
+t 19.5 square cafe>clock engaged/granny/cafe/- - believe 50
+t 19.5 square mayor>baker engaged/granny/cafe/- - doubt 51
+A 41,10,19,12,10,20,36,5,42,18,27;-23,22,26,34,16,25,36,6,41,13,24;15,17,31,30,10,24,36,6,41,28,8;10,10,29,-10,16,10,37,7,41,14,12;22,13,24,25,10,13,36,6,41,8,7;19,28,28,6,46,19,36,5,100,24,22;10,7,20,18,1,10,36,5,42,47,11;11,20,10,10,0,20,19,6,41,15,7;27,30,12,20,-4,6,9,38,42,19,12;26,6,25,8,6,81,20,38,6,20,10;27,17,28,27,46,25,41,36,5,41,24;20,20,17,6,40,24,17,37,5,44,11
+P ||cafe+granny|park
+R 2 10 2 true 52
+D 4 protest mayor - dock kid clockslow
+W teacher demolish/mayor/-/dock teacher:believe,kid:doubt
+W cafe demolish/mayor/-/dock cafe:believe
+t 8 school kid>teacher demolish/mayor/-/park shift believe 3
+t 8.5 school teacher>kid demolish/mayor/-/park - believe 4
+t 10 cafe cafe>mayor demolish/mayor/-/dock - self 5
+t 11 school teacher>kid demolish/mayor/-/dock - believe 6
+A 39,10,18,11,10,19,34,5,40,17,26;-22,21,25,32,15,24,34,6,39,12,23;14,16,29,29,10,23,34,6,39,27,8;10,10,28,-9,15,10,35,7,39,13,11;21,12,23,24,10,12,34,6,39,8,7;18,27,27,6,26,18,34,5,95,23,21;10,7,19,17,1,10,34,5,40,45,10;10,19,10,10,-24,19,18,7,39,14,7;26,29,11,19,-40,6,9,38,40,18,11;25,6,24,8,6,77,19,36,6,19,10;26,16,27,26,44,24,39,34,5,39,23;19,19,16,6,38,23,16,35,5,42,10
+P dock:cafe,kid park:teacher,kid||cafe+granny|park
+W granny demolish/mayor/-/dock granny:believe
+W teacher demolish/mayor/-/dock teacher:again,baker:believe,post:believe,florist:believe,cafe:again
+t 12 cafe baker>post demolish/mayor/-/dock - agree 13
+t 12 cafe cafe>teacher demolish/mayor/-/dock - agree 14
+t 12.5 cafe cafe>baker demolish/mayor/-/dock - agree 15
+t 12.5 cafe florist>teacher demolish/mayor/-/square shift doubt 16
+t 13.5 hall post>mayor demolish/mayor/-/dock - self 17
+t 13.5 pharmacy granny>pharma demolish/mayor/-/dock - believe 18
+t 14 cafe granny>cafe demolish/mayor/-/bakery shift believe 19
+t 14.5 school kid>teacher demolish/mayor/-/school shift doubt 20
+t 14.5 cafe cafe>granny demolish/mayor/-/park shift believe 21
+t 16 bakery kid>baker demolish/mayor/-/square shift believe 22
+t 16.5 bakery kid>baker demolish/mayor/-/cafe shift doubt 23
+A 39,10,18,-5,11,19,34,6,40,17,26;-22,21,25,32,15,24,34,6,39,12,23;15,16,29,0,10,23,34,6,39,27,8;10,10,28,-15,15,10,35,7,39,13,11;21,12,23,24,10,12,34,6,39,8,7;18,27,27,6,8,18,34,5,96,23,21;10,7,19,17,1,10,34,5,40,45,10;10,19,10,10,-28,20,18,7,39,14,7;26,29,11,19,-40,6,9,38,40,18,11;25,6,24,8,-30,78,19,36,6,19,10;26,16,27,26,44,24,39,34,5,39,23;19,19,16,6,32,23,16,35,5,43,10
+P dock:cafe,kid,granny,post park:teacher,kid,granny bakery:cafe||cafe+granny|park
+W kid demolish/mayor/-/dock kid:again,baker:again,clock:doubt,post:again,fisher:believe,teacher:again,granny:again,pharma:agree
+W granny demolish/mayor/-/dock granny:again,baker:again,clock:again,post:again,fisher:again,teacher:again,kid:again,pharma:again
+t 17 square kid>granny demolish/mayor/-/school shift doubt 40
+e protest 17 dock mayor - dock cafe,kid,granny,post,fisher
+t 17.5 square florist>clock demolish/mayor/-/dock - believe 41
+t 17.5 dock kid>granny demolish/mayor/-/bakery shift believe 42
+t 17.5 dock fisher>post demolish/mayor/-/dock - agree 43
+t 17.5 dock cafe>mayor demolish/mayor/-/park shift self 44
+t 18 square baker>florist demolish/mayor/-/square - doubt 45
+t 18 dock granny>cafe demolish/mayor/-/bakery - again 46
+t 18 dock kid>fisher demolish/mayor/-/square shift believe 47
+t 18.5 square florist>inn demolish/mayor/-/dock - believe 48
+t 18.5 dock post>granny demolish/mayor/-/dock - agree 49
+t 18.5 dock fisher>kid demolish/mayor/-/cafe shift believe 50
+t 19 square baker>clock demolish/mayor/-/bakery shift doubt 51
+t 19 square pharma>florist demolish/mayor/-/cafe shift doubt 52
+t 19 square teacher>inn demolish/mayor/-/school - believe 53
+t 19 dock fisher>granny demolish/mayor/-/cafe shift doubt 54
+t 19 dock cafe>kid demolish/mayor/-/square shift believe 55
+t 19.5 square baker>inn demolish/mayor/-/cafe - believe 56
+t 19.5 dock cafe>post demolish/mayor/-/square shift doubt 57
+t 19.5 dock fisher>kid demolish/mayor/-/park shift agree 58
+A 39,10,18,-5,11,19,34,6,40,17,26;-22,21,26,26,15,24,34,6,39,12,23;15,16,29,-6,10,23,34,6,39,27,8;10,10,28,-15,15,10,35,7,39,13,11;21,12,23,24,10,12,34,6,39,8,7;18,27,27,6,8,18,34,5,96,23,21;10,7,19,17,-23,10,34,6,40,45,10;10,19,10,10,-28,20,18,7,39,14,7;26,29,11,19,-63,7,11,38,40,18,11;25,6,25,8,-59,78,19,36,7,19,10;27,16,27,27,14,24,39,35,5,39,23;19,19,16,6,28,23,16,35,5,43,10
+P dock:cafe,kid,granny,post,fisher,inn park:teacher,kid,granny bakery:cafe,granny||cafe+granny|park,dock
+R 2 8 3 true 59
+# seed 123456789
+T 123456789 -40,29,25,50,13,24,40,5,45,9,14;-45,19,9,50,25,20,40,5,45,6,15;24,16,35,50,12,19,40,5,45,16,12;12,9,30,50,9,24,40,5,45,12,9;22,14,9,24,26,24,40,5,45,11,19;13,19,11,15,50,10,40,5,60,16,9;9,26,28,27,50,20,40,5,45,50,18;25,28,21,6,50,27,17,5,45,11,24;25,25,29,15,50,30,21,40,45,15,11;28,14,6,16,50,55,28,40,5,28,22;7,5,15,24,50,28,45,40,5,45,12;19,29,27,18,50,13,12,40,5,45,25
+D 1 reconcile baker clock - granny soldout
+W baker apology/clock/baker/- baker:believe
+W clock praised/baker/clock/- clock:doubt
+t 9 bakery baker>post apology/clock/baker/- - believe 2
+t 9.5 bakery post>baker apology/clock/baker/- - agree 3
+t 10 clock clock>post praised/baker/clock/- - doubt 4
+t 10.5 clock post>clock apology/clock/baker/- - self 5
+A 18,30,25,50,13,24,40,5,45,9,14;-29,19,9,50,25,20,40,5,45,6,15;25,16,35,50,12,19,40,5,45,16,12;12,9,30,50,9,24,40,5,45,12,9;22,14,9,24,26,24,40,5,45,11,19;13,19,11,15,50,10,40,5,60,16,9;9,26,28,27,50,20,40,5,45,50,18;25,28,21,6,50,27,17,5,45,11,24;25,25,29,15,50,30,21,40,45,15,11;28,14,6,16,50,55,28,40,5,28,22;7,5,15,24,50,28,45,40,5,45,12;19,29,27,18,50,13,12,40,5,45,25
+P |||
+W granny apology/baker/clock/- granny:doubt
+W baker praised/clock/baker/- baker:believe,post:believe,florist:believe,cafe:believe,teacher:doubt
+t 12 cafe baker>teacher praised/clock/baker/- - believe 12
+t 12 cafe florist>post praised/clock/baker/- - agree 13
+t 12.5 cafe teacher>baker praised/clock/baker/- - agree 14
+t 12.5 inn clock>pharma praised/baker/clock/- - believe 15
+t 13 hall post>mayor praised/baker/clock/- - doubt 16
+t 13 pharmacy granny>pharma apology/baker/clock/- - doubt 17
+t 14.5 cafe cafe>granny praised/clock/baker/- - believe 18
+t 16 bakery baker>kid apology/clock/baker/- - believe 19
+t 16.5 pharmacy pharma>teacher praised/baker/clock/- - doubt 20
+A 50,30,25,50,13,24,41,5,45,9,14;-29,19,9,50,25,20,40,5,45,6,15;25,21,36,50,12,19,40,5,45,16,12;12,12,30,50,9,24,40,5,45,12,9;22,14,9,24,26,24,40,5,45,11,19;13,22,11,15,50,10,40,5,60,16,9;9,26,28,27,50,20,40,5,45,50,18;26,31,21,6,50,27,17,5,45,11,24;26,25,29,15,50,30,21,40,45,15,11;28,17,6,16,50,56,28,40,5,28,22;7,5,15,24,50,28,45,40,5,45,12;22,30,27,18,50,13,12,40,5,45,25
+P |||
+W cafe apology/baker/clock/- cafe:doubt
+W granny praised/baker/clock/- granny:believe,baker:self,clock:again,post:doubt,fisher:doubt,teacher:doubt,kid:doubt,pharma:agree
+t 17 square baker>fisher secret/clock/baker/- blur doubt 30
+t 17 square kid>teacher apology/clock/baker/- - believe 31
+t 17.5 square baker>pharma apology/clock/baker/- - believe 32
+t 17.5 square fisher>teacher likes/baker/clock/- escalate doubt 33
+t 17.5 square florist>kid praised/clock/baker/- - believe 34
+t 18 square baker>cafe secret/clock/baker/- blur believe 35
+t 18 square clock>mayor praised/baker/clock/- - doubt 36
+t 18 square granny>post praised/baker/cafe/- shift believe 37
+t 18.5 square pharma>cafe apology/clock/baker/- - doubt 38
+t 18.5 square teacher>florist apology/clock/baker/- - believe 39
+t 18.5 square baker>fisher apology/clock/baker/- - believe 40
+t 18.5 square mayor>clock praised/baker/clock/- - believe 41
+t 19 square granny>cafe praised/clock/cafe/- shift believe 42
+t 19 square mayor>teacher praised/baker/clock/- - believe 43
+t 19 square post>kid praised/clock/baker/- - agree 44
+t 19.5 square fisher>baker apology/baker/clock/- swap self 45
+t 19.5 square cafe>teacher likes/clock/cafe/- escalate doubt 46
+t 19.5 square kid>clock praised/clock/teacher/- shift self 47
+t 19.5 square post>florist praised/baker/cafe/- - believe 48
+t 19.5 square granny>pharma likes/baker/clock/- escalate believe 49
+A 74,30,25,50,13,24,41,5,45,9,14;-9,19,9,51,25,20,48,5,45,6,15;28,21,36,50,12,19,40,5,46,16,12;15,12,31,50,9,24,41,5,45,12,9;22,14,9,24,26,24,40,5,45,11,19;14,42,11,15,50,10,40,5,61,16,9;10,26,28,27,50,20,40,5,45,50,18;29,31,21,6,51,27,17,6,45,11,24;26,30,30,16,50,30,21,40,45,15,11;31,17,6,16,50,56,28,40,5,28,22;7,5,15,24,50,28,45,40,5,45,12;25,30,27,18,50,13,12,40,5,46,25
+P |||
+R 0 9 2 false 50
+D 2 protest mayor - school kid traveler
+W kid demolish/mayor/-/school kid:doubt,teacher:doubt
+W granny demolish/mayor/-/school granny:doubt
+t 8 school teacher>kid demolish/mayor/-/school - believe 3
+t 8.5 school kid>teacher demolish/mayor/-/park shift doubt 4
+t 9.5 school teacher>kid demolish/mayor/-/park - believe 5
+t 10 bakery granny>baker demolish/mayor/-/school - believe 6
+t 10.5 bakery baker>granny demolish/mayor/-/school - doubt 7
+t 11 school kid>teacher demolish/mayor/-/school shift doubt 8
+A 70,29,24,30,12,23,39,5,44,9,13;-9,18,9,48,24,19,46,5,43,6,14;27,20,34,48,11,18,38,5,44,15,11;14,11,29,48,9,23,39,5,43,11,9;21,13,9,23,25,23,38,5,43,10,18;13,40,10,14,48,10,38,5,58,15,9;10,25,27,26,48,19,38,5,43,48,17;28,29,20,6,48,26,16,6,43,10,23;25,29,29,15,12,29,20,40,43,14,10;29,16,6,15,48,53,27,38,5,27,21;7,5,14,23,48,27,43,38,5,43,11;24,29,26,17,48,12,11,38,5,44,24
+P school:kid,baker park:kid|||
+W cafe demolish/mayor/-/school cafe:believe,baker:agree,post:doubt,florist:doubt,teacher:again
+W kid demolish/mayor/-/school kid:again
+t 12 cafe teacher>baker demolish/mayor/-/school - agree 15
+t 12 cafe cafe>post demolish/mayor/-/school - believe 16
+t 12.5 cafe cafe>baker demolish/mayor/-/school - agree 17
+t 13 pharmacy granny>pharma demolish/mayor/-/cafe shift doubt 18
+t 13.5 hall post>mayor demolish/mayor/-/dock shift self 19
+t 13.5 pharmacy pharma>granny demolish/mayor/-/cafe - believe 20
+t 14 school teacher>post demolish/mayor/-/park - doubt 21
+t 14 cafe granny>cafe demolish/mayor/-/cafe - believe 22
+t 14.5 cafe cafe>granny demolish/mayor/-/square shift doubt 23
+t 15 pharmacy post>pharma demolish/mayor/-/park - doubt 24
+t 15.5 pharmacy post>clock demolish/mayor/-/park - doubt 25
+t 15.5 park kid>mayor demolish/mayor/-/square shift self 26
+t 15.5 cafe granny>cafe demolish/mayor/-/dock shift doubt 27
+t 16.5 bakery baker>kid demolish/mayor/-/school - agree 28
+A 70,29,24,13,12,23,39,5,44,9,13;-9,18,9,48,24,19,46,5,43,6,14;27,20,34,42,12,18,38,5,44,15,11;14,11,29,48,9,23,39,5,43,11,9;21,13,9,23,25,23,38,5,43,10,18;13,40,10,14,36,10,38,5,59,15,9;10,25,27,26,48,19,38,5,43,48,17;28,29,20,6,48,26,16,6,43,10,23;25,29,29,15,6,29,20,40,43,14,10;29,16,6,15,42,53,27,38,5,27,22;7,5,14,23,48,27,43,38,5,43,11;24,29,26,17,48,12,11,38,5,44,24
+P school:kid,baker park:kid|||
+W teacher demolish/mayor/-/school teacher:again,baker:again,clock:doubt,post:again,fisher:believe,kid:again,granny:again,pharma:doubt
+W cafe demolish/mayor/-/school cafe:again
+t 17 square post>pharma demolish/mayor/-/school - believe 38
+t 17 square kid>clock demolish/mayor/-/cafe shift doubt 39
+t 17 square baker>teacher demolish/mayor/-/school - doubt 40
+t 17.5 square baker>clock demolish/mayor/-/square shift doubt 41
+t 17.5 square florist>teacher demolish/mayor/-/school - believe 42
+t 17.5 square post>kid demolish/mayor/-/school - agree 43
+t 18 square post>cafe demolish/mayor/-/school - agree 44
+t 18 square fisher>granny demolish/mayor/-/dock shift doubt 45
+t 18.5 square cafe>baker demolish/mayor/-/cafe - doubt 46
+t 18.5 square kid>granny demolish/mayor/-/cafe shift agree 47
+t 19 square baker>post demolish/mayor/-/cafe - believe 48
+t 19 square clock>granny demolish/mayor/-/square - doubt 49
+t 19 square fisher>teacher demolish/mayor/-/school - agree 50
+t 19.5 square cafe>inn demolish/mayor/-/dock shift doubt 51
+t 19.5 square kid>granny demolish/mayor/-/school - believe 52
+t 19.5 square post>florist demolish/mayor/-/cafe - doubt 53
+t 19.5 square pharma>fisher demolish/mayor/-/school - agree 54
+e protest 19.5 school mayor - school kid,baker,pharma,teacher,granny
+A 70,29,24,13,12,23,39,5,44,9,13;-9,18,9,48,24,19,46,5,43,6,14;28,20,34,36,12,18,38,5,44,15,11;14,11,29,48,9,23,39,5,43,11,9;21,13,9,23,25,23,38,5,43,10,18;13,40,11,14,32,10,38,5,59,15,9;10,25,27,26,38,19,38,5,43,48,18;28,29,20,7,30,26,16,6,43,10,23;25,29,29,15,6,29,20,40,43,14,10;29,16,6,15,20,53,27,38,7,27,22;7,5,14,23,48,27,43,38,5,43,11;24,29,27,17,30,12,11,38,5,44,24
+P school:kid,baker,pharma,teacher,granny park:kid|||school
+R 2 10 2 true 55
+D 3 date clock teacher - baker rain
+W cafe likes/clock/teacher/- cafe:believe
+W granny gift/clock/teacher/- granny:believe
+t 10.5 bakery granny>baker gift/clock/teacher/- - doubt 2
+t 11 bakery baker>fisher gift/clock/teacher/- - believe 3
+t 11.5 bakery fisher>baker secret/clock/teacher/- blur believe 4
+A 67,28,23,12,11,23,37,5,42,9,12;-9,17,9,46,23,18,44,5,41,6,13;27,19,32,34,11,17,36,5,42,14,10;13,10,28,46,9,22,37,5,41,10,9;20,12,9,22,24,22,36,5,41,10,17;12,38,10,13,30,10,36,5,56,14,9;11,24,26,25,36,18,36,5,41,46,17;27,28,19,7,29,25,15,6,41,10,22;24,28,28,14,6,28,19,38,41,13,10;28,15,6,14,19,50,26,36,7,26,21;7,5,13,22,46,26,41,36,5,41,10;23,28,26,16,29,11,10,36,5,42,23
+P |||school
+W teacher likes/clock/teacher/- teacher:believe,baker:doubt,post:believe,florist:believe,cafe:again
+W cafe gift/clock/teacher/- cafe:believe,baker:doubt,post:doubt,florist:believe,teacher:believe
+t 12 cafe teacher>florist likes/clock/teacher/- - agree 15
+t 12 cafe cafe>baker gift/clock/teacher/- - believe 16
+t 13 pharmacy granny>pharma likes/clock/teacher/- escalate doubt 17
+t 14 cafe cafe>granny likes/clock/teacher/- - believe 18
+t 14.5 cafe granny>cafe likes/clock/teacher/- escalate agree 19
+t 15 cafe granny>cafe likes/clock/teacher/- - again 20
+t 16.5 bakery baker>kid likes/clock/teacher/- - doubt 21
+t 16.5 inn fisher>inn gift/clock/granny/- shift believe 22
+A 67,28,23,12,12,23,37,5,42,9,12;-9,17,9,46,23,18,44,5,41,6,13;27,19,32,34,11,17,36,5,42,14,10;13,10,28,46,9,22,38,5,41,10,9;20,12,9,22,24,22,36,5,41,10,17;12,38,10,13,30,10,36,5,57,14,9;11,24,26,25,36,18,36,5,41,46,17;27,65,19,7,29,25,15,6,41,10,22;24,28,28,14,6,28,19,38,41,13,10;28,15,6,14,19,51,26,36,7,26,21;7,5,13,22,46,26,42,36,5,41,10;23,28,26,16,29,11,10,36,5,42,23
+P |||school
+W clock likes/teacher/clock/- clock:doubt,baker:doubt,post:believe,fisher:believe,teacher:self,kid:believe,granny:believe,pharma:doubt
+W teacher gift/clock/teacher/- teacher:again,baker:again,clock:self,post:again,fisher:agree,kid:doubt,granny:again,pharma:doubt
+t 17 square post>teacher likes/clock/teacher/- - agree 39
+t 17 square granny>fisher likes/teacher/clock/- - agree 40
+e date 17 square clock teacher - 
+t 17.5 square baker>florist secret/teacher/clock/- swap doubt 41
+t 17.5 square fisher>granny gift/clock/teacher/- - agree 42
+t 17.5 square kid>teacher gift/clock/teacher/- - agree 43
+t 18 square post>teacher gift/clock/teacher/- - agree 44
+t 18 square granny>mayor gift/clock/fisher/- shift believe 45
+t 18 square cafe>clock gift/clock/teacher/- - self 46
+t 18 square kid>inn likes/clock/teacher/- - believe 47
+t 18 square baker>fisher secret/clock/teacher/- - doubt 48
+t 18.5 square cafe>teacher likes/clock/teacher/- - agree 49
+t 18.5 square florist>baker secret/teacher/clock/- - believe 50
+t 18.5 square post>granny likes/clock/teacher/- - agree 51
+t 18.5 square fisher>mayor likes/teacher/clock/- - believe 52
+t 19 square fisher>post secret/clock/granny/- shift doubt 53
+t 19 square cafe>florist likes/clock/teacher/- - agree 54
+t 19 square mayor>clock gift/clock/fisher/- - self 55
+t 19 square granny>inn engaged/clock/teacher/- escalate doubt 56
+t 19.5 square florist>clock gift/teacher/clock/- swap believe 57
+t 19.5 square cafe>pharma gift/clock/teacher/- - doubt 58
+t 19.5 square baker>granny secret/teacher/clock/- - doubt 59
+t 19.5 square kid>inn likes/clock/teacher/- escalate again 60
+A 67,28,24,12,12,23,37,5,42,9,12;-9,17,10,46,23,26,75,5,41,6,13;27,19,32,34,11,17,36,5,42,14,10;13,10,28,46,9,22,38,5,41,10,9;20,12,9,22,24,23,36,5,42,10,17;12,38,10,13,30,10,36,5,57,14,9;11,24,26,25,36,18,36,5,42,46,17;27,100,20,7,29,25,15,7,41,10,22;24,28,28,14,6,28,19,38,41,13,10;28,15,7,14,19,51,27,36,7,26,21;7,5,13,22,46,26,42,36,6,41,10;23,28,26,16,29,11,10,36,5,42,23
+P ||clock+teacher|school
+R 2 10 2 true 61
+D 4 protest mayor - bakery kid catfish
+W teacher demolish/mayor/-/bakery teacher:believe,kid:doubt
+W cafe demolish/mayor/-/bakery cafe:believe
+t 8 school kid>teacher demolish/mayor/-/school shift doubt 3
+t 9.5 school teacher>kid demolish/mayor/-/bakery - believe 4
+t 10 cafe cafe>mayor demolish/mayor/-/bakery - self 5
+A 64,27,23,11,11,22,35,5,40,9,11;-9,16,10,44,22,25,71,5,39,6,12;26,18,30,32,10,16,34,5,40,13,10;12,10,27,44,9,21,36,5,39,10,9;19,11,9,21,23,22,34,5,40,10,16;11,36,10,12,11,10,34,5,54,13,9;10,23,25,24,34,17,34,5,40,44,16;26,95,19,7,10,24,14,7,39,10,21;23,27,27,13,-12,27,18,37,39,12,10;27,14,7,13,18,48,26,34,7,25,20;7,5,12,21,44,25,40,34,6,39,10;22,27,25,15,28,10,10,34,5,40,22
+P bakery:teacher,cafe,kid||clock+teacher|school
+W granny demolish/mayor/-/bakery granny:believe
+W teacher demolish/mayor/-/bakery teacher:again,baker:doubt,post:believe,florist:doubt,cafe:again
+t 12 cafe florist>teacher demolish/mayor/-/bakery - agree 12
+t 12 cafe baker>cafe demolish/mayor/-/bakery - agree 13
+e protest 12 bakery mayor - bakery teacher,cafe,kid,granny,post
+t 12.5 bakery kid>granny demolish/mayor/-/bakery - agree 14
+t 12.5 bakery post>teacher demolish/mayor/-/bakery - agree 15
+t 13 bakery post>baker demolish/mayor/-/cafe shift believe 16
+t 13 bakery cafe>teacher demolish/mayor/-/bakery - agree 17
+t 13 bakery kid>mayor demolish/mayor/-/dock shift self 18
+t 13.5 bakery teacher>baker demolish/mayor/-/bakery - believe 19
+t 13.5 bakery cafe>granny demolish/mayor/-/bakery - agree 20
+t 14 bakery cafe>kid demolish/mayor/-/bakery - agree 21
+t 14 bakery granny>teacher demolish/mayor/-/school shift doubt 22
+t 14 bakery post>mayor demolish/mayor/-/bakery - self 23
+t 14.5 bakery cafe>post demolish/mayor/-/bakery - agree 24
+t 14.5 bakery granny>kid demolish/mayor/-/bakery - agree 25
+t 15 bakery cafe>baker demolish/mayor/-/bakery - agree 26
+t 15 bakery granny>post demolish/mayor/-/bakery - agree 27
+t 15.5 bakery kid>cafe demolish/mayor/-/school shift doubt 28
+t 16 bakery kid>baker demolish/mayor/-/park shift believe 29
+t 16.5 bakery cafe>granny demolish/mayor/-/school - doubt 30
+t 16.5 bakery kid>post demolish/mayor/-/square shift doubt 31
+A 64,28,23,-37,11,22,36,6,40,9,11;-9,16,10,44,22,25,71,5,39,6,12;26,18,30,-3,11,16,34,5,40,13,10;12,10,27,44,9,21,36,5,39,10,9;19,11,9,21,23,22,34,5,40,10,16;12,36,10,12,0,10,34,5,54,13,9;10,23,25,24,34,17,34,5,40,44,16;26,95,19,8,-7,24,14,7,39,10,21;23,27,27,13,-18,27,18,37,39,12,10;27,14,7,13,-17,48,26,34,8,25,20;7,5,12,21,44,25,40,34,6,39,10;22,27,25,15,28,10,10,34,5,40,22
+P bakery:teacher,cafe,kid,granny,post,baker park:baker||clock+teacher|school,bakery
+W kid demolish/mayor/-/bakery kid:again,baker:again,clock:doubt,post:again,fisher:believe,teacher:again,granny:again,pharma:believe
+W granny demolish/mayor/-/bakery granny:again,baker:again,clock:again,post:again,fisher:again,teacher:again,kid:again,pharma:again
+t 17 square baker>pharma demolish/mayor/-/cafe - believe 48
+t 17 bakery post>cafe demolish/mayor/-/bakery - agree 49
+t 17 bakery granny>teacher demolish/mayor/-/bakery shift agree 50
+t 17.5 square clock>pharma demolish/mayor/-/bakery - agree 51
+t 17.5 square florist>fisher demolish/mayor/-/bakery - agree 52
+t 18 square baker>clock demolish/mayor/-/bakery - doubt 53
+t 18.5 square baker>florist demolish/mayor/-/dock shift believe 54
+t 18.5 square fisher>inn demolish/mayor/-/school shift doubt 55
+t 18.5 bakery teacher>granny demolish/mayor/-/bakery - agree 56
+t 19 square baker>inn demolish/mayor/-/cafe - doubt 57
+t 19.5 square baker>fisher demolish/mayor/-/park - believe 58
+t 19.5 square inn>florist demolish/mayor/-/school - doubt 59
+t 19.5 bakery post>granny demolish/mayor/-/bakery - agree 60
+t 19.5 bakery teacher>cafe demolish/mayor/-/bakery - agree 61
+A 64,28,23,-37,11,22,36,6,40,9,11;-9,16,10,44,22,25,71,5,39,6,12;26,18,30,-3,11,16,34,5,40,13,10;13,10,27,38,9,21,36,5,39,10,9;19,11,9,21,23,22,34,5,40,10,16;12,36,10,12,-6,10,34,5,54,13,9;11,23,25,25,-13,17,34,5,40,44,16;26,95,19,8,-7,24,14,7,39,10,21;23,27,27,13,-18,27,18,37,39,12,10;27,14,7,13,-17,48,26,34,8,25,20;7,5,12,21,44,25,40,34,6,39,10;23,28,25,15,12,10,10,34,5,40,22
+P bakery:teacher,cafe,kid,granny,post,baker,fisher park:baker,fisher||clock+teacher|school,bakery
+R 2 11 2 true 62
+# seed 987654321
+T 987654321 -40,8,5,50,21,14,40,5,45,19,29;-45,29,12,50,10,26,40,5,45,6,9;29,24,35,50,14,15,40,5,45,12,19;5,18,30,50,9,27,40,5,45,24,25;24,13,21,15,23,23,40,5,45,13,25;17,21,21,13,50,12,40,5,60,11,25;6,25,17,14,50,7,40,5,45,50,16;20,11,26,23,50,6,22,5,45,15,6;13,9,18,11,50,10,6,40,45,10,7;25,26,27,9,50,55,17,40,5,12,19;7,15,10,20,50,30,45,40,5,45,18;14,8,11,22,50,13,23,40,5,45,17
+D 1 reconcile baker clock - granny market
+W baker apology/clock/baker/- baker:doubt
+W clock praised/baker/clock/- clock:believe
+t 9.5 bakery baker>post apology/clock/baker/- - doubt 2
+t 10 bakery baker>granny gift/clock/baker/- escalate believe 3
+t 10 clock post>clock apology/clock/baker/- - self 4
+t 10.5 bakery granny>baker gift/baker/clock/- swap self 5
+t 11 bakery baker>fisher apology/clock/baker/- - doubt 6
+A -32,8,5,50,21,14,40,5,45,19,29;-9,29,12,50,10,26,40,5,45,6,9;29,24,35,50,14,15,40,5,45,12,19;5,18,30,50,9,27,40,5,45,24,25;24,13,21,15,23,23,40,5,45,13,25;17,21,21,13,50,12,40,5,60,11,25;6,25,17,14,50,7,40,5,45,50,16;20,11,26,23,50,6,22,5,45,15,6;13,9,18,11,50,10,6,40,45,10,7;26,26,27,9,50,55,17,40,5,12,19;7,15,10,20,50,30,45,40,5,45,18;14,8,11,22,50,13,23,40,5,45,17
+P |||
+W granny apology/baker/clock/- granny:believe
+W baker praised/clock/baker/- baker:doubt,post:believe,florist:doubt,cafe:believe,teacher:doubt
+t 12 cafe cafe>post praised/baker/clock/- swap believe 13
+t 12 cafe baker>teacher praised/clock/baker/- - doubt 14
+t 12.5 cafe cafe>baker praised/clock/baker/- - believe 15
+t 13 school teacher>kid praised/clock/baker/- - believe 16
+t 13.5 pharmacy granny>pharma apology/baker/clock/- - doubt 17
+t 14 school kid>post praised/clock/teacher/- shift believe 18
+t 14 cafe granny>cafe gift/clock/baker/- - believe 19
+t 14.5 school post>teacher praised/clock/teacher/- - doubt 20
+t 14.5 cafe granny>cafe apology/baker/clock/- - believe 21
+t 15 park kid>mayor likes/clock/baker/- escalate believe 22
+t 15 cafe cafe>granny apology/clock/baker/- swap doubt 23
+t 15.5 pharmacy post>pharma praised/clock/baker/- - doubt 24
+t 15.5 cafe cafe>granny gift/clock/baker/- - agree 25
+t 15.5 inn fisher>inn apology/clock/baker/- - believe 26
+t 16 bakery baker>kid praised/clock/baker/- - agree 27
+t 16 inn inn>fisher apology/clock/baker/- - believe 28
+t 16 pharmacy teacher>pharma praised/clock/baker/- - believe 29
+A -12,8,5,50,22,14,40,5,45,19,29;-9,29,12,50,10,26,40,5,45,6,9;32,30,35,50,15,15,40,6,45,12,19;5,18,30,50,9,27,40,5,45,24,25;24,13,21,15,23,23,40,6,45,13,25;17,24,21,13,50,12,40,5,62,11,25;6,25,17,14,50,7,40,5,45,51,16;20,11,26,23,50,6,22,5,45,15,6;14,14,18,11,50,10,6,41,45,10,7;26,26,27,9,50,56,17,40,5,12,19;7,15,10,20,50,30,46,40,5,45,18;14,11,11,22,50,13,23,41,5,45,17
+P |||
+W cafe apology/baker/clock/- cafe:agree
+W granny praised/baker/clock/- granny:doubt,baker:self,clock:again,post:agree,fisher:doubt,teacher:believe,kid:believe,pharma:believe
+t 17 square clock>teacher praised/baker/clock/- - agree 39
+t 17 square kid>fisher likes/baker/clock/- escalate doubt 40
+t 17 square granny>post gift/clock/baker/- - doubt 41
+t 17 square baker>pharma praised/clock/baker/- - agree 42
+t 17.5 square clock>kid praised/baker/clock/- - agree 43
+t 17.5 square teacher>fisher praised/baker/clock/- - believe 44
+t 17.5 square granny>pharma gift/clock/baker/- - doubt 45
+t 18 square cafe>pharma apology/baker/clock/- - believe 46
+t 18.5 square baker>pharma apology/clock/baker/- - doubt 47
+t 18.5 square cafe>fisher apology/baker/clock/- - doubt 48
+t 18.5 square kid>granny praised/clock/baker/- - believe 49
+t 19 square granny>pharma praised/baker/clock/- swap agree 50
+t 19 square cafe>post gift/clock/baker/- - believe 51
+t 19 square inn>teacher apology/clock/baker/- - believe 52
+t 19 square florist>clock praised/clock/baker/- - self 53
+t 19.5 square kid>clock praised/clock/baker/- - self 54
+A -4,8,5,50,22,14,40,5,45,19,29;7,29,12,50,10,26,40,5,45,6,9;34,30,35,50,16,15,40,6,45,12,19;5,18,30,50,9,27,40,5,45,24,25;24,13,21,15,23,23,40,6,45,13,25;17,24,21,13,50,12,40,5,62,11,25;9,25,17,14,50,7,41,5,45,51,16;25,12,26,23,50,6,22,5,45,16,6;19,15,18,11,50,10,6,41,45,10,7;26,29,27,9,50,56,17,40,6,12,19;7,15,10,20,50,30,46,40,5,45,18;19,12,11,22,50,14,23,41,5,46,17
+P |||
+R 1 10 2 false 55
+D 2 protest mayor - park kid clockslow
+W kid demolish/mayor/-/park kid:believe,teacher:believe
+W granny demolish/mayor/-/park granny:believe
+t 9 school kid>teacher demolish/mayor/-/cafe shift doubt 3
+t 10 bakery granny>baker demolish/mayor/-/cafe shift doubt 4
+t 10.5 bakery baker>granny demolish/mayor/-/cafe - doubt 5
+A -4,8,5,48,21,13,38,5,43,18,28;7,28,11,48,10,25,38,5,43,6,9;32,29,33,48,15,14,38,6,43,11,18;5,17,29,48,9,26,38,5,43,23,24;23,12,20,14,22,22,38,6,43,12,24;16,23,20,12,48,11,38,5,59,10,24;9,24,16,13,48,7,39,5,43,48,15;24,11,25,22,30,6,21,5,43,15,6;18,14,17,10,30,10,6,39,43,10,7;25,28,26,9,30,53,16,38,6,11,18;7,14,10,19,48,29,44,38,5,43,17;18,11,10,21,48,13,22,39,5,44,16
+P park:kid,teacher,granny|||
+W cafe demolish/mayor/-/park cafe:believe,baker:believe,post:believe,florist:doubt,teacher:again
+W kid demolish/mayor/-/park kid:again
+t 12 cafe post>florist demolish/mayor/-/park - doubt 12
+t 12 cafe baker>cafe demolish/mayor/-/park - agree 13
+e protest 12 park mayor - park kid,teacher,granny,baker,post
+t 12.5 park baker>post demolish/mayor/-/square shift doubt 14
+t 12.5 park granny>teacher demolish/mayor/-/cafe - believe 15
+t 12.5 cafe florist>cafe demolish/mayor/-/park - agree 16
+t 13 park granny>teacher demolish/mayor/-/park - agree 17
+t 13 park kid>baker demolish/mayor/-/park - agree 18
+t 13.5 park baker>kid demolish/mayor/-/park - agree 19
+t 13.5 park post>granny demolish/mayor/-/park - agree 20
+t 14 park kid>granny demolish/mayor/-/school shift doubt 21
+t 14.5 park post>teacher demolish/mayor/-/park - agree 22
+t 14.5 park baker>kid demolish/mayor/-/cafe - believe 23
+t 15 park granny>post demolish/mayor/-/park - agree 24
+t 15 park teacher>mayor demolish/mayor/-/cafe - self 25
+t 15.5 park baker>teacher demolish/mayor/-/dock shift doubt 26
+t 15.5 park kid>granny demolish/mayor/-/park shift agree 27
+t 16 park kid>post demolish/mayor/-/square shift doubt 28
+t 16.5 park teacher>post demolish/mayor/-/park - agree 29
+t 16.5 park granny>kid demolish/mayor/-/park - agree 30
+A -4,8,5,19,21,13,38,6,43,18,28;7,28,11,48,10,25,38,5,43,6,9;32,29,33,13,15,14,38,6,44,11,18;5,17,29,48,9,26,38,5,43,23,24;23,12,20,14,22,22,38,6,43,12,24;17,23,20,12,36,11,38,5,59,10,24;9,24,16,13,48,7,39,5,43,48,15;24,11,25,22,7,6,21,5,45,15,6;20,14,17,10,7,10,6,39,43,10,7;25,28,27,9,13,53,16,38,6,11,18;7,14,10,19,48,29,44,38,5,43,17;18,11,10,21,48,13,22,39,5,44,16
+P park:kid,teacher,granny,baker,post|||park
+W teacher demolish/mayor/-/park teacher:again,baker:again,clock:doubt,post:again,fisher:believe,kid:again,granny:again,pharma:doubt
+W cafe demolish/mayor/-/park cafe:again
+t 17 park baker>florist demolish/mayor/-/cafe - doubt 40
+t 17 park kid>post demolish/mayor/-/cafe - believe 41
+t 17 square fisher>pharma demolish/mayor/-/park - believe 42
+t 17.5 park kid>baker demolish/mayor/-/square shift doubt 43
+t 17.5 square fisher>clock demolish/mayor/-/square shift doubt 44
+t 18 park granny>mayor demolish/mayor/-/cafe shift self 45
+t 18 park post>baker demolish/mayor/-/cafe - doubt 46
+t 18 park teacher>kid demolish/mayor/-/dock - believe 47
+t 18 square cafe>fisher demolish/mayor/-/park - agree 48
+t 18.5 park post>baker demolish/mayor/-/park - agree 49
+t 18.5 square cafe>pharma demolish/mayor/-/square shift doubt 50
+t 18.5 square clock>inn demolish/mayor/-/park - believe 51
+t 19 park baker>granny demolish/mayor/-/bakery shift doubt 52
+t 19 park post>kid demolish/mayor/-/square - believe 53
+t 19 park teacher>mayor demolish/mayor/-/park - self 54
+t 19 square florist>inn demolish/mayor/-/cafe - doubt 55
+t 19.5 park post>teacher demolish/mayor/-/cafe - agree 56
+t 19.5 park baker>mayor demolish/mayor/-/dock shift self 57
+A -4,8,5,13,21,13,38,6,43,18,28;7,28,11,48,10,25,38,5,43,6,9;32,29,33,7,15,14,38,7,44,11,18;5,17,29,48,9,26,38,5,43,23,24;23,12,20,14,22,22,38,6,43,12,24;17,23,20,12,36,11,38,5,59,10,24;9,24,16,13,19,8,39,5,43,48,15;24,11,25,22,5,6,21,5,45,15,6;20,14,18,10,-17,10,6,40,43,10,7;25,28,27,9,13,53,16,38,6,11,18;7,15,10,19,42,29,44,38,5,43,17;18,11,10,21,42,13,23,39,5,44,16
+P park:kid,teacher,granny,baker,post,fisher dock:kid|||park
+R 2 10 2 true 58
+D 3 date fisher inn - florist traveler
+W cafe likes/fisher/inn/- cafe:believe
+W granny gift/fisher/inn/- granny:doubt
+t 10 bakery granny>baker gift/fisher/inn/- - believe 2
+t 10.5 cafe cafe>mayor likes/fisher/inn/- - doubt 3
+t 11.5 bakery baker>fisher gift/fisher/inn/- - self 4
+A -4,8,5,12,20,12,36,6,42,17,27;7,27,10,46,10,24,36,5,41,6,9;30,28,31,7,14,13,36,7,42,10,17;5,16,28,46,9,25,36,5,41,22,23;22,11,19,13,21,21,36,6,41,11,23;16,22,19,11,34,10,36,5,56,10,23;9,23,15,12,18,8,37,5,41,54,14;23,10,24,21,5,6,20,5,43,14,6;19,13,17,10,-16,10,6,38,41,10,7;24,27,26,9,12,50,15,36,6,10,17;7,14,10,18,40,28,42,36,5,41,16;17,10,10,20,40,12,22,37,5,42,15
+P |||park
+W inn likes/fisher/inn/- inn:believe,clock:believe,pharma:doubt
+W cafe gift/fisher/inn/- cafe:doubt,baker:agree,post:believe,florist:doubt,teacher:doubt
+t 12 cafe post>teacher gift/fisher/inn/- - believe 13
+t 12 cafe baker>florist gift/fisher/inn/- - doubt 14
+t 12 inn clock>inn likes/fisher/inn/- - agree 15
+t 12.5 cafe cafe>baker likes/fisher/inn/- escalate believe 16
+t 13 school teacher>kid gift/fisher/inn/- - believe 17
+t 13 pharmacy granny>pharma likes/fisher/inn/- escalate believe 18
+t 13.5 hall post>mayor gift/inn/fisher/- swap doubt 19
+t 13.5 school kid>teacher gift/inn/fisher/- swap believe 20
+t 13.5 pharmacy pharma>granny likes/fisher/inn/- - believe 21
+t 14 school teacher>post gift/fisher/inn/- - agree 22
+t 14 cafe cafe>granny likes/fisher/inn/- - agree 23
+t 14.5 school teacher>post gift/inn/fisher/- - doubt 24
+t 15 pharmacy pharma>clock likes/fisher/inn/- - agree 25
+t 15 park kid>mayor likes/fisher/inn/- escalate doubt 26
+e date 15 inn fisher inn - 
+t 15.5 pharmacy post>pharma gift/inn/fisher/- - doubt 27
+t 15.5 park mayor>kid likes/inn/fisher/- escalate doubt 28
+t 15.5 cafe cafe>granny likes/fisher/inn/- escalate again 29
+t 15.5 inn inn>fisher engaged/fisher/inn/- escalate self 30
+t 16 bakery baker>kid likes/fisher/inn/- - believe 31
+t 16.5 pharmacy pharma>teacher gift/inn/fisher/- - agree 32
+A -4,8,5,12,21,12,36,6,42,17,27;7,27,10,46,10,24,36,5,41,6,10;30,28,31,7,14,13,37,7,42,10,17;5,16,28,46,9,25,36,5,41,22,23;22,11,19,13,21,21,36,6,41,11,23;16,22,19,11,34,10,36,5,56,10,23;9,23,15,12,18,8,37,5,41,62,14;23,10,25,21,5,6,20,6,43,14,7;20,13,17,10,-16,10,6,39,41,10,7;24,27,26,9,12,51,15,36,6,10,18;7,15,10,18,40,28,77,36,5,41,16;17,10,10,20,40,12,22,37,5,43,15
+P ||fisher+inn|park
+W fisher likes/inn/fisher/- fisher:believe,baker:doubt,clock:doubt,post:doubt,teacher:doubt,kid:believe,granny:believe,pharma:doubt
+W inn gift/fisher/inn/- inn:believe
+t 17 square baker>clock engaged/fisher/inn/- escalate doubt 42
+t 17 square fisher>granny likes/inn/fisher/- - agree 43
+t 17.5 square kid>fisher gift/inn/fisher/- swap believe 44
+t 17.5 square post>pharma gift/fisher/inn/- - believe 45
+t 17.5 square granny>teacher likes/fisher/clock/- shift believe 46
+t 18 square florist>teacher gift/fisher/inn/- - agree 47
+t 18 square granny>kid likes/inn/fisher/- - agree 48
+t 18 square baker>inn engaged/inn/fisher/- escalate self 49
+t 18 square fisher>mayor gift/inn/fisher/- - believe 50
+t 18.5 square kid>teacher likes/fisher/inn/- swap doubt 51
+t 18.5 square fisher>inn likes/inn/fisher/- - self 52
+t 18.5 square baker>florist likes/fisher/inn/- - doubt 53
+t 18.5 square cafe>pharma likes/fisher/teacher/- shift doubt 54
+t 18.5 square post>granny gift/fisher/inn/- - believe 55
+t 19 square teacher>post likes/inn/fisher/- - doubt 56
+t 19 square kid>pharma likes/inn/fisher/- swap doubt 57
+t 19 square fisher>granny likes/inn/fisher/- escalate again 58
+t 19.5 square fisher>baker engaged/inn/fisher/- escalate believe 59
+t 19.5 square florist>inn likes/fisher/inn/- - agree 60
+t 19.5 square cafe>kid likes/fisher/inn/- - agree 61
+t 19.5 square granny>post gift/fisher/inn/- - agree 62
+A -4,8,5,12,21,13,36,6,42,17,27;7,27,10,46,10,24,36,5,41,6,10;30,28,31,7,14,13,37,7,42,10,17;5,16,28,46,9,25,36,5,41,22,23;22,11,19,13,21,22,36,6,41,11,23;16,22,19,11,34,10,36,5,56,10,23;9,23,15,12,18,8,37,6,41,99,14;23,10,25,21,5,6,20,6,44,14,7;20,13,17,10,-16,11,6,39,41,10,7;24,27,27,9,12,51,16,36,6,10,18;7,15,10,18,40,28,100,36,5,41,16;17,10,11,20,40,12,22,37,5,43,15
+P ||fisher+inn|park
+R 3 12 3 true 63
+D 4 reconcile cafe florist - inn heat
+W florist apology/cafe/florist/- florist:doubt
+W cafe praised/florist/cafe/- cafe:believe
+t 10 cafe cafe>mayor badmouth/florist/cafe/- sour doubt 2
+t 10.5 cafe mayor>cafe badmouth/florist/cafe/- - doubt 3
+t 11 flower florist>post apology/cafe/florist/- - believe 4
+A -4,8,5,11,20,12,34,6,40,16,26;7,26,10,44,10,23,34,5,39,6,10;29,27,30,7,13,12,35,7,40,10,16;5,15,27,44,-50,24,34,5,39,21,22;21,10,18,12,20,21,34,6,39,10,22;15,21,18,-25,32,10,34,5,53,10,22;9,22,14,11,17,8,35,6,39,94,13;22,10,24,20,5,6,19,6,42,13,7;19,12,16,10,-15,10,6,37,39,10,7;23,26,26,9,11,48,15,34,6,10,17;7,14,10,17,38,27,95,34,5,39,15;16,10,10,19,38,11,21,35,5,41,14
+P ||fisher+inn|park
+W cafe apology/florist/cafe/- cafe:believe,baker:believe,post:believe,florist:self,teacher:doubt
+W florist praised/cafe/florist/- florist:doubt,baker:doubt,post:doubt,cafe:self,teacher:believe
+t 12 cafe post>teacher apology/florist/cafe/- - doubt 15
+t 12.5 cafe cafe>teacher praised/florist/cafe/- - doubt 16
+t 15.5 park mayor>kid badmouth/cafe/florist/- swap believe 17
+t 15.5 cafe cafe>granny praised/cafe/florist/- swap believe 18
+t 16 bakery baker>kid praised/cafe/florist/- - doubt 19
+t 16.5 bakery kid>baker badmouth/cafe/florist/- - doubt 20
+A -4,8,5,11,20,12,34,6,40,16,26;7,26,10,44,10,23,34,5,39,6,10;29,27,30,7,13,12,35,7,40,10,16;5,15,27,44,-34,24,34,5,39,21,22;21,10,18,12,20,21,34,6,39,10,22;15,21,18,28,32,10,34,5,53,10,22;9,22,14,11,17,8,35,6,39,94,13;22,10,24,20,5,9,19,6,42,13,7;19,12,16,10,-14,6,6,37,39,10,7;23,26,26,9,11,52,15,34,6,10,17;7,14,10,17,38,27,95,34,5,39,15;16,10,10,19,38,11,21,35,5,41,14
+P ||fisher+inn|park
+W granny apology/cafe/florist/- granny:believe,baker:believe,clock:doubt,post:agree,fisher:believe,teacher:doubt,kid:doubt,pharma:doubt
+W cafe praised/florist/cafe/- cafe:again
+t 17 square post>fisher apology/cafe/florist/- - agree 30
+t 17 square kid>clock secret/cafe/florist/- blur believe 31
+t 17.5 square pharma>baker apology/cafe/florist/- - agree 32
+t 17.5 square post>granny praised/florist/cafe/- swap doubt 33
+t 17.5 square fisher>kid apology/cafe/florist/- - doubt 34
+t 17.5 square teacher>florist praised/cafe/florist/- - believe 35
+t 18 square post>granny apology/florist/cafe/- - believe 36
+t 18 square florist>clock praised/cafe/florist/- - doubt 37
+t 18 square kid>pharma badmouth/cafe/florist/- - doubt 38
+t 18 square cafe>fisher apology/florist/cafe/- - doubt 39
+t 18.5 square florist>mayor praised/florist/cafe/- swap believe 40
+t 18.5 square kid>teacher badmouth/florist/cafe/- swap doubt 41
+t 18.5 square granny>baker praised/cafe/florist/- - believe 42
+t 19 square cafe>clock badmouth/florist/cafe/- - doubt 43
+t 19.5 square teacher>post badmouth/florist/cafe/- - doubt 44
+t 19.5 square pharma>florist apology/cafe/florist/- - believe 45
+t 19.5 square kid>granny badmouth/florist/cafe/- swap doubt 46
+e makeup 19.5 square cafe florist - 
+A -4,8,5,11,23,12,34,6,41,16,27;7,26,10,44,10,23,34,6,39,6,10;29,27,30,7,13,12,35,7,40,10,16;5,15,27,44,51,24,35,5,39,21,23;21,10,18,16,20,21,34,6,39,10,22;15,21,18,48,32,10,34,5,53,10,22;9,22,15,11,17,8,35,6,39,94,13;22,10,24,20,5,9,19,6,42,13,7;19,12,16,10,-14,6,6,37,39,10,7;23,26,27,9,11,52,15,34,6,10,17;7,14,10,17,38,27,95,34,5,39,15;16,10,10,19,38,11,21,35,5,41,14
+P |cafe+florist|fisher+inn|park
+R 2 9 3 true 47
+# seed 55555
+T 55555 -40,5,7,50,29,11,40,5,45,18,7;-45,5,29,50,24,11,40,5,45,13,24;14,7,35,50,26,12,40,5,45,26,13;6,8,30,50,28,30,40,5,45,18,22;28,21,20,26,5,18,40,5,45,29,20;13,28,14,14,50,25,40,5,60,29,19;22,9,18,25,50,11,40,5,45,50,18;6,8,22,6,50,23,16,5,45,6,12;7,29,19,18,50,16,27,40,45,28,30;14,23,21,17,50,55,6,40,5,29,23;29,20,6,12,50,15,45,40,5,45,19;27,5,12,21,50,8,21,40,5,45,11
+D 1 reconcile baker clock - granny catfish
+W cafe apology/baker/clock/- cafe:believe
+W granny praised/baker/clock/- granny:believe
+t 10 bakery granny>baker likes/baker/clock/- escalate self 2
+t 10.5 cafe cafe>mayor apology/baker/clock/- - believe 3
+A -32,5,7,50,29,11,40,5,45,18,7;-45,5,29,50,24,11,40,5,45,13,24;14,7,35,50,26,12,40,5,45,26,13;6,8,30,50,28,30,40,5,45,18,22;28,21,20,26,6,18,40,5,45,29,20;13,28,14,14,50,25,40,5,60,29,19;22,9,18,25,50,11,40,5,45,50,18;6,8,22,6,50,23,16,5,45,6,12;7,29,19,18,50,16,27,40,45,28,30;17,23,21,17,50,55,6,40,5,29,23;29,20,6,12,50,15,45,40,5,45,19;27,5,12,21,50,8,21,40,5,45,11
+P |||
+W clock apology/baker/clock/- clock:doubt,inn:believe,pharma:doubt
+W cafe praised/baker/clock/- cafe:doubt,baker:self,post:doubt,florist:believe,teacher:doubt
+t 12 cafe cafe>post apology/baker/clock/- - believe 12
+t 13 pharmacy granny>pharma praised/baker/clock/- - doubt 13
+t 14 cafe cafe>granny apology/baker/clock/- - believe 14
+t 14.5 cafe granny>cafe gift/baker/clock/- escalate believe 15
+t 15 pharmacy pharma>post apology/baker/clock/- - agree 16
+t 15.5 pharmacy pharma>post praised/baker/clock/- - believe 17
+t 15.5 park mayor>kid apology/baker/clock/- - believe 18
+t 15.5 cafe cafe>granny praised/clock/baker/- swap doubt 19
+t 16 inn inn>fisher gift/baker/clock/- escalate believe 20
+t 16 pharmacy teacher>pharma praised/baker/clock/- - doubt 21
+A -24,5,7,50,29,11,40,5,45,18,7;-45,5,29,50,24,11,40,5,45,13,24;17,7,35,50,27,12,40,5,45,26,15;9,8,30,50,28,30,40,5,45,18,22;28,21,20,26,6,18,40,5,45,29,20;13,28,14,14,50,25,40,5,61,29,19;22,9,18,25,50,11,40,5,45,51,18;6,8,22,6,50,23,16,5,45,6,12;7,29,19,18,51,16,27,40,45,28,30;17,23,21,17,50,56,6,40,5,29,23;29,20,6,12,50,15,45,40,5,45,19;27,5,12,21,50,8,21,40,5,45,11
+P |||
+W baker apology/clock/baker/- baker:believe,clock:self,post:believe,fisher:believe,teacher:doubt,kid:doubt,granny:doubt,pharma:doubt
+W clock praised/baker/clock/- clock:doubt,baker:self,post:again,fisher:believe,teacher:again,kid:believe,granny:again,pharma:doubt
+t 17 square fisher>teacher likes/baker/clock/- escalate doubt 38
+t 17.5 square granny>florist praised/baker/clock/- - agree 39
+t 17.5 square baker>fisher apology/clock/baker/- - agree 40
+t 17.5 square post>clock apology/baker/clock/- - believe 41
+t 17.5 square kid>pharma secret/baker/clock/- blur believe 42
+e makeup 17.5 square baker clock - 
+t 18 square baker>kid apology/clock/baker/- - believe 43
+t 18 square granny>clock apology/baker/teacher/- shift believe 44
+t 18 square cafe>fisher gift/baker/clock/- - agree 45
+t 18 square post>mayor praised/baker/clock/- - doubt 46
+t 18.5 square inn>post gift/baker/clock/- escalate believe 47
+t 18.5 square baker>cafe gift/clock/baker/- escalate doubt 48
+t 18.5 square teacher>pharma likes/baker/clock/- - believe 49
+t 19 square mayor>baker praised/baker/clock/- - self 50
+t 19 square cafe>granny gift/clock/baker/- - believe 51
+t 19 square florist>teacher likes/baker/clock/- escalate doubt 52
+t 19 square kid>inn likes/baker/clock/- escalate believe 53
+t 19 square clock>pharma apology/baker/teacher/- - doubt 54
+t 19 square post>fisher praised/baker/clock/- - agree 55
+t 19.5 square cafe>inn apology/baker/clock/- - agree 56
+t 19.5 square post>florist apology/clock/baker/- - believe 57
+A 57,5,7,50,29,11,40,5,45,18,7;36,6,29,50,24,11,40,5,46,13,24;17,7,35,50,27,12,40,5,45,27,15;11,8,31,50,28,30,40,5,46,18,22;28,21,20,26,6,18,40,5,45,29,20;13,28,14,14,50,25,40,5,61,29,19;28,9,19,25,50,12,40,5,45,51,18;6,8,22,6,50,23,16,5,45,6,12;11,29,19,18,51,16,27,40,45,28,30;17,23,21,17,50,57,6,40,5,29,23;29,20,6,12,50,16,45,40,6,45,19;27,5,12,21,50,8,21,41,6,45,11
+P |baker+clock||
+R 2 10 2 true 58
+D 2 protest mayor - school kid heat
+W teacher demolish/mayor/-/school teacher:doubt,kid:believe
+W cafe demolish/mayor/-/school cafe:doubt
+t 8 school teacher>kid demolish/mayor/-/school - agree 3
+t 9 school kid>teacher demolish/mayor/-/school - believe 4
+t 10 cafe cafe>mayor demolish/mayor/-/school - self 5
+A 54,5,7,48,28,10,38,5,43,17,7;34,6,28,48,23,10,38,5,44,12,23;16,7,33,48,26,11,38,5,43,26,14;10,8,29,48,27,29,38,5,44,17,21;27,20,19,25,6,17,38,5,43,28,19;12,27,13,13,48,24,38,5,58,28,18;27,9,18,24,48,11,38,5,43,48,17;6,8,21,6,30,22,15,6,43,6,11;10,28,18,17,19,15,26,39,43,27,29;16,22,20,16,48,54,6,38,5,28,22;28,19,6,11,48,15,43,38,6,43,18;26,5,11,20,48,8,20,39,6,43,10
+P school:kid,teacher|baker+clock||
+W granny demolish/mayor/-/school granny:doubt
+W teacher demolish/mayor/-/school teacher:again,baker:doubt,post:believe,florist:doubt,cafe:again
+t 12 cafe cafe>teacher demolish/mayor/-/school - agree 12
+t 12 cafe baker>post demolish/mayor/-/school - agree 13
+t 12.5 cafe post>baker demolish/mayor/-/school - believe 14
+t 12.5 cafe cafe>florist demolish/mayor/-/school - believe 15
+t 13 hall post>mayor demolish/mayor/-/school - self 16
+t 13.5 pharmacy granny>pharma demolish/mayor/-/cafe shift doubt 17
+t 14 cafe cafe>granny demolish/mayor/-/square shift doubt 18
+t 14.5 school post>kid demolish/mayor/-/school - agree 19
+t 15 park kid>mayor demolish/mayor/-/school - self 20
+t 15.5 pharmacy pharma>post demolish/mayor/-/cafe - doubt 21
+t 16.5 bakery kid>baker demolish/mayor/-/square shift doubt 22
+A 54,6,7,30,28,10,38,5,43,17,7;34,6,28,48,23,10,38,5,44,12,23;17,7,33,38,26,11,38,5,43,26,14;10,8,29,30,28,29,38,5,44,17,21;27,20,19,25,6,17,38,5,43,28,19;12,27,13,13,48,24,38,5,58,28,18;27,9,18,24,48,11,38,5,43,48,17;6,8,21,6,24,22,15,6,43,6,11;10,28,18,17,13,15,26,39,43,27,29;16,22,20,16,48,54,6,38,5,28,22;28,19,6,11,48,15,43,38,6,43,18;26,5,11,20,48,8,20,39,6,43,10
+P school:kid,teacher,baker,florist|baker+clock||
+W kid demolish/mayor/-/school kid:again,baker:again,clock:doubt,post:again,fisher:doubt,teacher:again,granny:again,pharma:believe
+W granny demolish/mayor/-/school granny:again,baker:again,clock:again,post:again,fisher:again,teacher:again,kid:again,pharma:again
+t 17 square fisher>baker demolish/mayor/-/school - agree 39
+e protest 17 school mayor - school kid,teacher,baker,florist,pharma
+t 17.5 school baker>teacher demolish/mayor/-/dock shift doubt 40
+t 17.5 school pharma>florist demolish/mayor/-/cafe - doubt 41
+t 17.5 square fisher>post demolish/mayor/-/square shift doubt 42
+t 17.5 square granny>clock demolish/mayor/-/square - doubt 43
+t 18 school baker>pharma demolish/mayor/-/dock shift doubt 44
+t 18 school kid>florist demolish/mayor/-/bakery shift doubt 45
+t 18 school teacher>mayor demolish/mayor/-/dock - self 46
+t 18.5 school kid>pharma demolish/mayor/-/school - agree 47
+t 18.5 square cafe>inn demolish/mayor/-/school - doubt 48
+t 19 school baker>teacher demolish/mayor/-/bakery shift doubt 49
+t 19 school pharma>florist demolish/mayor/-/school - agree 50
+t 19 square cafe>clock demolish/mayor/-/school - believe 51
+t 19 square granny>post demolish/mayor/-/school - agree 52
+t 19.5 school florist>teacher demolish/mayor/-/school - agree 53
+t 19.5 school baker>pharma demolish/mayor/-/school - agree 54
+t 19.5 square post>inn demolish/mayor/-/square shift doubt 55
+t 19.5 square granny>cafe demolish/mayor/-/park shift believe 56
+A 54,6,7,24,28,10,38,5,43,17,7;34,6,28,42,24,10,38,5,44,12,23;17,7,33,36,26,11,38,5,43,26,14;10,8,29,24,28,29,38,5,44,17,21;27,20,19,25,6,17,38,5,43,28,19;12,27,13,13,42,24,38,5,59,28,18;27,9,18,24,48,11,38,5,43,48,17;6,8,21,6,24,22,15,6,43,6,11;10,28,18,17,13,15,26,39,43,27,29;16,22,20,16,48,54,6,38,5,28,22;28,19,6,11,48,15,43,38,6,43,18;26,5,11,20,13,8,20,39,7,43,10
+P school:kid,teacher,baker,florist,pharma|baker+clock||school
+R 1 7 2 true 57
+D 3 date cafe granny - clock market
+W cafe likes/granny/cafe/- cafe:believe
+W granny gift/cafe/granny/- granny:believe
+t 10 bakery granny>baker gift/granny/cafe/- swap believe 2
+t 10 cafe cafe>mayor likes/cafe/granny/- swap doubt 3
+t 10.5 bakery baker>granny gift/cafe/granny/- swap agree 4
+A 51,6,7,23,27,10,36,5,42,16,7;32,6,27,40,23,10,36,5,42,11,22;16,7,31,34,25,10,36,5,41,25,13;10,8,28,23,27,28,36,5,42,16,20;26,19,18,24,6,16,36,5,41,27,18;11,26,12,12,40,23,36,5,78,27,17;26,9,17,23,46,10,36,5,41,46,16;6,8,20,6,23,21,14,6,41,6,10;10,27,17,16,12,14,25,37,41,26,28;16,21,19,15,46,75,6,36,5,27,21;27,18,6,10,46,14,41,36,6,41,17;25,5,10,19,12,8,19,37,7,41,10
+P |baker+clock||school
+W granny likes/cafe/granny/- granny:believe
+W cafe gift/granny/cafe/- cafe:believe,baker:agree,post:believe,florist:doubt,teacher:believe
+t 12 cafe baker>teacher gift/granny/cafe/- - agree 11
+t 12 cafe post>cafe gift/granny/cafe/- - agree 12
+t 12.5 cafe baker>florist gift/granny/mayor/- shift believe 13
+t 12.5 cafe teacher>post gift/granny/cafe/- - agree 14
+t 13.5 hall mayor>post engaged/cafe/granny/- escalate believe 15
+t 13.5 pharmacy granny>pharma likes/cafe/granny/- - believe 16
+e date 14 cafe cafe granny - 
+t 14.5 school teacher>kid gift/granny/cafe/- - doubt 17
+t 14.5 cafe cafe>granny gift/granny/cafe/- - self 18
+t 15 park mayor>kid likes/cafe/granny/- - believe 19
+t 15.5 pharmacy post>clock engaged/cafe/granny/- - believe 20
+t 15.5 park kid>mayor likes/cafe/granny/- - believe 21
+t 16 bakery kid>baker engaged/cafe/granny/- escalate doubt 22
+t 16.5 bakery baker>kid gift/granny/cafe/- - believe 23
+t 16.5 pharmacy pharma>teacher likes/cafe/granny/- - believe 24
+A 51,6,7,23,27,10,36,5,42,16,7;32,7,27,40,23,10,36,5,42,11,22;16,7,31,35,25,10,37,5,41,25,13;11,8,28,23,27,28,36,5,42,16,20;26,19,18,24,6,16,36,6,41,27,18;11,26,13,12,40,23,36,5,100,27,17;26,9,17,23,46,10,36,5,41,46,16;7,8,20,6,23,21,14,6,41,6,11;11,27,17,16,13,14,25,37,41,26,28;16,21,19,15,46,100,6,36,5,27,21;27,18,6,10,46,14,41,36,6,41,17;25,5,10,19,12,8,19,37,7,42,10
+P |baker+clock|cafe+granny|school
+W cafe likes/granny/cafe/- cafe:again
+W granny gift/cafe/granny/- granny:again,baker:believe,clock:doubt,post:doubt,fisher:believe,teacher:doubt,kid:believe,pharma:doubt
+t 17 square fisher>granny gift/granny/cafe/- swap self 34
+t 17 square baker>clock likes/cafe/granny/- escalate doubt 35
+t 17 square pharma>post likes/cafe/granny/- - believe 36
+t 17.5 square granny>clock likes/cafe/granny/- - believe 37
+t 17.5 square teacher>fisher likes/granny/cafe/- escalate believe 38
+t 17.5 square post>baker engaged/cafe/granny/- - doubt 39
+t 17.5 square pharma>kid gift/cafe/granny/- - agree 40
+t 18 square granny>cafe gift/cafe/granny/- - self 41
+t 18.5 square cafe>fisher likes/granny/cafe/- - agree 42
+t 18.5 square kid>teacher likes/cafe/granny/- - agree 43
+t 19 square teacher>clock likes/cafe/granny/- - agree 44
+t 19 square fisher>cafe likes/cafe/granny/- escalate self 45
+t 19 square pharma>kid likes/cafe/granny/- - agree 46
+t 19 square baker>mayor gift/cafe/granny/- - doubt 47
+t 19 square granny>post gift/granny/cafe/- swap agree 48
+A 51,6,7,23,27,10,36,5,42,16,7;32,7,27,40,23,10,36,5,43,11,22;16,7,31,35,25,10,37,5,41,25,14;11,8,28,23,27,28,36,5,42,16,20;26,19,18,24,6,16,36,6,41,27,18;11,26,13,12,40,23,36,5,100,27,17;26,9,17,23,46,11,37,5,41,46,16;7,8,20,6,23,21,14,7,41,6,11;11,27,17,16,13,14,25,37,41,26,30;16,21,19,15,46,100,6,36,5,27,21;27,18,6,10,46,14,41,36,6,41,17;25,5,10,19,12,8,19,37,7,42,10
+P |baker+clock|cafe+granny|school
+R 2 10 2 true 49
+D 4 protest mayor - dock kid traveler
+W kid demolish/mayor/-/dock kid:believe,teacher:believe
+W granny demolish/mayor/-/dock granny:doubt
+t 8 school kid>teacher demolish/mayor/-/square shift believe 3
+A 48,6,7,22,26,10,34,5,40,15,7;30,7,26,38,22,10,34,5,41,10,21;15,7,29,33,24,10,35,5,39,24,13;10,8,27,22,26,27,34,5,40,15,19;25,18,17,23,6,15,34,6,39,26,17;10,25,12,11,38,22,34,5,95,26,16;25,9,16,22,44,10,35,5,39,44,15;7,8,19,6,10,20,13,8,39,6,10;10,26,16,15,-6,13,24,35,39,25,29;15,20,18,14,44,95,6,34,5,26,20;26,17,6,10,44,13,39,34,6,39,16;24,5,10,18,11,8,18,35,7,40,10
+P dock:kid|baker+clock|cafe+granny|school
+W cafe demolish/mayor/-/dock cafe:doubt,baker:believe,post:believe,florist:believe,teacher:again
+W kid demolish/mayor/-/dock kid:again
+t 12 cafe florist>teacher demolish/mayor/-/school shift believe 10
+t 12.5 cafe baker>post demolish/mayor/-/park shift believe 11
+t 13 hall post>mayor demolish/mayor/-/park - self 12
+t 13 pharmacy granny>pharma demolish/mayor/-/bakery shift believe 13
+t 14 school kid>post demolish/mayor/-/bakery shift believe 14
+t 14 cafe granny>cafe demolish/mayor/-/cafe shift believe 15
+t 14.5 school teacher>kid demolish/mayor/-/dock - agree 16
+t 14.5 cafe cafe>granny demolish/mayor/-/dock - believe 17
+t 15 pharmacy post>clock demolish/mayor/-/dock - doubt 18
+t 15 park kid>mayor demolish/mayor/-/park shift self 19
+t 15 cafe cafe>granny demolish/mayor/-/cafe - believe 20
+t 16 bakery baker>kid demolish/mayor/-/dock - agree 21
+t 16.5 pharmacy teacher>pharma demolish/mayor/-/dock - believe 22
+A 48,6,7,16,26,10,34,5,40,15,7;30,7,26,38,22,10,34,5,41,10,21;16,7,29,-21,24,10,35,6,39,24,13;10,8,27,16,26,27,34,5,40,15,19;25,18,17,23,6,15,34,6,39,26,17;10,25,12,11,32,22,34,5,96,26,16;25,9,16,22,44,10,35,5,39,44,15;7,8,19,7,-8,20,13,8,39,6,10;10,26,16,15,-23,13,24,36,39,25,29;15,20,18,14,20,97,6,34,5,26,20;26,17,6,10,44,13,39,34,6,39,16;24,5,10,18,-1,8,18,36,7,41,10
+P dock:kid,post,granny school:teacher park:post bakery:post|baker+clock|cafe+granny|school
+W teacher demolish/mayor/-/dock teacher:again,baker:again,clock:believe,post:again,fisher:doubt,kid:again,granny:again,pharma:agree
+W cafe demolish/mayor/-/dock cafe:again
+t 17 square baker>clock demolish/mayor/-/cafe shift doubt 32
+t 17 square post>pharma demolish/mayor/-/dock - agree 33
+t 17 square kid>granny demolish/mayor/-/dock - agree 34
+t 17.5 square baker>granny demolish/mayor/-/park shift doubt 35
+t 17.5 square kid>fisher demolish/mayor/-/bakery shift believe 36
+t 18 square fisher>post demolish/mayor/-/bakery - agree 37
+t 18 square granny>clock demolish/mayor/-/cafe - believe 38
+t 18 square pharma>inn demolish/mayor/-/bakery - believe 39
+t 18.5 square clock>post demolish/mayor/-/cafe - doubt 40
+t 18.5 square fisher>inn demolish/mayor/-/bakery - agree 41
+t 18.5 square granny>cafe demolish/mayor/-/cafe - again 42
+t 19 square pharma>baker demolish/mayor/-/dock - agree 43
+t 19 square cafe>mayor demolish/mayor/-/park shift self 44
+t 19.5 square florist>fisher demolish/mayor/-/dock - believe 45
+t 19.5 square cafe>inn demolish/mayor/-/cafe - believe 46
+t 19.5 square kid>baker demolish/mayor/-/dock - agree 47
+A 48,6,7,10,26,10,34,5,40,15,8;30,7,26,26,22,10,34,5,42,10,21;16,7,29,-32,24,11,35,6,39,24,13;10,8,27,16,26,27,34,5,40,15,19;25,18,17,23,6,15,34,6,39,26,17;10,25,12,11,32,22,34,5,96,26,16;25,9,16,23,8,10,35,6,39,44,15;7,8,19,7,-8,20,13,8,39,6,10;10,26,16,15,-23,13,24,36,39,25,29;15,20,18,14,14,97,6,34,5,26,20;26,17,6,10,28,14,40,34,6,39,17;24,5,10,18,-7,8,18,36,7,41,10
+P dock:kid,post,granny,fisher school:teacher park:post bakery:post,fisher|baker+clock|cafe+granny|school
+R 1 11 1 false 48

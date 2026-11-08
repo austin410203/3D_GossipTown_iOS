@@ -1,0 +1,7 @@
+.build/
+build/
+*.xcodeproj/
+keys/
+ci-out/
+.work/
+.DS_Store

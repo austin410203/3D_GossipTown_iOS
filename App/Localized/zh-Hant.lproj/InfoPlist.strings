@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "八卦小鎮";
+"CFBundleName" = "八卦小鎮";
+"NSMicrophoneUsageDescription" = "和鎮上居民說話時，用麥克風把你說的話轉成文字（文字會先放進輸入框，你可以修改後再送出）。";
+"NSSpeechRecognitionUsageDescription" = "把你說的話轉成文字，放進輸入框。能在裝置上辨識時就只在裝置上處理，遊戲不保存錄音。";

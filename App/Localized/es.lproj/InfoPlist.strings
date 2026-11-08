@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Pueblo Chismoso";
+"CFBundleName" = "Pueblo Chismoso";
+"NSMicrophoneUsageDescription" = "Convierte lo que dices a los vecinos en texto (primero va al cuadro de texto para que puedas corregirlo antes de enviarlo).";
+"NSSpeechRecognitionUsageDescription" = "Convierte tu voz en texto para el cuadro de entrada. Si tu dispositivo lo permite, el reconocimiento se hace solo en el dispositivo; el juego nunca guarda grabaciones.";

@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "Gossip Town";
+"CFBundleName" = "Gossip Town";
+"NSMicrophoneUsageDescription" = "Turns what you say to the residents into text (it goes into the input box first so you can edit it before sending).";
+"NSSpeechRecognitionUsageDescription" = "Turns your speech into text for the input box. When your device supports it, recognition happens only on the device; the game never keeps recordings.";

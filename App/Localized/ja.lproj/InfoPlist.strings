@@ -1,0 +1,4 @@
+"CFBundleDisplayName" = "うわさの町";
+"CFBundleName" = "うわさの町";
+"NSMicrophoneUsageDescription" = "住人に話しかけるとき、話した言葉を文字にします（文字はまず入力欄に入り、直してから送れます）。";
+"NSSpeechRecognitionUsageDescription" = "話した言葉を入力欄の文字にします。端末内で認識できる場合は端末内だけで処理し、録音は保存しません。";
