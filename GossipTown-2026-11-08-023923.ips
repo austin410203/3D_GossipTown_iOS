@@ -1,0 +1,275 @@
+{"app_name":"GossipTown","timestamp":"2026-11-08 02:39:23.00 +0000","app_version":"1.0","slice_uuid":"073a56da-0b99-3d4a-9bf2-14b55673260e","build_version":"1","platform":7,"bundleID":"com.austin410203.gossiptown","share_with_app_devs":0,"is_first_party":0,"bug_type":"309","os_version":"macOS 26.7.2 (25G332)","roots_installed":0,"name":"GossipTown","incident_id":"CF1DF6CA-700E-4976-A779-80D469BC2D0F"}
+{
+  "uptime" : 1100,
+  "procRole" : "Foreground",
+  "version" : 2,
+  "userID" : 501,
+  "deployVersion" : 210,
+  "modelCode" : "VirtualMac2,1",
+  "coalitionID" : 1241,
+  "osVersion" : {
+    "train" : "macOS 26.7.2",
+    "build" : "25G332",
+    "releaseType" : "User"
+  },
+  "captureTime" : "2026-11-08 02:39:20.4756 +0000",
+  "codeSigningMonitor" : 0,
+  "incident" : "CF1DF6CA-700E-4976-A779-80D469BC2D0F",
+  "pid" : 40993,
+  "translated" : false,
+  "cpuType" : "ARM-64",
+  "procLaunch" : "2026-11-08 02:39:13.5801 +0000",
+  "procStartAbsTime" : 27315388757,
+  "procExitAbsTime" : 27480632258,
+  "procName" : "GossipTown",
+  "procPath" : "\/Users\/USER\/Library\/Developer\/CoreSimulator\/Devices\/FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC\/data\/Containers\/Bundle\/Application\/9B4AF0F1-A791-415F-B161-F7324FE1654D\/GossipTown.app\/GossipTown",
+  "bundleInfo" : {"CFBundleShortVersionString":"1.0","CFBundleVersion":"1","CFBundleIdentifier":"com.austin410203.gossiptown"},
+  "storeInfo" : {"deviceIdentifierForVendor":"6489DE52-9C6A-52DB-8E17-ECE693370124","thirdParty":true},
+  "parentProc" : "launchd_sim",
+  "parentPid" : 4087,
+  "coalitionName" : "com.apple.CoreSimulator.SimDevice.FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC",
+  "crashReporterKey" : "18BDBF1C-6293-9C88-7363-F8260522F98A",
+  "appleIntelligenceStatus" : {"state":"unavailable","reasons":["deviceNotCapable"]},
+  "developerMode" : 1,
+  "responsiblePid" : 1966,
+  "responsibleProc" : "SimulatorTrampoline",
+  "codeSigningID" : "GossipTown",
+  "codeSigningTeamID" : "",
+  "codeSigningFlags" : 570556929,
+  "codeSigningValidationCategory" : 10,
+  "codeSigningTrustLevel" : 4294967295,
+  "codeSigningAuxiliaryInfo" : 0,
+  "instructionByteStream" : {"beforePC":"4wAAVP17v6n9AwCRIOP\/l78DAJH9e8GowANf1sADX9YQKYDSARAA1A==","atPC":"4wAAVP17v6n9AwCRFuP\/l78DAJH9e8GowANf1sADX9ZwCoDSARAA1A=="},
+  "bootSessionUUID" : "F05D858F-9BF5-4E66-9053-4E101FFAC825",
+  "sip" : "disabled",
+  "exception" : {"codes":"0x0000000000000000, 0x0000000000000000","rawCodes":[0,0],"type":"EXC_CRASH","signal":"SIGABRT"},
+  "termination" : {"flags":0,"code":6,"namespace":"SIGNAL","indicator":"Abort trap: 6","byProc":"GossipTown","byPid":40993},
+  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
+  "lastExceptionBacktrace" : [{"imageOffset":1265120,"symbol":"__exceptionPreprocess","symbolLocation":160,"imageIndex":12},{"imageOffset":177208,"symbol":"objc_exception_throw","symbolLocation":72,"imageIndex":11},{"imageOffset":1353188,"symbol":"+[NSObject(NSObject) instanceMethodSignatureForSelector:]","symbolLocation":0,"imageIndex":12},{"imageOffset":19179328,"symbol":"-[UIResponder doesNotRecognizeSelector:]","symbolLocation":236,"imageIndex":13},{"imageOffset":1281728,"symbol":"___forwarding___","symbolLocation":796,"imageIndex":12},{"imageOffset":1291484,"symbol":"_CF_forwarding_prep_0","symbolLocation":92,"imageIndex":12},{"imageOffset":186032,"sourceLine":297,"sourceFile":"GameVC.swift","symbol":"GameVC.plan()","imageIndex":2,"symbolLocation":852},{"imageOffset":24180,"sourceLine":48,"sourceFile":"Autopilot.swift","symbol":"Autopilot.run()","imageIndex":2,"symbolLocation":200},{"imageOffset":22305,"sourceLine":40,"sourceFile":"Autopilot.swift","symbol":"closure #1 in Autopilot.begin()","imageIndex":2,"symbolLocation":1},{"imageOffset":22721,"sourceFile":"\/<compiler-generated>","symbol":"partial apply for closure #1 in Autopilot.begin()","symbolLocation":1,"imageIndex":2},{"imageOffset":41085,"sourceFile":"\/<compiler-generated>","symbol":"thunk for @escaping @isolated(any) @callee_guaranteed @async () -> (@out A)","symbolLocation":1,"imageIndex":2},{"imageOffset":41421,"sourceFile":"\/<compiler-generated>","symbol":"partial apply for thunk for @escaping @isolated(any) @callee_guaranteed @async () -> (@out A)","symbolLocation":1,"imageIndex":2},{"imageOffset":42325,"symbol":"completeTaskWithClosure(swift::AsyncContext*, swift::SwiftError*)","symbolLocation":1,"imageIndex":14}],
+  "faultingThread" : 0,
+  "threads" : [{"triggered":true,"id":108001,"threadState":{"x":[{"value":0},{"value":0},{"value":0},{"value":0},{"value":6445411511},{"value":6171620944},{"value":110},{"value":0},{"value":4299087360,"symbolLocation":0,"symbol":"_main_thread"},{"value":10951809418971460826},{"value":2},{"value":4294967293},{"value":0},{"value":0},{"value":0},{"value":0},{"value":328},{"value":18446744072367376383},{"value":0},{"value":6},{"value":259},{"value":4299087584,"symbolLocation":224,"symbol":"_main_thread"},{"value":8381079552,"symbolLocation":320,"symbol":"objc_debug_taggedpointer_ext_classes"},{"value":0},{"value":1},{"value":104},{"value":6171625248},{"value":8381081520,"symbolLocation":0,"symbol":"objc_debug_tag60_permutations"},{"value":9619168568,"symbolLocation":24,"symbol":"taskHeapMetadata"}],"flavor":"ARM_THREAD_STATE64","lr":{"value":4296188728},"cpsr":{"value":1073745920},"fp":{"value":6171620800},"sp":{"value":6171620768},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4295493772,"matchesCrashFrame":1},"far":{"value":0}},"queue":"com.apple.main-thread","frames":[{"imageOffset":34956,"symbol":"__pthread_kill","symbolLocation":8,"imageIndex":5},{"imageOffset":25400,"symbol":"pthread_kill","symbolLocation":264,"imageIndex":6},{"imageOffset":473476,"symbol":"abort","symbolLocation":116,"imageIndex":9},{"imageOffset":83920,"symbol":"__abort_message","symbolLocation":128,"imageIndex":10},{"imageOffset":4404,"symbol":"demangling_terminate_handler()","symbolLocation":268,"imageIndex":10},{"imageOffset":29084,"symbol":"_objc_terminate()","symbolLocation":124,"imageIndex":11},{"imageOffset":67472,"symbol":"std::__terminate(void (*)())","symbolLocation":12,"imageIndex":10},{"imageOffset":79628,"symbol":"__cxxabiv1::failed_throw(__cxxabiv1::__cxa_exception*)","symbolLocation":32,"imageIndex":10},{"imageOffset":79596,"symbol":"__cxa_throw","symbolLocation":88,"imageIndex":10},{"imageOffset":177520,"symbol":"objc_exception_throw","symbolLocation":384,"imageIndex":11},{"imageOffset":1353188,"symbol":"-[NSObject(NSObject) doesNotRecognizeSelector:]","symbolLocation":360,"imageIndex":12},{"imageOffset":19179328,"symbol":"-[UIResponder doesNotRecognizeSelector:]","symbolLocation":236,"imageIndex":13},{"imageOffset":1281728,"symbol":"___forwarding___","symbolLocation":796,"imageIndex":12},{"imageOffset":1291484,"symbol":"_CF_forwarding_prep_0","symbolLocation":92,"imageIndex":12},{"imageOffset":186032,"sourceLine":297,"sourceFile":"GameVC.swift","symbol":"GameVC.plan()","imageIndex":2,"symbolLocation":852},{"imageOffset":24180,"sourceLine":48,"sourceFile":"Autopilot.swift","symbol":"Autopilot.run()","imageIndex":2,"symbolLocation":200},{"imageOffset":22305,"sourceLine":40,"sourceFile":"Autopilot.swift","symbol":"closure #1 in Autopilot.begin()","imageIndex":2,"symbolLocation":1},{"imageOffset":22721,"sourceFile":"\/<compiler-generated>","symbol":"partial apply for closure #1 in Autopilot.begin()","symbolLocation":1,"imageIndex":2},{"imageOffset":41085,"sourceFile":"\/<compiler-generated>","symbol":"thunk for @escaping @isolated(any) @callee_guaranteed @async () -> (@out A)","symbolLocation":1,"imageIndex":2},{"imageOffset":41421,"sourceFile":"\/<compiler-generated>","symbol":"partial apply for thunk for @escaping @isolated(any) @callee_guaranteed @async () -> (@out A)","symbolLocation":1,"imageIndex":2},{"imageOffset":42325,"symbol":"completeTaskWithClosure(swift::AsyncContext*, swift::SwiftError*)","symbolLocation":1,"imageIndex":14}]},{"id":108020,"frames":[],"threadState":{"x":[{"value":6172192768},{"value":3855},{"value":6171656192},{"value":0},{"value":409604},{"value":18446744073709551615},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":0},"cpsr":{"value":4096},"fp":{"value":0},"sp":{"value":6172192768},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4296170016},"far":{"value":0}}},{"id":108021,"frames":[],"threadState":{"x":[{"value":6172766208},{"value":4611},{"value":6172229632},{"value":0},{"value":409604},{"value":18446744073709551615},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":0},"cpsr":{"value":4096},"fp":{"value":0},"sp":{"value":6172766208},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4296170016},"far":{"value":0}}},{"id":108022,"frames":[],"threadState":{"x":[{"value":6173339648},{"value":5123},{"value":6172803072},{"value":0},{"value":409604},{"value":18446744073709551615},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":0},"cpsr":{"value":4096},"fp":{"value":0},"sp":{"value":6173339648},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4296170016},"far":{"value":0}}},{"id":108025,"name":"com.apple.uikit.eventfetch-thread","threadState":{"x":[{"value":268451845},{"value":21592279046},{"value":8589934592},{"value":51689931407360},{"value":2162692},{"value":51689931407360},{"value":2},{"value":4294967295},{"value":0},{"value":17179869184},{"value":0},{"value":2},{"value":0},{"value":0},{"value":12035},{"value":3072},{"value":18446744073709551569},{"value":18446744072367376383},{"value":0},{"value":4294967295},{"value":2},{"value":51689931407360},{"value":2162692},{"value":51689931407360},{"value":21592279046},{"value":6175055240},{"value":8589934592},{"value":18446744073709550527},{"value":4295737344,"symbolLocation":0,"symbol":"_libkernel_string_functions"}],"flavor":"ARM_THREAD_STATE64","lr":{"value":4295532164},"cpsr":{"value":4096},"fp":{"value":6175055088},"sp":{"value":6175055008},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4295461744},"far":{"value":0}},"frames":[{"imageOffset":2928,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":5},{"imageOffset":73348,"symbol":"mach_msg2_internal","symbolLocation":72,"imageIndex":5},{"imageOffset":35908,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":5},{"imageOffset":3824,"symbol":"mach_msg","symbolLocation":20,"imageIndex":5},{"imageOffset":604096,"symbol":"__CFRunLoopServiceMachPort","symbolLocation":156,"imageIndex":12},{"imageOffset":600440,"symbol":"__CFRunLoopRun","symbolLocation":1128,"imageIndex":12},{"imageOffset":579844,"symbol":"_CFRunLoopRunSpecificWithOptions","symbolLocation":496,"imageIndex":12},{"imageOffset":9370188,"symbol":"-[NSRunLoop(NSRunLoop) runMode:beforeDate:]","symbolLocation":208,"imageIndex":16},{"imageOffset":9370728,"symbol":"-[NSRunLoop(NSRunLoop) runUntilDate:]","symbolLocation":60,"imageIndex":16},{"imageOffset":16050900,"symbol":"-[UIEventFetcher threadMain]","symbolLocation":404,"imageIndex":13},{"imageOffset":9522908,"symbol":"__NSThread__start__","symbolLocation":716,"imageIndex":16},{"imageOffset":26172,"symbol":"_pthread_start","symbolLocation":104,"imageIndex":6},{"imageOffset":6708,"symbol":"thread_start","symbolLocation":8,"imageIndex":6}]},{"id":108026,"frames":[],"threadState":{"x":[{"value":6175633408},{"value":20739},{"value":6175096832},{"value":0},{"value":409604},{"value":18446744073709551615},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":0},"cpsr":{"value":4096},"fp":{"value":0},"sp":{"value":6175633408},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4296170016},"far":{"value":0}}},{"id":108070,"name":"caulk.messenger.shared:17","threadState":{"x":[{"value":14},{"value":4320160538},{"value":0},{"value":6176780394},{"value":4320160512},{"value":25},{"value":0},{"value":0},{"value":0},{"value":4294967295},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":18446744073709551580},{"value":0},{"value":0},{"value":4367617120},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":7448174840},"cpsr":{"value":2147487744},"fp":{"value":6176780160},"sp":{"value":6176780128},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4295461612},"far":{"value":0}},"frames":[{"imageOffset":2796,"symbol":"semaphore_wait_trap","symbolLocation":8,"imageIndex":5},{"imageOffset":65784,"symbol":"caulk::semaphore::timed_wait(double)","symbolLocation":220,"imageIndex":17},{"imageOffset":97788,"symbol":"caulk::concurrent::details::worker_thread::run()","symbolLocation":28,"imageIndex":17},{"imageOffset":97908,"symbol":"void* caulk::thread_proxy<std::__1::tuple<caulk::thread::attributes, void (caulk::concurrent::details::worker_thread::*)(), std::__1::tuple<caulk::concurrent::details::worker_thread*>>>(void*)","symbolLocation":48,"imageIndex":17},{"imageOffset":26172,"symbol":"_pthread_start","symbolLocation":104,"imageIndex":6},{"imageOffset":6708,"symbol":"thread_start","symbolLocation":8,"imageIndex":6}]},{"id":108071,"name":"caulk.messenger.shared:high","threadState":{"x":[{"value":14},{"value":4320160604},{"value":0},{"value":6177353836},{"value":4320160576},{"value":27},{"value":0},{"value":0},{"value":0},{"value":4294967295},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":18446744073709551580},{"value":0},{"value":0},{"value":4367618016},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0},{"value":0}],"flavor":"ARM_THREAD_STATE64","lr":{"value":7448174840},"cpsr":{"value":2147487744},"fp":{"value":6177353600},"sp":{"value":6177353568},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4295461612},"far":{"value":0}},"frames":[{"imageOffset":2796,"symbol":"semaphore_wait_trap","symbolLocation":8,"imageIndex":5},{"imageOffset":65784,"symbol":"caulk::semaphore::timed_wait(double)","symbolLocation":220,"imageIndex":17},{"imageOffset":97788,"symbol":"caulk::concurrent::details::worker_thread::run()","symbolLocation":28,"imageIndex":17},{"imageOffset":97908,"symbol":"void* caulk::thread_proxy<std::__1::tuple<caulk::thread::attributes, void (caulk::concurrent::details::worker_thread::*)(), std::__1::tuple<caulk::concurrent::details::worker_thread*>>>(void*)","symbolLocation":48,"imageIndex":17},{"imageOffset":26172,"symbol":"_pthread_start","symbolLocation":104,"imageIndex":6},{"imageOffset":6708,"symbol":"thread_start","symbolLocation":8,"imageIndex":6}]},{"id":108368,"name":"AXSpeech","threadState":{"x":[{"value":268451845},{"value":21592279046},{"value":8589934592},{"value":285885908123648},{"value":0},{"value":285885908123648},{"value":2},{"value":4294967295},{"value":0},{"value":17179869184},{"value":0},{"value":2},{"value":0},{"value":0},{"value":66563},{"value":3072},{"value":18446744073709551569},{"value":6447881108,"symbolLocation":0,"symbol":"-[NSConstantDate timeIntervalSinceReferenceDate]"},{"value":0},{"value":4294967295},{"value":2},{"value":285885908123648},{"value":0},{"value":285885908123648},{"value":21592279046},{"value":6177922488},{"value":8589934592},{"value":18446744073709550527},{"value":4295737344,"symbolLocation":0,"symbol":"_libkernel_string_functions"}],"flavor":"ARM_THREAD_STATE64","lr":{"value":4295532164},"cpsr":{"value":4096},"fp":{"value":6177922336},"sp":{"value":6177922256},"esr":{"value":1442840704,"description":"(Syscall)"},"pc":{"value":4295461744},"far":{"value":0}},"frames":[{"imageOffset":2928,"symbol":"mach_msg2_trap","symbolLocation":8,"imageIndex":5},{"imageOffset":73348,"symbol":"mach_msg2_internal","symbolLocation":72,"imageIndex":5},{"imageOffset":35908,"symbol":"mach_msg_overwrite","symbolLocation":484,"imageIndex":5},{"imageOffset":3824,"symbol":"mach_msg","symbolLocation":20,"imageIndex":5},{"imageOffset":604096,"symbol":"__CFRunLoopServiceMachPort","symbolLocation":156,"imageIndex":12},{"imageOffset":600440,"symbol":"__CFRunLoopRun","symbolLocation":1128,"imageIndex":12},{"imageOffset":579844,"symbol":"_CFRunLoopRunSpecificWithOptions","symbolLocation":496,"imageIndex":12},{"imageOffset":9370188,"symbol":"-[NSRunLoop(NSRunLoop) runMode:beforeDate:]","symbolLocation":208,"imageIndex":16},{"imageOffset":112444,"imageIndex":18},{"imageOffset":9522908,"symbol":"__NSThread__start__","symbolLocation":716,"imageIndex":16},{"imageOffset":26172,"symbol":"_pthread_start","symbolLocation":104,"imageIndex":6},{"imageOffset":6708,"symbol":"thread_start","symbolLocation":8,"imageIndex":6}]}],
+  "usedImages" : [
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4295245824,
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.austin410203.gossiptown",
+    "size" : 16384,
+    "uuid" : "073a56da-0b99-3d4a-9bf2-14b55673260e",
+    "path" : "\/Users\/USER\/Library\/Developer\/CoreSimulator\/Devices\/FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC\/data\/Containers\/Bundle\/Application\/9B4AF0F1-A791-415F-B161-F7324FE1654D\/GossipTown.app\/GossipTown",
+    "name" : "GossipTown",
+    "CFBundleVersion" : "1"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4296638464,
+    "size" : 327680,
+    "uuid" : "ba544d9a-46ab-3c59-a00f-aba1479d2079",
+    "path" : "\/Volumes\/VOLUME\/*\/dyld_sim",
+    "name" : "dyld_sim"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4305321984,
+    "size" : 1540096,
+    "uuid" : "98f5e150-4b69-3650-a521-64d48f0b4ec2",
+    "path" : "\/Users\/USER\/Library\/Developer\/CoreSimulator\/Devices\/FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC\/data\/Containers\/Bundle\/Application\/9B4AF0F1-A791-415F-B161-F7324FE1654D\/GossipTown.app\/GossipTown.debug.dylib",
+    "name" : "GossipTown.debug.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4295409664,
+    "size" : 16384,
+    "uuid" : "710be927-bac3-3b9e-b7ce-dbe0c5e8e2a5",
+    "path" : "\/Volumes\/VOLUME\/*\/libswiftUIKit.dylib",
+    "name" : "libswiftUIKit.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4295983104,
+    "size" : 49152,
+    "uuid" : "bf77ee79-a9d5-3ea9-ae07-7442b40f0ee9",
+    "path" : "\/usr\/lib\/system\/libsystem_platform.dylib",
+    "name" : "libsystem_platform.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4295458816,
+    "size" : 245760,
+    "uuid" : "8fea541a-c0cb-3e96-a6d0-19942c9b5c5d",
+    "path" : "\/usr\/lib\/system\/libsystem_kernel.dylib",
+    "name" : "libsystem_kernel.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4296163328,
+    "size" : 65536,
+    "uuid" : "83ab28f7-c547-3bac-841d-62f58d543a57",
+    "path" : "\/usr\/lib\/system\/libsystem_pthread.dylib",
+    "name" : "libsystem_pthread.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 4298113024,
+    "size" : 49152,
+    "uuid" : "75fa6778-178f-394f-9c63-711780430596",
+    "path" : "\/Volumes\/VOLUME\/*\/libobjc-trampolines.dylib",
+    "name" : "libobjc-trampolines.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64e",
+    "base" : 4298276864,
+    "size" : 737280,
+    "uuid" : "57f4e7e7-a497-38bb-a3d2-a459c622460b",
+    "path" : "\/usr\/lib\/dyld",
+    "name" : "dyld"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6443532288,
+    "size" : 508600,
+    "uuid" : "05f4b01b-e685-39fa-93f3-de10cd9b511a",
+    "path" : "\/Volumes\/VOLUME\/*\/libsystem_c.dylib",
+    "name" : "libsystem_c.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6445326336,
+    "size" : 100064,
+    "uuid" : "ca04d801-3e4b-3a57-aead-0a5eb2db0671",
+    "path" : "\/Volumes\/VOLUME\/*\/libc++abi.dylib",
+    "name" : "libc++abi.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6442680320,
+    "size" : 248132,
+    "uuid" : "727c4040-5e6d-3dae-b22c-9a337d46c34f",
+    "path" : "\/Volumes\/VOLUME\/*\/libobjc.A.dylib",
+    "name" : "libobjc.A.dylib"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6446182400,
+    "CFBundleShortVersionString" : "6.9",
+    "CFBundleIdentifier" : "com.apple.CoreFoundation",
+    "size" : 4396288,
+    "uuid" : "e74d7b62-0aac-3013-a55b-f15135d4bd2e",
+    "path" : "\/Volumes\/VOLUME\/*\/CoreFoundation.framework\/CoreFoundation",
+    "name" : "CoreFoundation",
+    "CFBundleVersion" : "5026.5.4"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6528995328,
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.apple.UIKitCore",
+    "size" : 36620096,
+    "uuid" : "12463677-be34-38f7-9e11-3421bbf362fc",
+    "path" : "\/Volumes\/VOLUME\/*\/UIKitCore.framework\/UIKitCore",
+    "name" : "UIKitCore",
+    "CFBundleVersion" : "9126.5.5.2.103"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 9521852416,
+    "size" : 423142,
+    "uuid" : "c37acaad-0da6-3bd4-857e-b3ed6b6f16f3",
+    "path" : "\/Volumes\/VOLUME\/*\/libswift_Concurrency.dylib",
+    "name" : "libswift_Concurrency.dylib"
+  },
+  {
+    "size" : 0,
+    "source" : "A",
+    "base" : 0,
+    "uuid" : "00000000-0000-0000-0000-000000000000"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 6451101696,
+    "CFBundleShortVersionString" : "6.9",
+    "CFBundleIdentifier" : "com.apple.Foundation",
+    "size" : 14388704,
+    "uuid" : "2cc9fce0-08f9-3a0d-8a2f-6db229462de5",
+    "path" : "\/Volumes\/VOLUME\/*\/Foundation.framework\/Foundation",
+    "name" : "Foundation",
+    "CFBundleVersion" : "5026.5.4"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7448109056,
+    "CFBundleShortVersionString" : "1.0",
+    "CFBundleIdentifier" : "com.apple.audio.caulk",
+    "size" : 157824,
+    "uuid" : "21528ae7-06a1-398d-a0a8-90236d3971b1",
+    "path" : "\/Volumes\/VOLUME\/*\/caulk.framework\/caulk",
+    "name" : "caulk"
+  },
+  {
+    "source" : "P",
+    "arch" : "arm64",
+    "base" : 7449112576,
+    "CFBundleShortVersionString" : "1.0.0",
+    "CFBundleIdentifier" : "com.apple.texttospeech",
+    "size" : 2640992,
+    "uuid" : "fc96ab3b-87e3-3f1a-ba92-21b9ce15fc57",
+    "path" : "\/Volumes\/VOLUME\/*\/TextToSpeech.framework\/TextToSpeech",
+    "name" : "TextToSpeech",
+    "CFBundleVersion" : "1.0"
+  }
+],
+  "sharedCache" : {
+  "base" : 6442450944,
+  "size" : 3385917440,
+  "uuid" : "3a8f7915-b255-3f78-82f2-a157ea9591a3"
+},
+  "vmSummary" : "ReadOnly portion of Libraries: Total=1.4G resident=0K(0%) swapped_out_or_unallocated=1.4G(100%)\nWritable regions: Total=87.0M written=1590K(2%) resident=1590K(2%) swapped_out=0K(0%) unallocated=85.5M(98%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nActivity Tracing                   256K        1 \nCG raster data                    59.8M       75 \nColorSync                           16K        1 \nCoreAnimation                     39.4M       28 \nFoundation                          16K        1 \nIOSurface                         12.1M        1 \nImage IO                          9568K       12 \nKernel Alloc Once                   32K        1 \nMALLOC                            20.7M       10 \nMALLOC guard page                 3680K        4 \nSTACK GUARD                       56.1M        9 \nStack                             12.2M        9 \nVM_ALLOCATE                        160K        4 \n__AUTH_CONST                        32K        1 \n__DATA                            27.8M      549 \n__DATA_CONST                      75.2M      569 \n__DATA_DIRTY                       155K       14 \n__FONT_DATA                        2352        1 \n__LINKEDIT                       708.7M       10 \n__OBJC_RO                         55.6M        1 \n__OBJC_RW                         2332K        1 \n__TEXT                           687.6M      582 \n__TPRO_CONST                       164K        3 \ndyld private memory                3.0G       16 \nmapped file                      117.8M       17 \npage table in kernel              1590K        1 \nshared memory                       16K        1 \n===========                     =======  ======= \nTOTAL                              4.8G     1922 \n",
+  "legacyInfo" : {
+  "threadTriggered" : {
+    "queue" : "com.apple.main-thread"
+  }
+},
+  "logWritingSignature" : "81f40344577c37dc624c91ec4ddb300a8bbf6526",
+  "bug_type" : "309",
+  "roots_installed" : 0,
+  "trmStatus" : 2105344,
+  "voucherInfos" : [{"proximateName":"SpringBoard","thread_id":108001},{"proximateName":"SpringBoard","thread_id":108368}],
+  "trialInfo" : {
+  "rollouts" : [
+    {
+      "rolloutId" : "67648e5334a82511f4acf879",
+      "factorPackIds" : [
+
+      ],
+      "deploymentId" : 240000008
+    },
+    {
+      "rolloutId" : "61675b89201f677a9a4cbd65",
+      "factorPackIds" : [
+        "65a855f5f087695cfac03d1f"
+      ],
+      "deploymentId" : 240000289
+    }
+  ],
+  "experiments" : [
+
+  ]
+}
+}

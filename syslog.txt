@@ -1,0 +1,1051 @@
+getpwuid_r did not find a match for uid 501
+Filtering the log data using "process == "GossipTown""
+Timestamp               Ty Process[PID:TID]
+2026-11-08 02:28:41.343 Df GossipTown[11075:8f56] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-08 02:28:41.344 Df GossipTown[11075:8f5b] [com.apple.xpc:connection] [0x103d7f630] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-08 02:28:41.348 Df GossipTown[11075:8f5e] [com.apple.BoardServices:XPCErrors] [C:1] Alloc com.apple.frontboard.systemappservices
+2026-11-08 02:28:41.349 Df GossipTown[11075:8f5e] [com.apple.xpc:connection] [0x104520140] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:28:41.353 Df GossipTown[11075:8f5b] [com.apple.UIKit:BackgroundTask] Creating new assertion because there is no existing background assertion.
+2026-11-08 02:28:41.357 Df GossipTown[11075:8f5b] [com.apple.UIKit:BackgroundTask] Creating new background assertion
+2026-11-08 02:28:41.358 Df GossipTown[11075:8f5b] [com.apple.UIKit:BackgroundTask] Created new background assertion <BKSProcessAssertion: 0x103d76080>
+2026-11-08 02:28:41.358 Df GossipTown[11075:8f5b] [com.apple.runningboard:connection] Initializing connection
+2026-11-08 02:28:41.355 A  GossipTown[11075:8f5d] (CoreFoundation) Loading Preferences From User Session CFPrefsD
+2026-11-08 02:28:41.358 Df GossipTown[11075:8f5b] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-08 02:28:41.359 Df GossipTown[11075:8f5b] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-08 02:28:41.359 Df GossipTown[11075:8f5b] [com.apple.xpc:connection] [0x104520280] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-08 02:28:41.359 Df GossipTown[11075:8f62] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-08 02:28:41.362 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason added: 10; deactivation reasons: 0 -> 1024; animating application lifecycle event: 0
+2026-11-08 02:28:41.363 Df GossipTown[11075:8f56] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.open
+2026-11-08 02:28:41.363 Df GossipTown[11075:8f56] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.workspace-service
+2026-11-08 02:28:41.364 Df GossipTown[11075:8f56] [com.apple.FrontBoard:Common] FBSWorkspace registering source: com.apple.frontboard.systemappservices
+2026-11-08 02:28:41.364 Df GossipTown[11075:8f62] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-08 02:28:41.364 Df GossipTown[11075:8f62] [com.apple.runningboard:connection] Identity resolved as app<com.austin410203.gossiptown((null))>
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f56] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <BSServiceConnectionEndpoint: 0x1044f8a00; target: com.apple.frontboard.systemappservices; service: com.apple.frontboard.workspace-service>
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f5b] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x103d76080>
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f56] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1044dcdc0 com.apple.frontboard.systemappservices> attempting immediate handshake from activate
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f5b] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x10447c900>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 505 (elapsed = 0).
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f56] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1044dcdc0 com.apple.frontboard.systemappservices> sent handshake
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UIApplicationSceneKeyboardSettings on FBSSceneSettings
+2026-11-08 02:28:41.365 Df GossipTown[11075:8f56] [com.apple.runningboard:general] Added observer for process assertions expiration warning: <_RBSExpirationWarningClient: 0x1044f8d00>
+2026-11-08 02:28:41.366 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneOcclusionSettings> on FBSSceneSettings
+2026-11-08 02:28:41.367 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneInterfaceProtectionSettings> on FBSSceneSettings
+2026-11-08 02:28:41.367 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferencesHostSettingsExtension on FBSSceneSettings
+2026-11-08 02:28:41.369 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneSafeAreaSettingsExtension on FBSSceneSettings
+2026-11-08 02:28:41.369 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferenceClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:28:41.369 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UIHomeAffordanceHostSceneSettings> on FBSSceneSettings
+2026-11-08 02:28:41.369 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISystemShellSceneHostingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:28:41.369 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneRenderingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:28:41.370 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneRenderingEnvironmentClientSettings> on FBSSceneClientSettings
+2026-11-08 02:28:41.370 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneTransitioningHostSettings> on FBSSceneSettings
+2026-11-08 02:28:41.370 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneFocusSystemSettings> on FBSSceneSettings
+2026-11-08 02:28:41.370 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationSettingsExtension on FBSSceneSettings
+2026-11-08 02:28:41.370 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:28:41.370 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneWindowingControlClientSettings on FBSSceneClientSettings
+2026-11-08 02:28:41.371 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingContentSizePreferenceClientSettings> on FBSSceneClientSettings
+2026-11-08 02:28:41.371 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneHostingTraitCollectionPropagationSettings on FBSSceneSettings
+2026-11-08 02:28:41.372 Df GossipTown[11075:8f56] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x1045203c0> for initial
+2026-11-08 02:28:41.372 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationSettings> on FBSSceneSettings
+2026-11-08 02:28:41.372 Df GossipTown[11075:8f56] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x1045203c0> for CADisplay KVO
+2026-11-08 02:28:41.373 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:28:41.373 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingEventDeferringSettings> on FBSSceneSettings
+2026-11-08 02:28:41.373 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneSettings
+2026-11-08 02:28:41.374 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneClientSettings
+2026-11-08 02:28:41.374 Df GossipTown[11075:8f56] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 1, category name = (null)
+2026-11-08 02:28:41.374 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingViewControllerPreferencePropagationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:28:41.374 Df GossipTown[11075:8f56] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 0, category name = (null)
+2026-11-08 02:28:41.374 Df GossipTown[11075:8f5b] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneZoomTransitionSettings> on FBSSceneSettings
+2026-11-08 02:28:41.375 Df GossipTown[11075:8f5c] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneSettingsCore on FBSSceneSettings
+2026-11-08 02:28:41.377 Df GossipTown[11075:8f5c] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneClientSettingsCore on FBSSceneClientSettings
+2026-11-08 02:28:41.380 Df GossipTown[11075:8f5c] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneSettings setting counterpart class: UIApplicationSceneSettings
+2026-11-08 02:28:41.382 Df GossipTown[11075:8f5c] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneClientSettings setting counterpart class: UIApplicationSceneClientSettings
+2026-11-08 02:28:41.382 Df GossipTown[11075:8f5c] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneTransitionContextCore on FBSSceneTransitionContext
+2026-11-08 02:28:41.381 Df GossipTown[11075:8f56] [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-11-08 02:28:41.383 Df GossipTown[11075:8f56] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:28:41.384 Df GossipTown[11075:8f56] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:28:41.384 Df GossipTown[11075:8f56] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:28:41.385 Df GossipTown[11075:8f56] [com.apple.UIKit:UpdateScheduler] Selected display: name=LCD (PurpleMain), id=1
+2026-11-08 02:28:41.388 Df GossipTown[11075:8f56] [com.apple.app_launch_measurement:ApplicationLaunch] alm_acquire_pageins_recording_assertion: acquired pageins recording assertion!
+2026-11-08 02:28:41.389 Df GossipTown[11075:8f56] [com.apple.UIKit:BackgroundTask] Will add backgroundTask with taskName: Persistent SceneSession Map Update, expirationHandler: <__NSGlobalBlock__: 0x1e78c84e8>
+2026-11-08 02:28:41.389 Df GossipTown[11075:8f56] [com.apple.UIKit:BackgroundTask] Reusing background assertion <BKSProcessAssertion: 0x103d76080>
+2026-11-08 02:28:41.389 Df GossipTown[11075:8f56] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x103d76080>
+2026-11-08 02:28:41.389 Df GossipTown[11075:8f56] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x104648880>: taskID = 2, taskName = Persistent SceneSession Map Update, creationTime = 505 (elapsed = 0).
+2026-11-08 02:28:41.390 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason added: 5; deactivation reasons: 1024 -> 1056; animating application lifecycle event: 1
+2026-11-08 02:28:41.390 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.390 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.391 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.391 Df GossipTown[11075:8f56] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x104628f50>; with scene: <UIWindowScene: 0x103d77740>
+2026-11-08 02:28:41.391 Df GossipTown[11075:8f56] [com.apple.BacklightServices:scenes] 0x1045d44e0 setDelegate:<0x1045d5140 _UIBacklightEnvironment> hasDelegate:YES for environment:sceneID:com.austin410203.gossiptown-default
+2026-11-08 02:28:41.392 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.392 Df GossipTown[11075:8f56] [com.apple.UIKit:EventDeferring] [0x104629180] Initialized with scene: <UIWindowScene: 0x103d77740>; behavior: <_UIEventDeferringBehavior_iOS: 0x1044fb500>; availableForProcess: 1, systemShellManagesKeyboardFocus: 1
+2026-11-08 02:28:41.392 Df GossipTown[11075:8f56] [com.apple.BoardServices:XPCErrors] [C:2] Alloc com.apple.backboard.hid-services.xpc
+2026-11-08 02:28:41.392 Df GossipTown[11075:8f56] [com.apple.xpc:connection] [0x104520dc0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:28:41.395 Df GossipTown[11075:8f56] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x1045ce5e0; process scope; status: target> was:none
+2026-11-08 02:28:41.396 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to LastOneWins
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Scene target of keyboard event deferring environment did change: 1; scene: UIWindowScene: 0x103d77740; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:EventDeferring] [0x104629180] Scene target of event deferring environments did update: scene: 0x103d77740; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x103d77740; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Stack[KeyWindow] 0x1045d5980: Taking no further action for migration from LastOneWins -> SystemShellManaged as there are no scenes
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to SystemShellManaged
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Key window needs update: 0; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x103d77740; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x0; reason: UIWindowScene: 0x103d77740: Window scene became target of keyboard environment
+2026-11-08 02:28:41.397 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.399 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.401 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.402 A  GossipTown[11075:8f56] (libsystem_trace.dylib) Activity for state dumps
+2026-11-08 02:28:41.402 F  GossipTown[11075:8f56] [com.apple.runtime-issues:UIKit App Config] `UIScene` lifecycle will soon be required. Failure to adopt will result in an assert in the future.
+2026-11-08 02:28:41.403 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:41.404 Df GossipTown[11075:8f56] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:28:41.404 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Ignoring already applied deactivation reason: 5; deactivation reasons: 1056
+2026-11-08 02:28:41.404 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason added: 11; deactivation reasons: 1056 -> 3104; animating application lifecycle event: 1
+2026-11-08 02:28:41.405 Df GossipTown[11075:8f56] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:28:41.407 Df GossipTown[11075:8f56] [com.apple.xpc:connection] [0x104521540] activating connection: mach=true listener=false peer=false name=com.apple.UIKit.KeyboardManagement.hosted
+2026-11-08 02:28:41.411 A  GossipTown[11075:8f62] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:28:41.438 Df GossipTown[11075:8f5d] [com.apple.BackBoard:EventDelivery] BKSHIDEventObserver - connection activation
+2026-11-08 02:28:41.457 Df GossipTown[11075:8f56] [com.apple.CoreAnalytics:client] No XPC connection in Simulator
+2026-11-08 02:28:41.579 Df GossipTown[11075:8f5d] [com.apple.xpc:connection] [0x104522f80] activating connection: mach=true listener=false peer=false name=com.apple.fontservicesd
+2026-11-08 02:28:41.626 Df GossipTown[11075:8f56] [PrototypeTools:domain] Not observing PTDefaults on customer install.
+2026-11-08 02:28:41.654 Df GossipTown[11075:8f56] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:28:41.654 Df GossipTown[11075:8f56] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:28:41.673 Df GossipTown[11075:8f56] [com.apple.CFNetwork:Default] Initializing NSHTTPCookieStorage singleton
+2026-11-08 02:28:41.674 Df GossipTown[11075:8f56] [com.apple.CFNetwork:Default] Initializing CFHTTPCookieStorage singleton
+2026-11-08 02:28:41.674 Df GossipTown[11075:8f56] [com.apple.CFNetwork:Default] Creating default cookie storage with process/bundle identifier
+2026-11-08 02:28:41.911 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 2
+2026-11-08 02:28:41.912 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Ending task with identifier 2 and description: <_UIBackgroundTaskInfo: 0x104648880>: taskID = 2, taskName = Persistent SceneSession Map Update, creationTime = 505 (elapsed = 1), _expireHandler: <__NSGlobalBlock__: 0x1e78c84e8>
+2026-11-08 02:28:41.912 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x103d76080> (used by background task with identifier 2: <_UIBackgroundTaskInfo: 0x104648880>: taskID = 2, taskName = Persistent SceneSession Map Update, creationTime = 505 (elapsed = 1))
+2026-11-08 02:28:42.000 Df GossipTown[11075:8f56] [com.apple.UIKit:Orientation] <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C) Scene updated orientation preferences: none -> ( Pu )
+2026-11-08 02:28:42.001 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Key window API is scene-level: YES
+2026-11-08 02:28:42.001 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] UIWindowScene: 0x103d77740: Window became key in scene: UIWindow: 0x104588400; contextId: 0x8E6F21E5: reason: UIWindowScene: 0x103d77740: Window requested to become key in scene: 0x104588400
+2026-11-08 02:28:42.001 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Key window needs update: 1; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x103d77740; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x104588400; reason: UIWindowScene: 0x103d77740: Window requested to become key in scene: 0x104588400
+2026-11-08 02:28:42.001 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Window did become application key: UIWindow: 0x104588400; contextId: 0x8E6F21E5; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:28:42.001 Df GossipTown[11075:8f56] [com.apple.UIKit:EventDeferring] [0x104629180] Begin local event deferring requested for token: 0x1045cd800; environments: 1; reason: UIWindowScene: 0x103d77740: Begin event deferring in keyboardFocus for window: 0x104588400
+2026-11-08 02:28:42.005 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason removed: 10; deactivation reasons: 3104 -> 2080; animating application lifecycle event: 1
+2026-11-08 02:28:42.008 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason added: 12; deactivation reasons: 2080 -> 6176; animating application lifecycle event: 1
+2026-11-08 02:28:42.008 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason removed: 11; deactivation reasons: 6176 -> 4128; animating application lifecycle event: 1
+2026-11-08 02:28:42.009 Df GossipTown[11075:8f56] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneIntelligenceSupportSettings> on FBSSceneSettings
+2026-11-08 02:28:42.016 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:42.010 Df GossipTown[11075:8f5b] [com.apple.BackBoard:EventDelivery] BKSHIDEventDeliveryManager - connection activation
+2026-11-08 02:28:42.033 Df GossipTown[11075:8f5e] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x1045ce5e0; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default; status: ancestor> was:target
+2026-11-08 02:28:42.042 Df GossipTown[11075:8f5b] [com.apple.UIIntelligenceSupport:xpc] establishing connection to agent
+2026-11-08 02:28:42.048 Df GossipTown[11075:8f5b] [com.apple.xpc:session] [0x107417e30] Session created.
+2026-11-08 02:28:42.048 Df GossipTown[11075:8f5b] [com.apple.xpc:session] [0x107417e30] Session created from connection [0x10750b840]
+2026-11-08 02:28:42.048 Df GossipTown[11075:8f5b] [com.apple.xpc:connection] [0x10750b840] activating connection: mach=true listener=false peer=false name=com.apple.uiintelligencesupport.agent
+2026-11-08 02:28:42.048 Df GossipTown[11075:8f5b] [com.apple.xpc:session] [0x107417e30] Session activated
+2026-11-08 02:28:42.374 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 1
+2026-11-08 02:28:42.374 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Ending task with identifier 1 and description: <_UIBackgroundTaskInfo: 0x10447c900>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 505 (elapsed = 1), _expireHandler: (null)
+2026-11-08 02:28:42.374 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x103d76080> (used by background task with identifier 1: <_UIBackgroundTaskInfo: 0x10447c900>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 505 (elapsed = 1))
+2026-11-08 02:28:42.374 Df GossipTown[11075:8f5e] [com.apple.UIKit:BackgroundTask] Will invalidate assertion: <BKSProcessAssertion: 0x103d76080> for task identifier: 1
+2026-11-08 02:28:42.486 A  GossipTown[11075:8f5d] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:28:42.750 Df GossipTown[11075:8f56] [com.apple.xpc:connection] [0x107508280] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-08 02:28:42.752 A  GossipTown[11075:8f5b] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:28:42.770 A  GossipTown[11075:8f5b] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:28:42.771 E  GossipTown[11075:8f5e] [com.apple.app_launch_measurement:General] Failed to send CA Event for app launch measurements for ca_event_type: 0 event_name: com.apple.app_launch_measurement.FirstFramePresentationMetric
+2026-11-08 02:28:42.771 Df GossipTown[11075:8f56] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:1 [2B2F74EF-9434-4218-8BBE-4A5CC2D5DFBE] (reporting strategy default)>
+2026-11-08 02:28:42.771 Df GossipTown[11075:8f56] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:2 [C1B7DA26-1F3E-457E-8650-32E447E4A65A] (reporting strategy default)>
+2026-11-08 02:28:42.771 Df GossipTown[11075:8f56] [com.apple.network:activity] Set activity <nw_activity 50:1 [2B2F74EF-9434-4218-8BBE-4A5CC2D5DFBE] (reporting strategy default)> as the global parent
+2026-11-08 02:28:42.772 Df GossipTown[11075:8f56] [com.apple.UIKit:EventBus] Event Timing Profile for Touch: not found, path="/System/Library/EventTimingProfiles/Sim.Touch.plist"
+2026-11-08 02:28:42.772 Df GossipTown[11075:8f56] [com.apple.UIKit:EventBus] Event Timing Profile for Pencil: not found, path="/System/Library/EventTimingProfiles/Sim.Pencil.plist"
+2026-11-08 02:28:42.772 Df GossipTown[11075:8f56] [com.apple.UIKit:UpdateScheduler] Target list changed: <CADisplay:LCD PurpleMain>
+2026-11-08 02:28:42.773 Df GossipTown[11075:8f56] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:28:42.773 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:42.773 Df GossipTown[11075:8f56] [com.apple.Accessibility:AXCommon] Read Per-App on Init: Smart invert = (null)
+2026-11-08 02:28:42.834 Df GossipTown[11075:8f56] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-11-08 02:28:43.168 Df GossipTown[11075:8f56] (CoreAudio)   HALPlugInManagement.cpp:443    HALPlugInManagement::RegisterPlugIns: loading in-process plug-ins
+2026-11-08 02:28:43.172 E  GossipTown[11075:8f56] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x107666020> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-11-08 02:28:43.304 Df GossipTown[11075:8f56] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:28:43.304 Df GossipTown[11075:8f56] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:28:43.310 Df GossipTown[11075:8f56] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:887   Creating DefaultDeviceAggregate
+2026-11-08 02:28:43.368 Df GossipTown[11075:8f56] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 110
+2026-11-08 02:28:43.368 Df GossipTown[11075:8f56] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:1008  PrimarySessionActiveWithInputEnabled 0 -> 1
+2026-11-08 02:28:43.395 Df GossipTown[11075:8f56] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 113
+2026-11-08 02:28:43.412 Df GossipTown[11075:8f56] [com.apple.UIKit:EventDeferring] [0x104629180] Scene target of event deferring environments did update: scene: 0x103d77740; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:28:43.412 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x103d77740; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:28:43.413 Df GossipTown[11075:8f56] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x103d77740> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:28:43.413 Df GossipTown[11075:8f56] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:28:43.414 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason removed: 12; deactivation reasons: 4128 -> 32; animating application lifecycle event: 1
+2026-11-08 02:28:43.414 Df GossipTown[11075:8f56] [com.apple.KeyboardArbiter:Client] Send setDeactivating: N (-DeactivationReason:SuspendedEventsOnly)
+2026-11-08 02:28:43.414 Df GossipTown[11075:8f56] [com.apple.UIKit:Application] Deactivation reason removed: 5; deactivation reasons: 32 -> 0; animating application lifecycle event: 0
+2026-11-08 02:28:43.469 Df GossipTown[11075:8f56] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:28:43.469 Df GossipTown[11075:8f56] [com.apple.KeyboardArbiter:Client] handleKeyboardChange: set currentKeyboard:N (wasKeyboard:N)
+2026-11-08 02:28:43.477 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyboardSceneDelegate] forceReloadInputViews
+2026-11-08 02:28:43.478 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyboardSceneDelegate] Reloading input views for key-window scene responder: <(null): 0x0; > force:Y
+2026-11-08 02:28:43.479 Df GossipTown[11075:8f56] [com.apple.UIKit:KeyboardArbiterClientLog] isWritingToolsHandlingKeyboardTracking:Y (WT ready:Y, Arbiter ready:Y)
+2026-11-08 02:28:46.786 Df GossipTown[11075:8f56] [com.apple.xpc:connection] [0x10750b480] activating connection: mach=true listener=false peer=false name=com.apple.IOSurface.Remote
+2026-11-08 02:28:47.234 Df GossipTown[11075:8f56] (Foundation) AUTOPILOT shot title
+2026-11-08 02:28:47.349 A  GossipTown[11075:8f5c] (CoreFoundation) Updating Key-Value Observers Of Preferences
+2026-11-08 02:28:47.497 Df GossipTown[11075:8f56] (Foundation) AUTOPILOT event intro
+2026-11-08 02:28:48.979 Df GossipTown[11075:8f56] (Foundation) AUTOPILOT shot intro
+2026-11-08 02:28:49.036 Df GossipTown[11075:8f56] (CoreFoundation) *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[GossipTown.TownView select:]: unrecognized selector sent to instance 0x103d8e6a0'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00000001804c3dec __exceptionPreprocess + 172
+	1   libobjc.A.dylib                     0x0000000180063438 objc_exception_throw + 72
+	2   CoreFoundation                      0x00000001804d95e4 +[NSObject(NSObject) instanceMethodSignatureForSelector:] + 0
+	3   UIKitCore                           0x00000001864d3740 -[UIResponder doesNotRecognizeSelector:] + 236
+	4   CoreFoundation                      0x00000001804c7ec0 ___forwarding___ + 796
+	5   CoreFoundation                      0x00000001804ca4dc _CF_forwarding_prep_0 + 92
+	6   GossipTown.debug.dylib              0x00000001036c56b0 $s10GossipTown6GameVCC4planyyF + 852
+	7   GossipTown.debug.dylib              0x000000010369de74 $s10GossipTown9AutopilotC3run33_2AB554467BE4069DC3DF0281AAB7AAFBLLyyYaFTY6_ + 200
+	8  <…>
+2026-11-08 02:34:01.523 Df GossipTown[25525:11c9e] [com.apple.xpc:connection] [0x105af3c40] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-08 02:34:01.524 Df GossipTown[25525:11c50] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-08 02:34:01.526 Df GossipTown[25525:11ca0] [com.apple.BoardServices:XPCErrors] [C:1] Alloc com.apple.frontboard.systemappservices
+2026-11-08 02:34:01.527 Df GossipTown[25525:11ca0] [com.apple.xpc:connection] [0x105af7600] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:34:01.536 A  GossipTown[25525:11c9f] (CoreFoundation) Loading Preferences From User Session CFPrefsD
+2026-11-08 02:34:01.554 Df GossipTown[25525:11c9e] [com.apple.UIKit:BackgroundTask] Creating new assertion because there is no existing background assertion.
+2026-11-08 02:34:01.554 Df GossipTown[25525:11c9e] [com.apple.UIKit:BackgroundTask] Creating new background assertion
+2026-11-08 02:34:01.555 Df GossipTown[25525:11c9e] [com.apple.UIKit:BackgroundTask] Created new background assertion <BKSProcessAssertion: 0x105af5750>
+2026-11-08 02:34:01.555 Df GossipTown[25525:11c9e] [com.apple.runningboard:connection] Initializing connection
+2026-11-08 02:34:01.555 Df GossipTown[25525:11c9e] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-08 02:34:01.555 Df GossipTown[25525:11ca6] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-08 02:34:01.555 Df GossipTown[25525:11c9e] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-08 02:34:01.556 Df GossipTown[25525:11c9e] [com.apple.xpc:connection] [0x106140280] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-08 02:34:01.558 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason added: 10; deactivation reasons: 0 -> 1024; animating application lifecycle event: 0
+2026-11-08 02:34:01.560 Df GossipTown[25525:11c50] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.open
+2026-11-08 02:34:01.560 A  GossipTown[25525:11ca0] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:34:01.561 Df GossipTown[25525:11c50] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.workspace-service
+2026-11-08 02:34:01.562 Df GossipTown[25525:11ca6] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-08 02:34:01.562 Df GossipTown[25525:11ca6] [com.apple.runningboard:connection] Identity resolved as app<com.austin410203.gossiptown((null))>
+2026-11-08 02:34:01.564 Df GossipTown[25525:11c9e] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x105af5750>
+2026-11-08 02:34:01.564 Df GossipTown[25525:11c9e] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x10607c900>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 826 (elapsed = 0).
+2026-11-08 02:34:01.564 Df GossipTown[25525:11c50] [com.apple.FrontBoard:Common] FBSWorkspace registering source: com.apple.frontboard.systemappservices
+2026-11-08 02:34:01.564 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UIApplicationSceneKeyboardSettings on FBSSceneSettings
+2026-11-08 02:34:01.568 Df GossipTown[25525:11c50] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <BSServiceConnectionEndpoint: 0x1060fc6a0; target: com.apple.frontboard.systemappservices; service: com.apple.frontboard.workspace-service>
+2026-11-08 02:34:01.568 Df GossipTown[25525:11c50] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1060d8c80 com.apple.frontboard.systemappservices> attempting immediate handshake from activate
+2026-11-08 02:34:01.571 Df GossipTown[25525:11c50] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1060d8c80 com.apple.frontboard.systemappservices> sent handshake
+2026-11-08 02:34:01.572 Df GossipTown[25525:11c50] [com.apple.runningboard:general] Added observer for process assertions expiration warning: <_RBSExpirationWarningClient: 0x1060fcd60>
+2026-11-08 02:34:01.573 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneOcclusionSettings> on FBSSceneSettings
+2026-11-08 02:34:01.577 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneInterfaceProtectionSettings> on FBSSceneSettings
+2026-11-08 02:34:01.580 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferencesHostSettingsExtension on FBSSceneSettings
+2026-11-08 02:34:01.582 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneSafeAreaSettingsExtension on FBSSceneSettings
+2026-11-08 02:34:01.587 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferenceClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:34:01.587 Df GossipTown[25525:11c50] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x106140500> for initial
+2026-11-08 02:34:01.590 Df GossipTown[25525:11c50] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x106140500> for CADisplay KVO
+2026-11-08 02:34:01.591 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UIHomeAffordanceHostSceneSettings> on FBSSceneSettings
+2026-11-08 02:34:01.598 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISystemShellSceneHostingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:34:01.604 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneRenderingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:34:01.606 Df GossipTown[25525:11c50] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 1, category name = (null)
+2026-11-08 02:34:01.607 Df GossipTown[25525:11c50] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 0, category name = (null)
+2026-11-08 02:34:01.609 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneRenderingEnvironmentClientSettings> on FBSSceneClientSettings
+2026-11-08 02:34:01.609 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneTransitioningHostSettings> on FBSSceneSettings
+2026-11-08 02:34:01.609 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneFocusSystemSettings> on FBSSceneSettings
+2026-11-08 02:34:01.613 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationSettingsExtension on FBSSceneSettings
+2026-11-08 02:34:01.614 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:34:01.616 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneWindowingControlClientSettings on FBSSceneClientSettings
+2026-11-08 02:34:01.620 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingContentSizePreferenceClientSettings> on FBSSceneClientSettings
+2026-11-08 02:34:01.620 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneHostingTraitCollectionPropagationSettings on FBSSceneSettings
+2026-11-08 02:34:01.632 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationSettings> on FBSSceneSettings
+2026-11-08 02:34:01.642 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:34:01.642 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingEventDeferringSettings> on FBSSceneSettings
+2026-11-08 02:34:01.646 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneSettings
+2026-11-08 02:34:01.650 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneClientSettings
+2026-11-08 02:34:01.650 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingViewControllerPreferencePropagationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:34:01.652 Df GossipTown[25525:11c9e] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneZoomTransitionSettings> on FBSSceneSettings
+2026-11-08 02:34:01.654 Df GossipTown[25525:11ca0] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneSettingsCore on FBSSceneSettings
+2026-11-08 02:34:01.660 Df GossipTown[25525:11ca0] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneClientSettingsCore on FBSSceneClientSettings
+2026-11-08 02:34:01.683 Df GossipTown[25525:11ca0] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneSettings setting counterpart class: UIApplicationSceneSettings
+2026-11-08 02:34:01.683 Df GossipTown[25525:11ca0] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneClientSettings setting counterpart class: UIApplicationSceneClientSettings
+2026-11-08 02:34:01.683 Df GossipTown[25525:11ca0] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneTransitionContextCore on FBSSceneTransitionContext
+2026-11-08 02:34:01.691 Df GossipTown[25525:11c50] [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-11-08 02:34:01.691 Df GossipTown[25525:11c50] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:34:01.691 Df GossipTown[25525:11c50] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:34:01.691 Df GossipTown[25525:11c50] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:34:01.692 Df GossipTown[25525:11c50] [com.apple.UIKit:UpdateScheduler] Selected display: name=LCD (PurpleMain), id=1
+2026-11-08 02:34:01.709 Df GossipTown[25525:11c50] [com.apple.app_launch_measurement:ApplicationLaunch] alm_acquire_pageins_recording_assertion: acquired pageins recording assertion!
+2026-11-08 02:34:01.738 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason added: 5; deactivation reasons: 1024 -> 1056; animating application lifecycle event: 1
+2026-11-08 02:34:01.740 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.740 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.743 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.747 Df GossipTown[25525:11c50] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x106238fc0>; with scene: <UIWindowScene: 0x105afd820>
+2026-11-08 02:34:01.748 Df GossipTown[25525:11c50] [com.apple.BacklightServices:scenes] 0x1061dc810 setDelegate:<0x1061ddb60 _UIBacklightEnvironment> hasDelegate:YES for environment:sceneID:com.austin410203.gossiptown-default
+2026-11-08 02:34:01.751 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.751 Df GossipTown[25525:11c50] [com.apple.UIKit:EventDeferring] [0x106239180] Initialized with scene: <UIWindowScene: 0x105afd820>; behavior: <_UIEventDeferringBehavior_iOS: 0x1060feac0>; availableForProcess: 1, systemShellManagesKeyboardFocus: 1
+2026-11-08 02:34:01.752 Df GossipTown[25525:11c50] [com.apple.BoardServices:XPCErrors] [C:2] Alloc com.apple.backboard.hid-services.xpc
+2026-11-08 02:34:01.752 Df GossipTown[25525:11c50] [com.apple.xpc:connection] [0x106140dc0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:34:01.765 Df GossipTown[25525:11c50] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x10604cd80; process scope; status: target> was:none
+2026-11-08 02:34:01.766 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to LastOneWins
+2026-11-08 02:34:01.766 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Scene target of keyboard event deferring environment did change: 1; scene: UIWindowScene: 0x105afd820; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:34:01.766 Df GossipTown[25525:11c50] [com.apple.UIKit:EventDeferring] [0x106239180] Scene target of event deferring environments did update: scene: 0x105afd820; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:34:01.766 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x105afd820; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:34:01.766 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Stack[KeyWindow] 0x1061de070: Taking no further action for migration from LastOneWins -> SystemShellManaged as there are no scenes
+2026-11-08 02:34:01.766 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to SystemShellManaged
+2026-11-08 02:34:01.767 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Key window needs update: 0; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x105afd820; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x0; reason: UIWindowScene: 0x105afd820: Window scene became target of keyboard environment
+2026-11-08 02:34:01.767 Df GossipTown[25525:11c9e] [com.apple.BackBoard:EventDelivery] BKSHIDEventObserver - connection activation
+2026-11-08 02:34:01.768 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.781 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.800 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.802 A  GossipTown[25525:11c50] (libsystem_trace.dylib) Activity for state dumps
+2026-11-08 02:34:01.802 F  GossipTown[25525:11c50] [com.apple.runtime-issues:UIKit App Config] `UIScene` lifecycle will soon be required. Failure to adopt will result in an assert in the future.
+2026-11-08 02:34:01.804 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:01.807 Df GossipTown[25525:11c50] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:34:01.808 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Ignoring already applied deactivation reason: 5; deactivation reasons: 1056
+2026-11-08 02:34:01.809 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason added: 11; deactivation reasons: 1056 -> 3104; animating application lifecycle event: 1
+2026-11-08 02:34:01.811 Df GossipTown[25525:11c50] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:34:01.815 Df GossipTown[25525:11c50] [com.apple.xpc:connection] [0x106141540] activating connection: mach=true listener=false peer=false name=com.apple.UIKit.KeyboardManagement.hosted
+2026-11-08 02:34:02.053 Df GossipTown[25525:11c50] [com.apple.CoreAnalytics:client] No XPC connection in Simulator
+2026-11-08 02:34:02.209 Df GossipTown[25525:11ca0] [com.apple.xpc:connection] [0x106142f80] activating connection: mach=true listener=false peer=false name=com.apple.fontservicesd
+2026-11-08 02:34:02.303 Df GossipTown[25525:11c50] [PrototypeTools:domain] Not observing PTDefaults on customer install.
+2026-11-08 02:34:02.344 Df GossipTown[25525:11c50] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:34:02.346 Df GossipTown[25525:11c50] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:34:02.350 Df GossipTown[25525:11c50] [com.apple.CFNetwork:Default] Initializing NSHTTPCookieStorage singleton
+2026-11-08 02:34:02.354 Df GossipTown[25525:11c50] [com.apple.CFNetwork:Default] Initializing CFHTTPCookieStorage singleton
+2026-11-08 02:34:02.354 Df GossipTown[25525:11c50] [com.apple.CFNetwork:Default] Creating default cookie storage with process/bundle identifier
+2026-11-08 02:34:02.606 Df GossipTown[25525:11ca4] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 1
+2026-11-08 02:34:02.606 Df GossipTown[25525:11ca4] [com.apple.UIKit:BackgroundTask] Ending task with identifier 1 and description: <_UIBackgroundTaskInfo: 0x10607c900>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 826 (elapsed = 1), _expireHandler: (null)
+2026-11-08 02:34:02.607 Df GossipTown[25525:11ca4] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x105af5750> (used by background task with identifier 1: <_UIBackgroundTaskInfo: 0x10607c900>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 826 (elapsed = 1))
+2026-11-08 02:34:02.607 Df GossipTown[25525:11ca4] [com.apple.UIKit:BackgroundTask] Will invalidate assertion: <BKSProcessAssertion: 0x105af5750> for task identifier: 1
+2026-11-08 02:34:02.608 Df GossipTown[25525:11c50] [com.apple.UIKit:Orientation] <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C) Scene updated orientation preferences: none -> ( Pu )
+2026-11-08 02:34:02.608 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Key window API is scene-level: YES
+2026-11-08 02:34:02.608 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] UIWindowScene: 0x105afd820: Window became key in scene: UIWindow: 0x10618c000; contextId: 0x78B01497: reason: UIWindowScene: 0x105afd820: Window requested to become key in scene: 0x10618c000
+2026-11-08 02:34:02.608 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Key window needs update: 1; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x105afd820; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x10618c000; reason: UIWindowScene: 0x105afd820: Window requested to become key in scene: 0x10618c000
+2026-11-08 02:34:02.609 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Window did become application key: UIWindow: 0x10618c000; contextId: 0x78B01497; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:34:02.609 Df GossipTown[25525:11c50] [com.apple.UIKit:EventDeferring] [0x106239180] Begin local event deferring requested for token: 0x10604c900; environments: 1; reason: UIWindowScene: 0x105afd820: Begin event deferring in keyboardFocus for window: 0x10618c000
+2026-11-08 02:34:02.611 Df GossipTown[25525:11ca4] [com.apple.BackBoard:EventDelivery] BKSHIDEventDeliveryManager - connection activation
+2026-11-08 02:34:02.613 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason removed: 10; deactivation reasons: 3104 -> 2080; animating application lifecycle event: 1
+2026-11-08 02:34:02.616 Df GossipTown[25525:11cab] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x10604cd80; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default; status: ancestor> was:target
+2026-11-08 02:34:02.619 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason added: 12; deactivation reasons: 2080 -> 6176; animating application lifecycle event: 1
+2026-11-08 02:34:02.619 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason removed: 11; deactivation reasons: 6176 -> 4128; animating application lifecycle event: 1
+2026-11-08 02:34:02.620 Df GossipTown[25525:11c50] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneIntelligenceSupportSettings> on FBSSceneSettings
+2026-11-08 02:34:02.626 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:02.626 Df GossipTown[25525:11cab] [com.apple.UIIntelligenceSupport:xpc] establishing connection to agent
+2026-11-08 02:34:02.628 Df GossipTown[25525:11cab] [com.apple.xpc:session] [0x109010af0] Session created.
+2026-11-08 02:34:02.628 Df GossipTown[25525:11cab] [com.apple.xpc:session] [0x109010af0] Session created from connection [0x1091143c0]
+2026-11-08 02:34:02.628 Df GossipTown[25525:11cab] [com.apple.xpc:connection] [0x1091143c0] activating connection: mach=true listener=false peer=false name=com.apple.uiintelligencesupport.agent
+2026-11-08 02:34:02.628 Df GossipTown[25525:11cab] [com.apple.xpc:session] [0x109010af0] Session activated
+2026-11-08 02:34:02.719 A  GossipTown[25525:11cab] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:34:03.307 A  GossipTown[25525:11cab] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:34:03.312 Df GossipTown[25525:11c50] [com.apple.xpc:connection] [0x109115f40] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-08 02:34:03.316 A  GossipTown[25525:11cab] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:34:03.336 E  GossipTown[25525:11ca0] [com.apple.app_launch_measurement:General] Failed to send CA Event for app launch measurements for ca_event_type: 0 event_name: com.apple.app_launch_measurement.FirstFramePresentationMetric
+2026-11-08 02:34:03.337 Df GossipTown[25525:11c50] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:1 [9AE982A8-9BA8-4940-9460-F9D4CE02455E] (reporting strategy default)>
+2026-11-08 02:34:03.337 Df GossipTown[25525:11c50] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:2 [88A8CF2E-77F7-4E97-AF7C-E4EA72F43205] (reporting strategy default)>
+2026-11-08 02:34:03.337 Df GossipTown[25525:11c50] [com.apple.network:activity] Set activity <nw_activity 50:1 [9AE982A8-9BA8-4940-9460-F9D4CE02455E] (reporting strategy default)> as the global parent
+2026-11-08 02:34:03.340 Df GossipTown[25525:11c50] [com.apple.UIKit:EventBus] Event Timing Profile for Touch: not found, path="/System/Library/EventTimingProfiles/Sim.Touch.plist"
+2026-11-08 02:34:03.340 Df GossipTown[25525:11c50] [com.apple.UIKit:EventBus] Event Timing Profile for Pencil: not found, path="/System/Library/EventTimingProfiles/Sim.Pencil.plist"
+2026-11-08 02:34:03.340 Df GossipTown[25525:11c50] [com.apple.UIKit:UpdateScheduler] Target list changed: <CADisplay:LCD PurpleMain>
+2026-11-08 02:34:03.341 Df GossipTown[25525:11c50] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:34:03.341 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:03.342 Df GossipTown[25525:11c50] [com.apple.Accessibility:AXCommon] Read Per-App on Init: Smart invert = (null)
+2026-11-08 02:34:03.410 Df GossipTown[25525:11c50] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-11-08 02:34:03.426 A  GossipTown[25525:11c9e] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:34:03.552 Df GossipTown[25525:11c50] (CoreAudio)   HALPlugInManagement.cpp:443    HALPlugInManagement::RegisterPlugIns: loading in-process plug-ins
+2026-11-08 02:34:03.567 E  GossipTown[25525:11c50] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x109266600> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-11-08 02:34:03.666 Df GossipTown[25525:11c50] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:34:03.666 Df GossipTown[25525:11c50] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:34:03.672 Df GossipTown[25525:11c50] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:887   Creating DefaultDeviceAggregate
+2026-11-08 02:34:03.697 Df GossipTown[25525:11c50] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 110
+2026-11-08 02:34:03.697 Df GossipTown[25525:11c50] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:1008  PrimarySessionActiveWithInputEnabled 0 -> 1
+2026-11-08 02:34:03.720 Df GossipTown[25525:11c50] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 113
+2026-11-08 02:34:03.738 Df GossipTown[25525:11c50] [com.apple.UIKit:EventDeferring] [0x106239180] Scene target of event deferring environments did update: scene: 0x105afd820; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:34:03.739 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x105afd820; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:34:03.757 Df GossipTown[25525:11c50] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105afd820> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:34:03.758 Df GossipTown[25525:11c50] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:34:03.758 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason removed: 12; deactivation reasons: 4128 -> 32; animating application lifecycle event: 1
+2026-11-08 02:34:03.759 Df GossipTown[25525:11c50] [com.apple.KeyboardArbiter:Client] Send setDeactivating: N (-DeactivationReason:SuspendedEventsOnly)
+2026-11-08 02:34:03.760 Df GossipTown[25525:11c50] [com.apple.UIKit:Application] Deactivation reason removed: 5; deactivation reasons: 32 -> 0; animating application lifecycle event: 0
+2026-11-08 02:34:03.807 Df GossipTown[25525:11c50] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:34:03.807 Df GossipTown[25525:11c50] [com.apple.KeyboardArbiter:Client] handleKeyboardChange: set currentKeyboard:N (wasKeyboard:N)
+2026-11-08 02:34:03.826 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyboardSceneDelegate] forceReloadInputViews
+2026-11-08 02:34:03.826 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyboardSceneDelegate] Reloading input views for key-window scene responder: <(null): 0x0; > force:Y
+2026-11-08 02:34:03.830 Df GossipTown[25525:11c50] [com.apple.UIKit:KeyboardArbiterClientLog] isWritingToolsHandlingKeyboardTracking:Y (WT ready:Y, Arbiter ready:Y)
+2026-11-08 02:34:07.110 Df GossipTown[25525:11c50] [com.apple.xpc:connection] [0x1090a7700] activating connection: mach=true listener=false peer=false name=com.apple.IOSurface.Remote
+2026-11-08 02:34:07.508 Df GossipTown[25525:11c50] (Foundation) AUTOPILOT shot title
+2026-11-08 02:34:07.677 A  GossipTown[25525:11ca0] (CoreFoundation) Updating Key-Value Observers Of Preferences
+2026-11-08 02:34:07.816 Df GossipTown[25525:11c50] (Foundation) AUTOPILOT event intro
+2026-11-08 02:34:09.250 Df GossipTown[25525:11c50] (Foundation) AUTOPILOT shot intro
+2026-11-08 02:34:09.293 Df GossipTown[25525:11c50] (CoreFoundation) *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[GossipTown.TownView select:]: unrecognized selector sent to instance 0x105b00960'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00000001804c3dec __exceptionPreprocess + 172
+	1   libobjc.A.dylib                     0x0000000180063438 objc_exception_throw + 72
+	2   CoreFoundation                      0x00000001804d95e4 +[NSObject(NSObject) instanceMethodSignatureForSelector:] + 0
+	3   UIKitCore                           0x00000001864d3740 -[UIResponder doesNotRecognizeSelector:] + 236
+	4   CoreFoundation                      0x00000001804c7ec0 ___forwarding___ + 796
+	5   CoreFoundation                      0x00000001804ca4dc _CF_forwarding_prep_0 + 92
+	6   GossipTown.debug.dylib              0x00000001053b56b0 $s10GossipTown6GameVCC4planyyF + 852
+	7   GossipTown.debug.dylib              0x000000010538de74 $s10GossipTown9AutopilotC3run33_2AB554467BE4069DC3DF0281AAB7AAFBLLyyYaFTY6_ + 200
+	8  <…>
+2026-11-08 02:39:14.103 Df GossipTown[40993:1a5f4] [com.apple.xpc:connection] [0x1005d2e80] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-08 02:39:14.104 Df GossipTown[40993:1a5f5] [com.apple.BoardServices:XPCErrors] [C:1] Alloc com.apple.frontboard.systemappservices
+2026-11-08 02:39:14.108 Df GossipTown[40993:1a5f5] [com.apple.xpc:connection] [0x1005d3e20] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:39:14.109 Df GossipTown[40993:1a5e1] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-08 02:39:14.110 A  GossipTown[40993:1a5f6] (CoreFoundation) Loading Preferences From User Session CFPrefsD
+2026-11-08 02:39:14.119 Df GossipTown[40993:1a5f4] [com.apple.UIKit:BackgroundTask] Creating new assertion because there is no existing background assertion.
+2026-11-08 02:39:14.119 Df GossipTown[40993:1a5f4] [com.apple.UIKit:BackgroundTask] Creating new background assertion
+2026-11-08 02:39:14.119 Df GossipTown[40993:1a5f4] [com.apple.UIKit:BackgroundTask] Created new background assertion <BKSProcessAssertion: 0x1005d49e0>
+2026-11-08 02:39:14.119 Df GossipTown[40993:1a5f4] [com.apple.runningboard:connection] Initializing connection
+2026-11-08 02:39:14.119 Df GossipTown[40993:1a5f4] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-08 02:39:14.121 Df GossipTown[40993:1a5f4] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-08 02:39:14.121 Df GossipTown[40993:1a5f4] [com.apple.xpc:connection] [0x101544280] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-08 02:39:14.120 Df GossipTown[40993:1a5f8] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-08 02:39:14.130 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason added: 10; deactivation reasons: 0 -> 1024; animating application lifecycle event: 0
+2026-11-08 02:39:14.131 Df GossipTown[40993:1a5e1] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.open
+2026-11-08 02:39:14.132 Df GossipTown[40993:1a5e1] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.workspace-service
+2026-11-08 02:39:14.132 Df GossipTown[40993:1a5f8] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-08 02:39:14.133 Df GossipTown[40993:1a5f8] [com.apple.runningboard:connection] Identity resolved as app<com.austin410203.gossiptown((null))>
+2026-11-08 02:39:14.135 Df GossipTown[40993:1a5e1] [com.apple.FrontBoard:Common] FBSWorkspace registering source: com.apple.frontboard.systemappservices
+2026-11-08 02:39:14.136 Df GossipTown[40993:1a5f4] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x1005d49e0>
+2026-11-08 02:39:14.136 Df GossipTown[40993:1a5f4] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x10147cb40>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1138 (elapsed = 0).
+2026-11-08 02:39:14.137 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UIApplicationSceneKeyboardSettings on FBSSceneSettings
+2026-11-08 02:39:14.137 A  GossipTown[40993:1a5fb] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:39:14.143 Df GossipTown[40993:1a5e1] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <BSServiceConnectionEndpoint: 0x1014f4a40; target: com.apple.frontboard.systemappservices; service: com.apple.frontboard.workspace-service>
+2026-11-08 02:39:14.144 Df GossipTown[40993:1a5e1] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1014e0a00 com.apple.frontboard.systemappservices> attempting immediate handshake from activate
+2026-11-08 02:39:14.144 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneOcclusionSettings> on FBSSceneSettings
+2026-11-08 02:39:14.146 Df GossipTown[40993:1a5e1] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1014e0a00 com.apple.frontboard.systemappservices> sent handshake
+2026-11-08 02:39:14.146 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneInterfaceProtectionSettings> on FBSSceneSettings
+2026-11-08 02:39:14.147 Df GossipTown[40993:1a5e1] [com.apple.runningboard:general] Added observer for process assertions expiration warning: <_RBSExpirationWarningClient: 0x1014f4de0>
+2026-11-08 02:39:14.147 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferencesHostSettingsExtension on FBSSceneSettings
+2026-11-08 02:39:14.149 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneSafeAreaSettingsExtension on FBSSceneSettings
+2026-11-08 02:39:14.151 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferenceClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:39:14.152 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UIHomeAffordanceHostSceneSettings> on FBSSceneSettings
+2026-11-08 02:39:14.152 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISystemShellSceneHostingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:39:14.153 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneRenderingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:39:14.153 Df GossipTown[40993:1a5e1] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x101544500> for initial
+2026-11-08 02:39:14.153 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneRenderingEnvironmentClientSettings> on FBSSceneClientSettings
+2026-11-08 02:39:14.153 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneTransitioningHostSettings> on FBSSceneSettings
+2026-11-08 02:39:14.153 Df GossipTown[40993:1a5e1] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x101544500> for CADisplay KVO
+2026-11-08 02:39:14.153 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneFocusSystemSettings> on FBSSceneSettings
+2026-11-08 02:39:14.154 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationSettingsExtension on FBSSceneSettings
+2026-11-08 02:39:14.155 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:39:14.155 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneWindowingControlClientSettings on FBSSceneClientSettings
+2026-11-08 02:39:14.155 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingContentSizePreferenceClientSettings> on FBSSceneClientSettings
+2026-11-08 02:39:14.155 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneHostingTraitCollectionPropagationSettings on FBSSceneSettings
+2026-11-08 02:39:14.156 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationSettings> on FBSSceneSettings
+2026-11-08 02:39:14.158 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:39:14.160 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingEventDeferringSettings> on FBSSceneSettings
+2026-11-08 02:39:14.162 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneSettings
+2026-11-08 02:39:14.163 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneClientSettings
+2026-11-08 02:39:14.164 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingViewControllerPreferencePropagationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:39:14.165 Df GossipTown[40993:1a5f4] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneZoomTransitionSettings> on FBSSceneSettings
+2026-11-08 02:39:14.165 Df GossipTown[40993:1a5f7] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneSettingsCore on FBSSceneSettings
+2026-11-08 02:39:14.168 Df GossipTown[40993:1a5f7] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneClientSettingsCore on FBSSceneClientSettings
+2026-11-08 02:39:14.178 Df GossipTown[40993:1a5f7] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneSettings setting counterpart class: UIApplicationSceneSettings
+2026-11-08 02:39:14.178 Df GossipTown[40993:1a5f7] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneClientSettings setting counterpart class: UIApplicationSceneClientSettings
+2026-11-08 02:39:14.179 Df GossipTown[40993:1a5f7] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneTransitionContextCore on FBSSceneTransitionContext
+2026-11-08 02:39:14.189 Df GossipTown[40993:1a5e1] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 1, category name = (null)
+2026-11-08 02:39:14.190 Df GossipTown[40993:1a5e1] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 0, category name = (null)
+2026-11-08 02:39:14.201 Df GossipTown[40993:1a5e1] [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-11-08 02:39:14.201 Df GossipTown[40993:1a5e1] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:39:14.201 Df GossipTown[40993:1a5e1] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:39:14.202 Df GossipTown[40993:1a5e1] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:39:14.203 Df GossipTown[40993:1a5e1] [com.apple.UIKit:UpdateScheduler] Selected display: name=LCD (PurpleMain), id=1
+2026-11-08 02:39:14.207 Df GossipTown[40993:1a5e1] [com.apple.app_launch_measurement:ApplicationLaunch] alm_acquire_pageins_recording_assertion: acquired pageins recording assertion!
+2026-11-08 02:39:14.209 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason added: 5; deactivation reasons: 1024 -> 1056; animating application lifecycle event: 1
+2026-11-08 02:39:14.210 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.210 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.212 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.213 Df GossipTown[40993:1a5e1] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x101630d20>; with scene: <UIWindowScene: 0x1005dd0e0>
+2026-11-08 02:39:14.216 Df GossipTown[40993:1a5e1] [com.apple.BacklightServices:scenes] 0x101609740 setDelegate:<0x101609320 _UIBacklightEnvironment> hasDelegate:YES for environment:sceneID:com.austin410203.gossiptown-default
+2026-11-08 02:39:14.217 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.217 Df GossipTown[40993:1a5e1] [com.apple.UIKit:EventDeferring] [0x101630ee0] Initialized with scene: <UIWindowScene: 0x1005dd0e0>; behavior: <_UIEventDeferringBehavior_iOS: 0x1014f76c0>; availableForProcess: 1, systemShellManagesKeyboardFocus: 1
+2026-11-08 02:39:14.218 Df GossipTown[40993:1a5e1] [com.apple.BoardServices:XPCErrors] [C:2] Alloc com.apple.backboard.hid-services.xpc
+2026-11-08 02:39:14.219 Df GossipTown[40993:1a5e1] [com.apple.xpc:connection] [0x101544dc0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:39:14.260 Df GossipTown[40993:1a5e1] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x10144f420; process scope; status: target> was:none
+2026-11-08 02:39:14.262 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to LastOneWins
+2026-11-08 02:39:14.262 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Scene target of keyboard event deferring environment did change: 1; scene: UIWindowScene: 0x1005dd0e0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:39:14.262 Df GossipTown[40993:1a5e1] [com.apple.UIKit:EventDeferring] [0x101630ee0] Scene target of event deferring environments did update: scene: 0x1005dd0e0; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:39:14.262 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x1005dd0e0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:39:14.262 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Stack[KeyWindow] 0x101609dd0: Taking no further action for migration from LastOneWins -> SystemShellManaged as there are no scenes
+2026-11-08 02:39:14.263 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to SystemShellManaged
+2026-11-08 02:39:14.263 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Key window needs update: 0; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x1005dd0e0; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x0; reason: UIWindowScene: 0x1005dd0e0: Window scene became target of keyboard environment
+2026-11-08 02:39:14.264 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.265 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.268 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.269 A  GossipTown[40993:1a5e1] (libsystem_trace.dylib) Activity for state dumps
+2026-11-08 02:39:14.269 F  GossipTown[40993:1a5e1] [com.apple.runtime-issues:UIKit App Config] `UIScene` lifecycle will soon be required. Failure to adopt will result in an assert in the future.
+2026-11-08 02:39:14.270 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.270 Df GossipTown[40993:1a5e1] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:39:14.269 Df GossipTown[40993:1a5f4] [com.apple.BackBoard:EventDelivery] BKSHIDEventObserver - connection activation
+2026-11-08 02:39:14.272 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Ignoring already applied deactivation reason: 5; deactivation reasons: 1056
+2026-11-08 02:39:14.272 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason added: 11; deactivation reasons: 1056 -> 3104; animating application lifecycle event: 1
+2026-11-08 02:39:14.272 Df GossipTown[40993:1a5e1] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:39:14.274 Df GossipTown[40993:1a5e1] [com.apple.xpc:connection] [0x101545540] activating connection: mach=true listener=false peer=false name=com.apple.UIKit.KeyboardManagement.hosted
+2026-11-08 02:39:14.321 Df GossipTown[40993:1a5e1] [com.apple.CoreAnalytics:client] No XPC connection in Simulator
+2026-11-08 02:39:14.414 Df GossipTown[40993:1a5fb] [com.apple.xpc:connection] [0x101546f80] activating connection: mach=true listener=false peer=false name=com.apple.fontservicesd
+2026-11-08 02:39:14.432 Df GossipTown[40993:1a5e1] [PrototypeTools:domain] Not observing PTDefaults on customer install.
+2026-11-08 02:39:14.450 Df GossipTown[40993:1a5e1] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:39:14.450 Df GossipTown[40993:1a5e1] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:39:14.451 Df GossipTown[40993:1a5e1] [com.apple.CFNetwork:Default] Initializing NSHTTPCookieStorage singleton
+2026-11-08 02:39:14.453 Df GossipTown[40993:1a5e1] [com.apple.CFNetwork:Default] Initializing CFHTTPCookieStorage singleton
+2026-11-08 02:39:14.453 Df GossipTown[40993:1a5e1] [com.apple.CFNetwork:Default] Creating default cookie storage with process/bundle identifier
+2026-11-08 02:39:14.604 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Orientation] <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C) Scene updated orientation preferences: none -> ( Pu )
+2026-11-08 02:39:14.605 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Key window API is scene-level: YES
+2026-11-08 02:39:14.605 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] UIWindowScene: 0x1005dd0e0: Window became key in scene: UIWindow: 0x101598000; contextId: 0xBF97C312: reason: UIWindowScene: 0x1005dd0e0: Window requested to become key in scene: 0x101598000
+2026-11-08 02:39:14.605 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Key window needs update: 1; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x1005dd0e0; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x101598000; reason: UIWindowScene: 0x1005dd0e0: Window requested to become key in scene: 0x101598000
+2026-11-08 02:39:14.605 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Window did become application key: UIWindow: 0x101598000; contextId: 0xBF97C312; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:39:14.605 Df GossipTown[40993:1a5e1] [com.apple.UIKit:EventDeferring] [0x101630ee0] Begin local event deferring requested for token: 0x10144fd20; environments: 1; reason: UIWindowScene: 0x1005dd0e0: Begin event deferring in keyboardFocus for window: 0x101598000
+2026-11-08 02:39:14.606 Df GossipTown[40993:1a5fb] [com.apple.BackBoard:EventDelivery] BKSHIDEventDeliveryManager - connection activation
+2026-11-08 02:39:14.608 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason removed: 10; deactivation reasons: 3104 -> 2080; animating application lifecycle event: 1
+2026-11-08 02:39:14.609 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason added: 12; deactivation reasons: 2080 -> 6176; animating application lifecycle event: 1
+2026-11-08 02:39:14.610 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason removed: 11; deactivation reasons: 6176 -> 4128; animating application lifecycle event: 1
+2026-11-08 02:39:14.610 Df GossipTown[40993:1a5e1] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneIntelligenceSupportSettings> on FBSSceneSettings
+2026-11-08 02:39:14.610 Df GossipTown[40993:1a5f8] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x10144f420; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default; status: ancestor> was:target
+2026-11-08 02:39:14.611 Df GossipTown[40993:1a5fb] [com.apple.UIIntelligenceSupport:xpc] establishing connection to agent
+2026-11-08 02:39:14.612 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:14.612 Df GossipTown[40993:1a5fb] [com.apple.xpc:session] [0x104414ff0] Session created.
+2026-11-08 02:39:14.612 Df GossipTown[40993:1a5fb] [com.apple.xpc:session] [0x104414ff0] Session created from connection [0x1045012c0]
+2026-11-08 02:39:14.612 Df GossipTown[40993:1a5fb] [com.apple.xpc:connection] [0x1045012c0] activating connection: mach=true listener=false peer=false name=com.apple.uiintelligencesupport.agent
+2026-11-08 02:39:14.612 Df GossipTown[40993:1a5fb] [com.apple.xpc:session] [0x104414ff0] Session activated
+2026-11-08 02:39:15.025 A  GossipTown[40993:1a5f8] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:39:15.027 A  GossipTown[40993:1a5f7] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:39:15.028 Df GossipTown[40993:1a5e1] [com.apple.xpc:connection] [0x10442c8c0] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:1 [345FA605-546C-4312-AE30-0F1E09CB7F72] (reporting strategy default)>
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:2 [5CA30CAA-8205-4F65-A6B2-4DF6D9B69E81] (reporting strategy default)>
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.network:activity] Set activity <nw_activity 50:1 [345FA605-546C-4312-AE30-0F1E09CB7F72] (reporting strategy default)> as the global parent
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 1
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.UIKit:BackgroundTask] Ending task with identifier 1 and description: <_UIBackgroundTaskInfo: 0x10147cb40>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1138 (elapsed = 1), _expireHandler: (null)
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x1005d49e0> (used by background task with identifier 1: <_UIBackgroundTaskInfo: 0x10147cb40>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1138 (elapsed = 1))
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.UIKit:BackgroundTask] Will invalidate assertion: <BKSProcessAssertion: 0x1005d49e0> for task identifier: 1
+2026-11-08 02:39:15.046 Df GossipTown[40993:1a5e1] [com.apple.UIKit:EventBus] Event Timing Profile for Touch: not found, path="/System/Library/EventTimingProfiles/Sim.Touch.plist"
+2026-11-08 02:39:15.047 Df GossipTown[40993:1a5e1] [com.apple.UIKit:EventBus] Event Timing Profile for Pencil: not found, path="/System/Library/EventTimingProfiles/Sim.Pencil.plist"
+2026-11-08 02:39:15.047 Df GossipTown[40993:1a5e1] [com.apple.UIKit:UpdateScheduler] Target list changed: <CADisplay:LCD PurpleMain>
+2026-11-08 02:39:15.047 Df GossipTown[40993:1a5e1] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:39:15.047 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:15.127 Df GossipTown[40993:1a5e1] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-11-08 02:39:15.141 A  GossipTown[40993:1a5f6] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:39:15.273 Df GossipTown[40993:1a5e1] (CoreAudio)   HALPlugInManagement.cpp:443    HALPlugInManagement::RegisterPlugIns: loading in-process plug-ins
+2026-11-08 02:39:15.275 E  GossipTown[40993:1a5e1] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1045fa560> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-11-08 02:39:15.304 A  GossipTown[40993:1a5f8] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:39:15.337 Df GossipTown[40993:1a5e1] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:39:15.337 Df GossipTown[40993:1a5e1] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:39:15.339 Df GossipTown[40993:1a5e1] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:887   Creating DefaultDeviceAggregate
+2026-11-08 02:39:15.355 Df GossipTown[40993:1a5e1] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 110
+2026-11-08 02:39:15.356 Df GossipTown[40993:1a5e1] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:1008  PrimarySessionActiveWithInputEnabled 0 -> 1
+2026-11-08 02:39:15.380 Df GossipTown[40993:1a5e1] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 113
+2026-11-08 02:39:15.397 Df GossipTown[40993:1a5e1] [com.apple.UIKit:EventDeferring] [0x101630ee0] Scene target of event deferring environments did update: scene: 0x1005dd0e0; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:39:15.397 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x1005dd0e0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:39:15.397 Df GossipTown[40993:1a5e1] [com.apple.Accessibility:AXCommon] Read Per-App on Init: Smart invert = (null)
+2026-11-08 02:39:15.407 Df GossipTown[40993:1a5e1] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1005dd0e0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:39:15.407 Df GossipTown[40993:1a5e1] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:39:15.408 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason removed: 12; deactivation reasons: 4128 -> 32; animating application lifecycle event: 1
+2026-11-08 02:39:15.408 Df GossipTown[40993:1a5e1] [com.apple.KeyboardArbiter:Client] Send setDeactivating: N (-DeactivationReason:SuspendedEventsOnly)
+2026-11-08 02:39:15.408 Df GossipTown[40993:1a5e1] [com.apple.UIKit:Application] Deactivation reason removed: 5; deactivation reasons: 32 -> 0; animating application lifecycle event: 0
+2026-11-08 02:39:15.445 Df GossipTown[40993:1a5e1] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:39:15.446 Df GossipTown[40993:1a5e1] [com.apple.KeyboardArbiter:Client] handleKeyboardChange: set currentKeyboard:N (wasKeyboard:N)
+2026-11-08 02:39:15.459 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyboardSceneDelegate] forceReloadInputViews
+2026-11-08 02:39:15.460 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyboardSceneDelegate] Reloading input views for key-window scene responder: <(null): 0x0; > force:Y
+2026-11-08 02:39:15.462 Df GossipTown[40993:1a5e1] [com.apple.UIKit:KeyboardArbiterClientLog] isWritingToolsHandlingKeyboardTracking:Y (WT ready:Y, Arbiter ready:Y)
+2026-11-08 02:39:18.763 Df GossipTown[40993:1a5e1] [com.apple.xpc:connection] [0x104503980] activating connection: mach=true listener=false peer=false name=com.apple.IOSurface.Remote
+2026-11-08 02:39:19.128 Df GossipTown[40993:1a5e1] (Foundation) AUTOPILOT shot title
+2026-11-08 02:39:19.175 A  GossipTown[40993:1a5fa] (CoreFoundation) Updating Key-Value Observers Of Preferences
+2026-11-08 02:39:19.290 Df GossipTown[40993:1a5e1] (Foundation) AUTOPILOT event intro
+2026-11-08 02:39:20.457 Df GossipTown[40993:1a5e1] (Foundation) AUTOPILOT shot intro
+2026-11-08 02:39:20.464 Df GossipTown[40993:1a5e1] (CoreFoundation) *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '-[GossipTown.TownView select:]: unrecognized selector sent to instance 0x1005e0de0'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00000001804c3dec __exceptionPreprocess + 172
+	1   libobjc.A.dylib                     0x0000000180063438 objc_exception_throw + 72
+	2   CoreFoundation                      0x00000001804d95e4 +[NSObject(NSObject) instanceMethodSignatureForSelector:] + 0
+	3   UIKitCore                           0x00000001864d3740 -[UIResponder doesNotRecognizeSelector:] + 236
+	4   CoreFoundation                      0x00000001804c7ec0 ___forwarding___ + 796
+	5   CoreFoundation                      0x00000001804ca4dc _CF_forwarding_prep_0 + 92
+	6   GossipTown.debug.dylib              0x0000000100a0d6b0 $s10GossipTown6GameVCC4planyyF + 852
+	7   GossipTown.debug.dylib              0x00000001009e5e74 $s10GossipTown9AutopilotC3run33_2AB554467BE4069DC3DF0281AAB7AAFBLLyyYaFTY6_ + 200
+	8  <…>
+2026-11-08 02:44:22.912 Df GossipTown[60479:24cf0] [com.apple.BoardServices:XPCErrors] [C:1] Alloc com.apple.frontboard.systemappservices
+2026-11-08 02:44:22.912 Df GossipTown[60479:24cf1] [com.apple.xpc:connection] [0x105937030] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-08 02:44:22.914 Df GossipTown[60479:24cf0] [com.apple.xpc:connection] [0x1059381b0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:44:22.915 Df GossipTown[60479:24cdd] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-08 02:44:22.926 Df GossipTown[60479:24cef] [com.apple.UIKit:BackgroundTask] Creating new assertion because there is no existing background assertion.
+2026-11-08 02:44:22.926 Df GossipTown[60479:24cef] [com.apple.UIKit:BackgroundTask] Creating new background assertion
+2026-11-08 02:44:22.926 Df GossipTown[60479:24cef] [com.apple.UIKit:BackgroundTask] Created new background assertion <BKSProcessAssertion: 0x10592cd90>
+2026-11-08 02:44:22.926 Df GossipTown[60479:24cef] [com.apple.runningboard:connection] Initializing connection
+2026-11-08 02:44:22.927 Df GossipTown[60479:24cef] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-08 02:44:22.927 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason added: 10; deactivation reasons: 0 -> 1024; animating application lifecycle event: 0
+2026-11-08 02:44:22.927 Df GossipTown[60479:24cdd] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.open
+2026-11-08 02:44:22.927 Df GossipTown[60479:24cef] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-08 02:44:22.927 Df GossipTown[60479:24cef] [com.apple.xpc:connection] [0x106148280] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-08 02:44:22.928 Df GossipTown[60479:24cf4] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-08 02:44:22.928 Df GossipTown[60479:24cdd] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.workspace-service
+2026-11-08 02:44:22.917 A  GossipTown[60479:24cf1] (CoreFoundation) Loading Preferences From User Session CFPrefsD
+2026-11-08 02:44:22.929 Df GossipTown[60479:24cdd] [com.apple.FrontBoard:Common] FBSWorkspace registering source: com.apple.frontboard.systemappservices
+2026-11-08 02:44:22.930 Df GossipTown[60479:24cdd] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <BSServiceConnectionEndpoint: 0x1061008c0; target: com.apple.frontboard.systemappservices; service: com.apple.frontboard.workspace-service>
+2026-11-08 02:44:22.930 Df GossipTown[60479:24cf4] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cf4] [com.apple.runningboard:connection] Identity resolved as app<com.austin410203.gossiptown((null))>
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cdd] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1060d4820 com.apple.frontboard.systemappservices> attempting immediate handshake from activate
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cdd] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1060d4820 com.apple.frontboard.systemappservices> sent handshake
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cdd] [com.apple.runningboard:general] Added observer for process assertions expiration warning: <_RBSExpirationWarningClient: 0x106100c80>
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cef] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x10592cd90>
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cef] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x10607cac0>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1447 (elapsed = 0).
+2026-11-08 02:44:22.931 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UIApplicationSceneKeyboardSettings on FBSSceneSettings
+2026-11-08 02:44:22.932 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneOcclusionSettings> on FBSSceneSettings
+2026-11-08 02:44:22.933 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneInterfaceProtectionSettings> on FBSSceneSettings
+2026-11-08 02:44:22.933 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferencesHostSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:22.933 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneSafeAreaSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:22.933 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferenceClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:44:22.934 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UIHomeAffordanceHostSceneSettings> on FBSSceneSettings
+2026-11-08 02:44:22.934 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISystemShellSceneHostingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:44:22.934 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneRenderingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:44:22.934 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneRenderingEnvironmentClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:22.934 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneTransitioningHostSettings> on FBSSceneSettings
+2026-11-08 02:44:22.934 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneFocusSystemSettings> on FBSSceneSettings
+2026-11-08 02:44:22.935 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:22.935 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:44:22.935 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneWindowingControlClientSettings on FBSSceneClientSettings
+2026-11-08 02:44:22.935 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingContentSizePreferenceClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:22.935 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneHostingTraitCollectionPropagationSettings on FBSSceneSettings
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationSettings> on FBSSceneSettings
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cdd] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x106148500> for initial
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingEventDeferringSettings> on FBSSceneSettings
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneSettings
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cdd] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x106148500> for CADisplay KVO
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneClientSettings
+2026-11-08 02:44:22.936 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingViewControllerPreferencePropagationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:22.937 Df GossipTown[60479:24cef] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneZoomTransitionSettings> on FBSSceneSettings
+2026-11-08 02:44:22.934 A  GossipTown[60479:24cf5] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:22.937 Df GossipTown[60479:24cf2] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneSettingsCore on FBSSceneSettings
+2026-11-08 02:44:22.938 Df GossipTown[60479:24cf2] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneClientSettingsCore on FBSSceneClientSettings
+2026-11-08 02:44:22.938 Df GossipTown[60479:24cdd] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 1, category name = (null)
+2026-11-08 02:44:22.939 Df GossipTown[60479:24cdd] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 0, category name = (null)
+2026-11-08 02:44:22.946 Df GossipTown[60479:24cf2] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneSettings setting counterpart class: UIApplicationSceneSettings
+2026-11-08 02:44:22.947 Df GossipTown[60479:24cdd] [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-11-08 02:44:22.947 Df GossipTown[60479:24cf2] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneClientSettings setting counterpart class: UIApplicationSceneClientSettings
+2026-11-08 02:44:22.947 Df GossipTown[60479:24cdd] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:22.947 Df GossipTown[60479:24cf2] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneTransitionContextCore on FBSSceneTransitionContext
+2026-11-08 02:44:22.947 Df GossipTown[60479:24cdd] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:22.947 Df GossipTown[60479:24cdd] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:22.948 Df GossipTown[60479:24cdd] [com.apple.UIKit:UpdateScheduler] Selected display: name=LCD (PurpleMain), id=1
+2026-11-08 02:44:22.950 Df GossipTown[60479:24cdd] [com.apple.app_launch_measurement:ApplicationLaunch] alm_acquire_pageins_recording_assertion: acquired pageins recording assertion!
+2026-11-08 02:44:22.953 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason added: 5; deactivation reasons: 1024 -> 1056; animating application lifecycle event: 1
+2026-11-08 02:44:22.954 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.954 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.958 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.958 Df GossipTown[60479:24cdd] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x106240d20>; with scene: <UIWindowScene: 0x1059463d0>
+2026-11-08 02:44:22.958 Df GossipTown[60479:24cdd] [com.apple.BacklightServices:scenes] 0x106211c20 setDelegate:<0x106211d10 _UIBacklightEnvironment> hasDelegate:YES for environment:sceneID:com.austin410203.gossiptown-default
+2026-11-08 02:44:22.959 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.959 Df GossipTown[60479:24cdd] [com.apple.UIKit:EventDeferring] [0x106240ee0] Initialized with scene: <UIWindowScene: 0x1059463d0>; behavior: <_UIEventDeferringBehavior_iOS: 0x106103900>; availableForProcess: 1, systemShellManagesKeyboardFocus: 1
+2026-11-08 02:44:22.960 Df GossipTown[60479:24cdd] [com.apple.BoardServices:XPCErrors] [C:2] Alloc com.apple.backboard.hid-services.xpc
+2026-11-08 02:44:22.960 Df GossipTown[60479:24cdd] [com.apple.xpc:connection] [0x106148dc0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:44:22.966 Df GossipTown[60479:24cdd] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x1060e5140; process scope; status: target> was:none
+2026-11-08 02:44:22.966 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to LastOneWins
+2026-11-08 02:44:22.966 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Scene target of keyboard event deferring environment did change: 1; scene: UIWindowScene: 0x1059463d0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:22.967 Df GossipTown[60479:24cdd] [com.apple.UIKit:EventDeferring] [0x106240ee0] Scene target of event deferring environments did update: scene: 0x1059463d0; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:44:22.967 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x1059463d0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:22.967 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Stack[KeyWindow] 0x106211fe0: Taking no further action for migration from LastOneWins -> SystemShellManaged as there are no scenes
+2026-11-08 02:44:22.967 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to SystemShellManaged
+2026-11-08 02:44:22.968 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Key window needs update: 0; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x1059463d0; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x0; reason: UIWindowScene: 0x1059463d0: Window scene became target of keyboard environment
+2026-11-08 02:44:22.968 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.968 Df GossipTown[60479:24cf7] [com.apple.BackBoard:EventDelivery] BKSHIDEventObserver - connection activation
+2026-11-08 02:44:22.969 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.970 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.970 A  GossipTown[60479:24cdd] (libsystem_trace.dylib) Activity for state dumps
+2026-11-08 02:44:22.970 F  GossipTown[60479:24cdd] [com.apple.runtime-issues:UIKit App Config] `UIScene` lifecycle will soon be required. Failure to adopt will result in an assert in the future.
+2026-11-08 02:44:22.971 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:22.971 Df GossipTown[60479:24cdd] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:22.972 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Ignoring already applied deactivation reason: 5; deactivation reasons: 1056
+2026-11-08 02:44:22.972 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason added: 11; deactivation reasons: 1056 -> 3104; animating application lifecycle event: 1
+2026-11-08 02:44:22.972 Df GossipTown[60479:24cdd] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:44:22.973 Df GossipTown[60479:24cdd] [com.apple.xpc:connection] [0x106149540] activating connection: mach=true listener=false peer=false name=com.apple.UIKit.KeyboardManagement.hosted
+2026-11-08 02:44:23.026 Df GossipTown[60479:24cdd] [com.apple.CoreAnalytics:client] No XPC connection in Simulator
+2026-11-08 02:44:23.105 Df GossipTown[60479:24cf0] [com.apple.xpc:connection] [0x10614af80] activating connection: mach=true listener=false peer=false name=com.apple.fontservicesd
+2026-11-08 02:44:23.120 Df GossipTown[60479:24cdd] [PrototypeTools:domain] Not observing PTDefaults on customer install.
+2026-11-08 02:44:23.130 Df GossipTown[60479:24cdd] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:44:23.131 Df GossipTown[60479:24cdd] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:44:23.131 Df GossipTown[60479:24cdd] [com.apple.CFNetwork:Default] Initializing NSHTTPCookieStorage singleton
+2026-11-08 02:44:23.133 Df GossipTown[60479:24cdd] [com.apple.CFNetwork:Default] Initializing CFHTTPCookieStorage singleton
+2026-11-08 02:44:23.133 Df GossipTown[60479:24cdd] [com.apple.CFNetwork:Default] Creating default cookie storage with process/bundle identifier
+2026-11-08 02:44:23.271 Df GossipTown[60479:24cdd] [com.apple.UIKit:Orientation] <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C) Scene updated orientation preferences: none -> ( Pu )
+2026-11-08 02:44:23.271 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Key window API is scene-level: YES
+2026-11-08 02:44:23.271 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] UIWindowScene: 0x1059463d0: Window became key in scene: UIWindow: 0x106194000; contextId: 0x56B22D13: reason: UIWindowScene: 0x1059463d0: Window requested to become key in scene: 0x106194000
+2026-11-08 02:44:23.271 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Key window needs update: 1; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x1059463d0; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x106194000; reason: UIWindowScene: 0x1059463d0: Window requested to become key in scene: 0x106194000
+2026-11-08 02:44:23.271 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Window did become application key: UIWindow: 0x106194000; contextId: 0x56B22D13; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:23.271 Df GossipTown[60479:24cdd] [com.apple.UIKit:EventDeferring] [0x106240ee0] Begin local event deferring requested for token: 0x1060e50e0; environments: 1; reason: UIWindowScene: 0x1059463d0: Begin event deferring in keyboardFocus for window: 0x106194000
+2026-11-08 02:44:23.272 Df GossipTown[60479:24cf7] [com.apple.BackBoard:EventDelivery] BKSHIDEventDeliveryManager - connection activation
+2026-11-08 02:44:23.273 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason removed: 10; deactivation reasons: 3104 -> 2080; animating application lifecycle event: 1
+2026-11-08 02:44:23.273 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason added: 12; deactivation reasons: 2080 -> 6176; animating application lifecycle event: 1
+2026-11-08 02:44:23.273 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason removed: 11; deactivation reasons: 6176 -> 4128; animating application lifecycle event: 1
+2026-11-08 02:44:23.273 Df GossipTown[60479:24cdd] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneIntelligenceSupportSettings> on FBSSceneSettings
+2026-11-08 02:44:23.274 Df GossipTown[60479:24cf7] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x1060e5140; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default; status: ancestor> was:target
+2026-11-08 02:44:23.274 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:23.274 Df GossipTown[60479:24cf0] [com.apple.UIIntelligenceSupport:xpc] establishing connection to agent
+2026-11-08 02:44:23.275 Df GossipTown[60479:24cf0] [com.apple.xpc:session] [0x109010e10] Session created.
+2026-11-08 02:44:23.275 Df GossipTown[60479:24cf0] [com.apple.xpc:session] [0x109010e10] Session created from connection [0x109118c80]
+2026-11-08 02:44:23.275 Df GossipTown[60479:24cf0] [com.apple.xpc:connection] [0x109118c80] activating connection: mach=true listener=false peer=false name=com.apple.uiintelligencesupport.agent
+2026-11-08 02:44:23.275 Df GossipTown[60479:24cf0] [com.apple.xpc:session] [0x109010e10] Session activated
+2026-11-08 02:44:23.638 A  GossipTown[60479:24cf1] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:23.641 A  GossipTown[60479:24cf0] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:23.646 Df GossipTown[60479:24cdd] [com.apple.xpc:connection] [0x109118280] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:1 [7FD7B930-4C03-4BD3-94A8-1155C509BE8E] (reporting strategy default)>
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:2 [582DAD74-B6D9-411E-9136-C66F15404258] (reporting strategy default)>
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.network:activity] Set activity <nw_activity 50:1 [7FD7B930-4C03-4BD3-94A8-1155C509BE8E] (reporting strategy default)> as the global parent
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 1
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.UIKit:BackgroundTask] Ending task with identifier 1 and description: <_UIBackgroundTaskInfo: 0x10607cac0>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1447 (elapsed = 1), _expireHandler: (null)
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x10592cd90> (used by background task with identifier 1: <_UIBackgroundTaskInfo: 0x10607cac0>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1447 (elapsed = 1))
+2026-11-08 02:44:23.663 Df GossipTown[60479:24cdd] [com.apple.UIKit:BackgroundTask] Will invalidate assertion: <BKSProcessAssertion: 0x10592cd90> for task identifier: 1
+2026-11-08 02:44:23.716 Df GossipTown[60479:24cdd] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-11-08 02:44:23.746 A  GossipTown[60479:24cef] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:23.822 Df GossipTown[60479:24cdd] (CoreAudio)   HALPlugInManagement.cpp:443    HALPlugInManagement::RegisterPlugIns: loading in-process plug-ins
+2026-11-08 02:44:23.824 E  GossipTown[60479:24cdd] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x109265fc0> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-11-08 02:44:23.857 Df GossipTown[60479:24cdd] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:44:23.857 Df GossipTown[60479:24cdd] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:44:23.858 Df GossipTown[60479:24cdd] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:887   Creating DefaultDeviceAggregate
+2026-11-08 02:44:23.878 Df GossipTown[60479:24cdd] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 110
+2026-11-08 02:44:23.878 Df GossipTown[60479:24cdd] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:1008  PrimarySessionActiveWithInputEnabled 0 -> 1
+2026-11-08 02:44:23.901 Df GossipTown[60479:24cdd] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 113
+2026-11-08 02:44:23.913 Df GossipTown[60479:24cdd] [com.apple.UIKit:EventDeferring] [0x106240ee0] Scene target of event deferring environments did update: scene: 0x1059463d0; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:44:23.914 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x1059463d0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:23.914 Df GossipTown[60479:24cdd] [com.apple.Accessibility:AXCommon] Read Per-App on Init: Smart invert = (null)
+2026-11-08 02:44:23.915 Df GossipTown[60479:24cdd] [com.apple.UIKit:EventBus] Event Timing Profile for Touch: not found, path="/System/Library/EventTimingProfiles/Sim.Touch.plist"
+2026-11-08 02:44:23.915 Df GossipTown[60479:24cdd] [com.apple.UIKit:EventBus] Event Timing Profile for Pencil: not found, path="/System/Library/EventTimingProfiles/Sim.Pencil.plist"
+2026-11-08 02:44:23.915 Df GossipTown[60479:24cdd] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:23.915 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:23.916 Df GossipTown[60479:24cdd] [com.apple.UIKit:UpdateScheduler] Target list changed: <CADisplay:LCD PurpleMain>
+2026-11-08 02:44:23.921 Df GossipTown[60479:24cdd] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x1059463d0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:23.922 Df GossipTown[60479:24cdd] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:23.922 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason removed: 12; deactivation reasons: 4128 -> 32; animating application lifecycle event: 1
+2026-11-08 02:44:23.922 Df GossipTown[60479:24cdd] [com.apple.KeyboardArbiter:Client] Send setDeactivating: N (-DeactivationReason:SuspendedEventsOnly)
+2026-11-08 02:44:23.922 Df GossipTown[60479:24cdd] [com.apple.UIKit:Application] Deactivation reason removed: 5; deactivation reasons: 32 -> 0; animating application lifecycle event: 0
+2026-11-08 02:44:23.924 Df GossipTown[60479:24cdd] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:44:23.924 Df GossipTown[60479:24cdd] [com.apple.KeyboardArbiter:Client] handleKeyboardChange: set currentKeyboard:N (wasKeyboard:N)
+2026-11-08 02:44:23.933 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyboardSceneDelegate] forceReloadInputViews
+2026-11-08 02:44:23.933 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyboardSceneDelegate] Reloading input views for key-window scene responder: <(null): 0x0; > force:Y
+2026-11-08 02:44:23.934 Df GossipTown[60479:24cdd] [com.apple.UIKit:KeyboardArbiterClientLog] isWritingToolsHandlingKeyboardTracking:Y (WT ready:Y, Arbiter ready:Y)
+2026-11-08 02:44:24.093 A  GossipTown[60479:24cf5] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:28.653 Df GossipTown[60479:24cdd] [com.apple.app_launch_measurement:General] Bailing responsive launch check as reached maximum count
+2026-11-08 02:44:28.653 Df GossipTown[60479:24cdd] [com.apple.network:activity] <nw_activity 50:1 [7FD7B930-4C03-4BD3-94A8-1155C509BE8E] (global parent) (reporting strategy default) complete (reason failure)> complete with reason 3 (failure), duration 6232ms
+2026-11-08 02:44:28.654 Df GossipTown[60479:24cdd] [com.apple.network:activity] <nw_activity 50:2 [582DAD74-B6D9-411E-9136-C66F15404258] (reporting strategy default) complete (reason failure)> complete with reason 3 (failure), duration 6232ms
+2026-11-08 02:44:28.654 Df GossipTown[60479:24cdd] [com.apple.network:activity] Unsetting the global parent activity <nw_activity 50:1 [7FD7B930-4C03-4BD3-94A8-1155C509BE8E] (global parent) (reporting strategy default) complete (reason failure)>
+2026-11-08 02:44:28.654 Df GossipTown[60479:24cdd] [com.apple.network:activity] Unset the global parent activity
+2026-11-08 02:44:28.654 Df GossipTown[60479:24cdd] [com.apple.app_launch_measurement:ApplicationLaunch] alm_release_pageins_recording_assertion: releasing pageins recording assertion
+2026-11-08 02:44:28.654 Df GossipTown[60479:24cdd] [com.apple.app_launch_measurement:General] Bailing responsive launch check as reached maximum count
+2026-11-08 02:44:30.742 Df GossipTown[61211:25392] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-08 02:44:30.744 Df GossipTown[61211:25395] [com.apple.xpc:connection] [0x102f4fc90] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-08 02:44:30.746 Df GossipTown[61211:25395] [com.apple.UIKit:BackgroundTask] Creating new assertion because there is no existing background assertion.
+2026-11-08 02:44:30.746 Df GossipTown[61211:25395] [com.apple.UIKit:BackgroundTask] Creating new background assertion
+2026-11-08 02:44:30.747 Df GossipTown[61211:25395] [com.apple.UIKit:BackgroundTask] Created new background assertion <BKSProcessAssertion: 0x102f44f50>
+2026-11-08 02:44:30.747 Df GossipTown[61211:25398] [com.apple.BoardServices:XPCErrors] [C:1] Alloc com.apple.frontboard.systemappservices
+2026-11-08 02:44:30.747 Df GossipTown[61211:25395] [com.apple.runningboard:connection] Initializing connection
+2026-11-08 02:44:30.747 Df GossipTown[61211:25395] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-08 02:44:30.747 Df GossipTown[61211:25398] [com.apple.xpc:connection] [0x103d44140] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:44:30.747 Df GossipTown[61211:25395] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-08 02:44:30.747 Df GossipTown[61211:25395] [com.apple.xpc:connection] [0x103d44280] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-08 02:44:30.748 Df GossipTown[61211:2539a] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-08 02:44:30.753 A  GossipTown[61211:25396] (CoreFoundation) Loading Preferences From User Session CFPrefsD
+2026-11-08 02:44:30.755 Df GossipTown[61211:2539a] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-08 02:44:30.755 Df GossipTown[61211:2539a] [com.apple.runningboard:connection] Identity resolved as app<com.austin410203.gossiptown((null))>
+2026-11-08 02:44:30.755 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason added: 10; deactivation reasons: 0 -> 1024; animating application lifecycle event: 0
+2026-11-08 02:44:30.756 Df GossipTown[61211:25392] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.open
+2026-11-08 02:44:30.756 Df GossipTown[61211:25392] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.workspace-service
+2026-11-08 02:44:30.756 Df GossipTown[61211:25395] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x102f44f50>
+2026-11-08 02:44:30.757 Df GossipTown[61211:25395] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x103c7c680>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1455 (elapsed = 0).
+2026-11-08 02:44:30.757 Df GossipTown[61211:25392] [com.apple.FrontBoard:Common] FBSWorkspace registering source: com.apple.frontboard.systemappservices
+2026-11-08 02:44:30.757 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UIApplicationSceneKeyboardSettings on FBSSceneSettings
+2026-11-08 02:44:30.758 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneOcclusionSettings> on FBSSceneSettings
+2026-11-08 02:44:30.758 Df GossipTown[61211:25392] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <BSServiceConnectionEndpoint: 0x103cf89c0; target: com.apple.frontboard.systemappservices; service: com.apple.frontboard.workspace-service>
+2026-11-08 02:44:30.759 Df GossipTown[61211:25392] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x103cdcd20 com.apple.frontboard.systemappservices> attempting immediate handshake from activate
+2026-11-08 02:44:30.759 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneInterfaceProtectionSettings> on FBSSceneSettings
+2026-11-08 02:44:30.759 Df GossipTown[61211:25392] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x103cdcd20 com.apple.frontboard.systemappservices> sent handshake
+2026-11-08 02:44:30.759 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferencesHostSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:30.760 Df GossipTown[61211:25392] [com.apple.runningboard:general] Added observer for process assertions expiration warning: <_RBSExpirationWarningClient: 0x103cf8ea0>
+2026-11-08 02:44:30.760 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneSafeAreaSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:30.761 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferenceClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:44:30.761 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UIHomeAffordanceHostSceneSettings> on FBSSceneSettings
+2026-11-08 02:44:30.761 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISystemShellSceneHostingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:44:30.762 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneRenderingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:44:30.763 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneRenderingEnvironmentClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:30.763 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneTransitioningHostSettings> on FBSSceneSettings
+2026-11-08 02:44:30.763 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneFocusSystemSettings> on FBSSceneSettings
+2026-11-08 02:44:30.763 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:30.763 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:44:30.764 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneWindowingControlClientSettings on FBSSceneClientSettings
+2026-11-08 02:44:30.764 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingContentSizePreferenceClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:30.765 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneHostingTraitCollectionPropagationSettings on FBSSceneSettings
+2026-11-08 02:44:30.765 Df GossipTown[61211:25392] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x103d44500> for initial
+2026-11-08 02:44:30.765 Df GossipTown[61211:25392] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x103d44500> for CADisplay KVO
+2026-11-08 02:44:30.765 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationSettings> on FBSSceneSettings
+2026-11-08 02:44:30.765 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:30.765 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingEventDeferringSettings> on FBSSceneSettings
+2026-11-08 02:44:30.765 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneSettings
+2026-11-08 02:44:30.765 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneClientSettings
+2026-11-08 02:44:30.766 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingViewControllerPreferencePropagationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:30.766 Df GossipTown[61211:25395] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneZoomTransitionSettings> on FBSSceneSettings
+2026-11-08 02:44:30.766 Df GossipTown[61211:2539a] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneSettingsCore on FBSSceneSettings
+2026-11-08 02:44:30.766 Df GossipTown[61211:25392] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 1, category name = (null)
+2026-11-08 02:44:30.767 Df GossipTown[61211:2539a] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneClientSettingsCore on FBSSceneClientSettings
+2026-11-08 02:44:30.766 Df GossipTown[61211:25392] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 0, category name = (null)
+2026-11-08 02:44:30.771 Df GossipTown[61211:2539a] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneSettings setting counterpart class: UIApplicationSceneSettings
+2026-11-08 02:44:30.772 Df GossipTown[61211:25392] [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-11-08 02:44:30.772 Df GossipTown[61211:2539a] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneClientSettings setting counterpart class: UIApplicationSceneClientSettings
+2026-11-08 02:44:30.772 Df GossipTown[61211:25392] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:30.772 Df GossipTown[61211:25392] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:30.772 Df GossipTown[61211:2539a] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneTransitionContextCore on FBSSceneTransitionContext
+2026-11-08 02:44:30.772 Df GossipTown[61211:25392] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:30.756 A  GossipTown[61211:25398] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:30.774 Df GossipTown[61211:25392] [com.apple.UIKit:UpdateScheduler] Selected display: name=LCD (PurpleMain), id=1
+2026-11-08 02:44:30.776 Df GossipTown[61211:25392] [com.apple.app_launch_measurement:ApplicationLaunch] alm_acquire_pageins_recording_assertion: acquired pageins recording assertion!
+2026-11-08 02:44:30.777 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason added: 5; deactivation reasons: 1024 -> 1056; animating application lifecycle event: 1
+2026-11-08 02:44:30.778 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.778 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.779 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.780 Df GossipTown[61211:25392] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x103e38bd0>; with scene: <UIWindowScene: 0x102f50270>
+2026-11-08 02:44:30.780 Df GossipTown[61211:25392] [com.apple.BacklightServices:scenes] 0x103e0cf90 setDelegate:<0x103e0d260 _UIBacklightEnvironment> hasDelegate:YES for environment:sceneID:com.austin410203.gossiptown-default
+2026-11-08 02:44:30.780 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.780 Df GossipTown[61211:25392] [com.apple.UIKit:EventDeferring] [0x103e38d90] Initialized with scene: <UIWindowScene: 0x102f50270>; behavior: <_UIEventDeferringBehavior_iOS: 0x103cfa780>; availableForProcess: 1, systemShellManagesKeyboardFocus: 1
+2026-11-08 02:44:30.781 Df GossipTown[61211:25392] [com.apple.BoardServices:XPCErrors] [C:2] Alloc com.apple.backboard.hid-services.xpc
+2026-11-08 02:44:30.781 Df GossipTown[61211:25392] [com.apple.xpc:connection] [0x103d44dc0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:44:30.783 Df GossipTown[61211:25392] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x103e08360; process scope; status: target> was:none
+2026-11-08 02:44:30.783 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to LastOneWins
+2026-11-08 02:44:30.783 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Scene target of keyboard event deferring environment did change: 1; scene: UIWindowScene: 0x102f50270; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:30.784 Df GossipTown[61211:25392] [com.apple.UIKit:EventDeferring] [0x103e38d90] Scene target of event deferring environments did update: scene: 0x102f50270; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:44:30.784 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x102f50270; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:30.784 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Stack[KeyWindow] 0x103e0dce0: Taking no further action for migration from LastOneWins -> SystemShellManaged as there are no scenes
+2026-11-08 02:44:30.784 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to SystemShellManaged
+2026-11-08 02:44:30.784 Df GossipTown[61211:2539a] [com.apple.BackBoard:EventDelivery] BKSHIDEventObserver - connection activation
+2026-11-08 02:44:30.784 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Key window needs update: 0; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x102f50270; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x0; reason: UIWindowScene: 0x102f50270: Window scene became target of keyboard environment
+2026-11-08 02:44:30.785 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.785 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.787 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.787 A  GossipTown[61211:25392] (libsystem_trace.dylib) Activity for state dumps
+2026-11-08 02:44:30.787 F  GossipTown[61211:25392] [com.apple.runtime-issues:UIKit App Config] `UIScene` lifecycle will soon be required. Failure to adopt will result in an assert in the future.
+2026-11-08 02:44:30.787 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:30.788 Df GossipTown[61211:25392] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:30.788 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Ignoring already applied deactivation reason: 5; deactivation reasons: 1056
+2026-11-08 02:44:30.788 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason added: 11; deactivation reasons: 1056 -> 3104; animating application lifecycle event: 1
+2026-11-08 02:44:30.788 Df GossipTown[61211:25392] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:44:30.789 Df GossipTown[61211:25392] [com.apple.xpc:connection] [0x103d45680] activating connection: mach=true listener=false peer=false name=com.apple.UIKit.KeyboardManagement.hosted
+2026-11-08 02:44:30.811 Df GossipTown[61211:25392] [com.apple.CoreAnalytics:client] No XPC connection in Simulator
+2026-11-08 02:44:30.877 Df GossipTown[61211:25396] [com.apple.xpc:connection] [0x103d46f80] activating connection: mach=true listener=false peer=false name=com.apple.fontservicesd
+2026-11-08 02:44:30.894 Df GossipTown[61211:25392] [PrototypeTools:domain] Not observing PTDefaults on customer install.
+2026-11-08 02:44:30.905 Df GossipTown[61211:25392] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:44:30.905 Df GossipTown[61211:25392] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:44:30.906 Df GossipTown[61211:25392] [com.apple.CFNetwork:Default] Initializing NSHTTPCookieStorage singleton
+2026-11-08 02:44:30.907 Df GossipTown[61211:25392] [com.apple.CFNetwork:Default] Initializing CFHTTPCookieStorage singleton
+2026-11-08 02:44:30.907 Df GossipTown[61211:25392] [com.apple.CFNetwork:Default] Creating default cookie storage with process/bundle identifier
+2026-11-08 02:44:31.119 Df GossipTown[61211:25392] [com.apple.UIKit:Orientation] <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C) Scene updated orientation preferences: none -> ( Pu )
+2026-11-08 02:44:31.120 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Key window API is scene-level: YES
+2026-11-08 02:44:31.120 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] UIWindowScene: 0x102f50270: Window became key in scene: UIWindow: 0x103d90000; contextId: 0xDC41B78A: reason: UIWindowScene: 0x102f50270: Window requested to become key in scene: 0x103d90000
+2026-11-08 02:44:31.120 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Key window needs update: 1; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x102f50270; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x103d90000; reason: UIWindowScene: 0x102f50270: Window requested to become key in scene: 0x103d90000
+2026-11-08 02:44:31.120 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Window did become application key: UIWindow: 0x103d90000; contextId: 0xDC41B78A; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:31.120 Df GossipTown[61211:25392] [com.apple.UIKit:EventDeferring] [0x103e38d90] Begin local event deferring requested for token: 0x103e08600; environments: 1; reason: UIWindowScene: 0x102f50270: Begin event deferring in keyboardFocus for window: 0x103d90000
+2026-11-08 02:44:31.121 Df GossipTown[61211:25397] [com.apple.BackBoard:EventDelivery] BKSHIDEventDeliveryManager - connection activation
+2026-11-08 02:44:31.122 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason removed: 10; deactivation reasons: 3104 -> 2080; animating application lifecycle event: 1
+2026-11-08 02:44:31.123 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason added: 12; deactivation reasons: 2080 -> 6176; animating application lifecycle event: 1
+2026-11-08 02:44:31.123 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason removed: 11; deactivation reasons: 6176 -> 4128; animating application lifecycle event: 1
+2026-11-08 02:44:31.124 Df GossipTown[61211:25392] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneIntelligenceSupportSettings> on FBSSceneSettings
+2026-11-08 02:44:31.125 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:31.125 Df GossipTown[61211:25397] [com.apple.UIIntelligenceSupport:xpc] establishing connection to agent
+2026-11-08 02:44:31.129 Df GossipTown[61211:25397] [com.apple.xpc:session] [0x106c12710] Session created.
+2026-11-08 02:44:31.129 Df GossipTown[61211:2539a] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x103e08360; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default; status: ancestor> was:target
+2026-11-08 02:44:31.130 Df GossipTown[61211:25397] [com.apple.xpc:session] [0x106c12710] Session created from connection [0x106d20280]
+2026-11-08 02:44:31.130 Df GossipTown[61211:25397] [com.apple.xpc:connection] [0x106d20280] activating connection: mach=true listener=false peer=false name=com.apple.uiintelligencesupport.agent
+2026-11-08 02:44:31.130 Df GossipTown[61211:25397] [com.apple.xpc:session] [0x106c12710] Session activated
+2026-11-08 02:44:31.405 Df GossipTown[61211:25392] [com.apple.xpc:connection] [0x106d20500] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-08 02:44:31.406 A  GossipTown[61211:25397] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:31.409 A  GossipTown[61211:2539a] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:1 [D0C1C97A-CC05-48E1-9B52-21ECAF0A8046] (reporting strategy default)>
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:2 [1D056062-1AC3-49F0-8F54-6415CF053551] (reporting strategy default)>
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.network:activity] Set activity <nw_activity 50:1 [D0C1C97A-CC05-48E1-9B52-21ECAF0A8046] (reporting strategy default)> as the global parent
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 1
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.UIKit:BackgroundTask] Ending task with identifier 1 and description: <_UIBackgroundTaskInfo: 0x103c7c680>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1455 (elapsed = 0), _expireHandler: (null)
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x102f44f50> (used by background task with identifier 1: <_UIBackgroundTaskInfo: 0x103c7c680>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1455 (elapsed = 0))
+2026-11-08 02:44:31.414 Df GossipTown[61211:25392] [com.apple.UIKit:BackgroundTask] Will invalidate assertion: <BKSProcessAssertion: 0x102f44f50> for task identifier: 1
+2026-11-08 02:44:31.430 Df GossipTown[61211:25392] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-11-08 02:44:31.468 Df GossipTown[61211:25392] (CoreAudio)   HALPlugInManagement.cpp:443    HALPlugInManagement::RegisterPlugIns: loading in-process plug-ins
+2026-11-08 02:44:31.469 E  GossipTown[61211:25392] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x106e5a600> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-11-08 02:44:31.495 Df GossipTown[61211:25392] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:44:31.495 Df GossipTown[61211:25392] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:44:31.496 Df GossipTown[61211:25392] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:887   Creating DefaultDeviceAggregate
+2026-11-08 02:44:31.507 Df GossipTown[61211:25392] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 110
+2026-11-08 02:44:31.508 Df GossipTown[61211:25392] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:1008  PrimarySessionActiveWithInputEnabled 0 -> 1
+2026-11-08 02:44:31.509 A  GossipTown[61211:2539c] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:31.524 Df GossipTown[61211:25392] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 113
+2026-11-08 02:44:31.532 Df GossipTown[61211:25392] [com.apple.UIKit:EventDeferring] [0x103e38d90] Scene target of event deferring environments did update: scene: 0x102f50270; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:44:31.532 Df GossipTown[61211:25392] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x102f50270; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:31.532 Df GossipTown[61211:25392] [com.apple.Accessibility:AXCommon] Read Per-App on Init: Smart invert = (null)
+2026-11-08 02:44:31.532 Df GossipTown[61211:25392] [com.apple.UIKit:EventBus] Event Timing Profile for Touch: not found, path="/System/Library/EventTimingProfiles/Sim.Touch.plist"
+2026-11-08 02:44:31.532 Df GossipTown[61211:25392] [com.apple.UIKit:EventBus] Event Timing Profile for Pencil: not found, path="/System/Library/EventTimingProfiles/Sim.Pencil.plist"
+2026-11-08 02:44:31.533 Df GossipTown[61211:25392] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:31.533 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:31.533 Df GossipTown[61211:25392] [com.apple.UIKit:UpdateScheduler] Target list changed: <CADisplay:LCD PurpleMain>
+2026-11-08 02:44:31.538 Df GossipTown[61211:25392] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x102f50270> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:31.539 Df GossipTown[61211:25392] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:31.539 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason removed: 12; deactivation reasons: 4128 -> 32; animating application lifecycle event: 1
+2026-11-08 02:44:31.539 Df GossipTown[61211:25392] [com.apple.KeyboardArbiter:Client] Send setDeactivating: N (-DeactivationReason:SuspendedEventsOnly)
+2026-11-08 02:44:31.539 Df GossipTown[61211:25392] [com.apple.UIKit:Application] Deactivation reason removed: 5; deactivation reasons: 32 -> 0; animating application lifecycle event: 0
+2026-11-08 02:44:31.542 Df GossipTown[61211:25392] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:44:31.542 Df GossipTown[61211:25392] [com.apple.KeyboardArbiter:Client] handleKeyboardChange: set currentKeyboard:N (wasKeyboard:N)
+2026-11-08 02:44:31.551 Df GossipTown[61211:25392] [com.apple.UIKit:KeyboardSceneDelegate] forceReloadInputViews
+2026-11-08 02:44:31.551 Df GossipTown[61211:25392] [com.apple.UIKit:KeyboardSceneDelegate] Reloading input views for key-window scene responder: <(null): 0x0; > force:Y
+2026-11-08 02:44:31.552 Df GossipTown[61211:25392] [com.apple.UIKit:KeyboardArbiterClientLog] isWritingToolsHandlingKeyboardTracking:Y (WT ready:Y, Arbiter ready:Y)
+2026-11-08 02:44:31.920 A  GossipTown[61211:25397] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.app_launch_measurement:General] Bailing responsive launch check as reached maximum count
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.network:activity] <nw_activity 50:1 [D0C1C97A-CC05-48E1-9B52-21ECAF0A8046] (global parent) (reporting strategy default) complete (reason failure)> complete with reason 3 (failure), duration 5468ms
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.network:activity] <nw_activity 50:2 [1D056062-1AC3-49F0-8F54-6415CF053551] (reporting strategy default) complete (reason failure)> complete with reason 3 (failure), duration 5468ms
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.network:activity] Unsetting the global parent activity <nw_activity 50:1 [D0C1C97A-CC05-48E1-9B52-21ECAF0A8046] (global parent) (reporting strategy default) complete (reason failure)>
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.network:activity] Unset the global parent activity
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.app_launch_measurement:ApplicationLaunch] alm_release_pageins_recording_assertion: releasing pageins recording assertion
+2026-11-08 02:44:35.915 Df GossipTown[61211:25392] [com.apple.app_launch_measurement:General] Bailing responsive launch check as reached maximum count
+2026-11-08 02:44:38.316 Df GossipTown[61259:25487] [com.apple.xpc:connection] [0x105f7b8b0] activating connection: mach=true listener=false peer=false name=com.apple.cfprefsd.daemon
+2026-11-08 02:44:38.316 Df GossipTown[61259:25479] (libMobileGestalt.dylib) No persisted cache on this platform.
+2026-11-08 02:44:38.317 Df GossipTown[61259:25489] [com.apple.BoardServices:XPCErrors] [C:1] Alloc com.apple.frontboard.systemappservices
+2026-11-08 02:44:38.318 Df GossipTown[61259:25489] [com.apple.xpc:connection] [0x105f80570] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Creating new assertion because there is no existing background assertion.
+2026-11-08 02:44:38.321 A  GossipTown[61259:25488] (CoreFoundation) Loading Preferences From User Session CFPrefsD
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Creating new background assertion
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Created new background assertion <BKSProcessAssertion: 0x105f7ca30>
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.runningboard:connection] Initializing connection
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.runningboard:process] Removing all cached process handles
+2026-11-08 02:44:38.324 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason added: 10; deactivation reasons: 0 -> 1024; animating application lifecycle event: 0
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.runningboard:connection] Creating connection to com.apple.runningboard
+2026-11-08 02:44:38.324 Df GossipTown[61259:25487] [com.apple.xpc:connection] [0x10652c280] activating connection: mach=true listener=false peer=false name=com.apple.runningboard
+2026-11-08 02:44:38.325 Df GossipTown[61259:25479] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.open
+2026-11-08 02:44:38.325 Df GossipTown[61259:2548c] [com.apple.runningboard:connection] Sending handshake request attempt #1 to server
+2026-11-08 02:44:38.325 Df GossipTown[61259:25479] [com.apple.BoardServices:Injection] activating monitor for service com.apple.frontboard.workspace-service
+2026-11-08 02:44:38.325 A  GossipTown[61259:25489] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:38.326 Df GossipTown[61259:25479] [com.apple.FrontBoard:Common] FBSWorkspace registering source: com.apple.frontboard.systemappservices
+2026-11-08 02:44:38.326 Df GossipTown[61259:2548c] [com.apple.runningboard:connection] Handshake succeeded
+2026-11-08 02:44:38.326 Df GossipTown[61259:2548c] [com.apple.runningboard:connection] Identity resolved as app<com.austin410203.gossiptown((null))>
+2026-11-08 02:44:38.326 Df GossipTown[61259:25479] [com.apple.FrontBoard:Common] FBSWorkspace connected to endpoint : <BSServiceConnectionEndpoint: 0x1065049c0; target: com.apple.frontboard.systemappservices; service: com.apple.frontboard.workspace-service>
+2026-11-08 02:44:38.326 Df GossipTown[61259:25479] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1064e0be0 com.apple.frontboard.systemappservices> attempting immediate handshake from activate
+2026-11-08 02:44:38.327 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x105f7ca30>
+2026-11-08 02:44:38.327 Df GossipTown[61259:25479] [com.apple.FrontBoard:Common] <FBSWorkspaceScenesClient:0x1064e0be0 com.apple.frontboard.systemappservices> sent handshake
+2026-11-08 02:44:38.327 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x10647ca80>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1462 (elapsed = 0).
+2026-11-08 02:44:38.327 Df GossipTown[61259:25479] [com.apple.runningboard:general] Added observer for process assertions expiration warning: <_RBSExpirationWarningClient: 0x106504c60>
+2026-11-08 02:44:38.327 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UIApplicationSceneKeyboardSettings on FBSSceneSettings
+2026-11-08 02:44:38.328 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneOcclusionSettings> on FBSSceneSettings
+2026-11-08 02:44:38.328 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneInterfaceProtectionSettings> on FBSSceneSettings
+2026-11-08 02:44:38.329 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferencesHostSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:38.329 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneSafeAreaSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:38.329 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneLayoutPreferenceClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:44:38.330 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UIHomeAffordanceHostSceneSettings> on FBSSceneSettings
+2026-11-08 02:44:38.330 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISystemShellSceneHostingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:44:38.330 Df GossipTown[61259:25479] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x10652c500> for initial
+2026-11-08 02:44:38.330 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneRenderingEnvironmentSettings on FBSSceneSettings
+2026-11-08 02:44:38.330 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneRenderingEnvironmentClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:38.330 Df GossipTown[61259:25479] [com.apple.UIKit:UIScreen] Evaluated capturing state as 0 on <UIScreen: 0x10652c500> for CADisplay KVO
+2026-11-08 02:44:38.330 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneTransitioningHostSettings> on FBSSceneSettings
+2026-11-08 02:44:38.331 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneFocusSystemSettings> on FBSSceneSettings
+2026-11-08 02:44:38.331 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationSettingsExtension on FBSSceneSettings
+2026-11-08 02:44:38.331 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneOrientationClientSettingsExtension on FBSSceneClientSettings
+2026-11-08 02:44:38.331 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneWindowingControlClientSettings on FBSSceneClientSettings
+2026-11-08 02:44:38.332 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingContentSizePreferenceClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:38.332 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension _UISceneHostingTraitCollectionPropagationSettings on FBSSceneSettings
+2026-11-08 02:44:38.332 Df GossipTown[61259:25479] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 1, category name = (null)
+2026-11-08 02:44:38.332 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationSettings> on FBSSceneSettings
+2026-11-08 02:44:38.332 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingSheetPresentationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:38.332 Df GossipTown[61259:25479] [com.apple.Accessibility:AXSupportCommon] Read CategoryName: per-app = 0, category name = (null)
+2026-11-08 02:44:38.332 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingEventDeferringSettings> on FBSSceneSettings
+2026-11-08 02:44:38.333 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneSettings
+2026-11-08 02:44:38.333 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <UIKit__UITypedKeyValueSceneSettings> on FBSSceneClientSettings
+2026-11-08 02:44:38.333 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneHostingViewControllerPreferencePropagationClientSettings> on FBSSceneClientSettings
+2026-11-08 02:44:38.333 Df GossipTown[61259:25487] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneZoomTransitionSettings> on FBSSceneSettings
+2026-11-08 02:44:38.333 Df GossipTown[61259:25488] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneSettingsCore on FBSSceneSettings
+2026-11-08 02:44:38.335 Df GossipTown[61259:25488] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneClientSettingsCore on FBSSceneClientSettings
+2026-11-08 02:44:38.337 Df GossipTown[61259:25479] [com.apple.dt.xctest:Default] Registering for test daemon availability notify post.
+2026-11-08 02:44:38.337 Df GossipTown[61259:25479] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:38.337 Df GossipTown[61259:25479] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:38.338 Df GossipTown[61259:25479] [com.apple.dt.xctest:Default] notify_get_state check indicated test daemon not ready.
+2026-11-08 02:44:38.338 Df GossipTown[61259:25488] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneSettings setting counterpart class: UIApplicationSceneSettings
+2026-11-08 02:44:38.338 Df GossipTown[61259:25488] [com.apple.FrontBoard:SceneExtension] UIMutableApplicationSceneClientSettings setting counterpart class: UIApplicationSceneClientSettings
+2026-11-08 02:44:38.338 Df GossipTown[61259:25488] [com.apple.FrontBoard:SceneExtension] Realizing settings extension FBSSceneTransitionContextCore on FBSSceneTransitionContext
+2026-11-08 02:44:38.338 Df GossipTown[61259:25479] [com.apple.UIKit:UpdateScheduler] Selected display: name=LCD (PurpleMain), id=1
+2026-11-08 02:44:38.340 Df GossipTown[61259:25479] [com.apple.app_launch_measurement:ApplicationLaunch] alm_acquire_pageins_recording_assertion: acquired pageins recording assertion!
+2026-11-08 02:44:38.341 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Will add backgroundTask with taskName: Persistent SceneSession Map Update, expirationHandler: <__NSGlobalBlock__: 0x1e78c84e8>
+2026-11-08 02:44:38.341 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Reusing background assertion <BKSProcessAssertion: 0x105f7ca30>
+2026-11-08 02:44:38.341 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Incrementing reference count for background assertion <BKSProcessAssertion: 0x105f7ca30>
+2026-11-08 02:44:38.341 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Created background task <_UIBackgroundTaskInfo: 0x106628a40>: taskID = 2, taskName = Persistent SceneSession Map Update, creationTime = 1462 (elapsed = 0).
+2026-11-08 02:44:38.341 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason added: 5; deactivation reasons: 1024 -> 1056; animating application lifecycle event: 1
+2026-11-08 02:44:38.342 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.342 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Should send trait collection or coordinate space update, interface style 1 -> 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.342 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.342 Df GossipTown[61259:25479] [com.apple.UIKit:HomeAffordanceObservation] Initializing: <_UIHomeAffordanceSceneNotifier: 0x10662cd90>; with scene: <UIWindowScene: 0x105f85ed0>
+2026-11-08 02:44:38.342 Df GossipTown[61259:25479] [com.apple.BacklightServices:scenes] 0x106601530 setDelegate:<0x106600d20 _UIBacklightEnvironment> hasDelegate:YES for environment:sceneID:com.austin410203.gossiptown-default
+2026-11-08 02:44:38.343 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.343 Df GossipTown[61259:25479] [com.apple.UIKit:EventDeferring] [0x10662cf50] Initialized with scene: <UIWindowScene: 0x105f85ed0>; behavior: <_UIEventDeferringBehavior_iOS: 0x106506ae0>; availableForProcess: 1, systemShellManagesKeyboardFocus: 1
+2026-11-08 02:44:38.343 Df GossipTown[61259:25479] [com.apple.BoardServices:XPCErrors] [C:2] Alloc com.apple.backboard.hid-services.xpc
+2026-11-08 02:44:38.343 Df GossipTown[61259:25479] [com.apple.xpc:connection] [0x10652cdc0] activating connection: mach=false listener=false peer=false name=(anonymous)
+2026-11-08 02:44:38.344 Df GossipTown[61259:2548f] [com.apple.BackBoard:EventDelivery] BKSHIDEventObserver - connection activation
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x1065f8720; process scope; status: target> was:none
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to LastOneWins
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Scene target of keyboard event deferring environment did change: 1; scene: UIWindowScene: 0x105f85ed0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:EventDeferring] [0x10662cf50] Scene target of event deferring environments did update: scene: 0x105f85ed0; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x105f85ed0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Stack[KeyWindow] 0x106601f80: Taking no further action for migration from LastOneWins -> SystemShellManaged as there are no scenes
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Setting default evaluation strategy for UIUserInterfaceIdiomPhone to SystemShellManaged
+2026-11-08 02:44:38.344 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Key window needs update: 0; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x105f85ed0; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x0; reason: UIWindowScene: 0x105f85ed0: Window scene became target of keyboard environment
+2026-11-08 02:44:38.345 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.345 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.346 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.346 A  GossipTown[61259:25479] (libsystem_trace.dylib) Activity for state dumps
+2026-11-08 02:44:38.346 F  GossipTown[61259:25479] [com.apple.runtime-issues:UIKit App Config] `UIScene` lifecycle will soon be required. Failure to adopt will result in an assert in the future.
+2026-11-08 02:44:38.346 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.346 Df GossipTown[61259:25479] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:38.346 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Ignoring already applied deactivation reason: 5; deactivation reasons: 1056
+2026-11-08 02:44:38.346 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason added: 11; deactivation reasons: 1056 -> 3104; animating application lifecycle event: 1
+2026-11-08 02:44:38.346 Df GossipTown[61259:25479] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:44:38.347 Df GossipTown[61259:25479] [com.apple.xpc:connection] [0x10652d540] activating connection: mach=true listener=false peer=false name=com.apple.UIKit.KeyboardManagement.hosted
+2026-11-08 02:44:38.363 Df GossipTown[61259:25479] [com.apple.CoreAnalytics:client] No XPC connection in Simulator
+2026-11-08 02:44:38.419 Df GossipTown[61259:2548f] [com.apple.xpc:connection] [0x10652ef80] activating connection: mach=true listener=false peer=false name=com.apple.fontservicesd
+2026-11-08 02:44:38.430 Df GossipTown[61259:25479] [PrototypeTools:domain] Not observing PTDefaults on customer install.
+2026-11-08 02:44:38.436 Df GossipTown[61259:25479] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:44:38.436 Df GossipTown[61259:25479] [com.apple.network:] networkd_settings_read_from_file_locked initialized networkd settings by reading plist directly
+2026-11-08 02:44:38.437 Df GossipTown[61259:25479] [com.apple.CFNetwork:Default] Initializing NSHTTPCookieStorage singleton
+2026-11-08 02:44:38.437 Df GossipTown[61259:25479] [com.apple.CFNetwork:Default] Initializing CFHTTPCookieStorage singleton
+2026-11-08 02:44:38.437 Df GossipTown[61259:25479] [com.apple.CFNetwork:Default] Creating default cookie storage with process/bundle identifier
+2026-11-08 02:44:38.532 Df GossipTown[61259:25479] [com.apple.UIKit:Orientation] <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C) Scene updated orientation preferences: none -> ( Pu )
+2026-11-08 02:44:38.532 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Key window API is scene-level: YES
+2026-11-08 02:44:38.533 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] UIWindowScene: 0x105f85ed0: Window became key in scene: UIWindow: 0x106590000; contextId: 0x848C34: reason: UIWindowScene: 0x105f85ed0: Window requested to become key in scene: 0x106590000
+2026-11-08 02:44:38.533 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Key window needs update: 1; currentKeyWindowScene: 0x0; evaluatedKeyWindowScene: 0x105f85ed0; currentApplicationKeyWindow: 0x0; evaluatedApplicationKeyWindow: 0x106590000; reason: UIWindowScene: 0x105f85ed0: Window requested to become key in scene: 0x106590000
+2026-11-08 02:44:38.533 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Window did become application key: UIWindow: 0x106590000; contextId: 0x848C34; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:38.533 Df GossipTown[61259:25479] [com.apple.UIKit:EventDeferring] [0x10662cf50] Begin local event deferring requested for token: 0x1065f8060; environments: 1; reason: UIWindowScene: 0x105f85ed0: Begin event deferring in keyboardFocus for window: 0x106590000
+2026-11-08 02:44:38.533 Df GossipTown[61259:2548e] [com.apple.BackBoard:EventDelivery] BKSHIDEventDeliveryManager - connection activation
+2026-11-08 02:44:38.534 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason removed: 10; deactivation reasons: 3104 -> 2080; animating application lifecycle event: 1
+2026-11-08 02:44:38.534 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason added: 12; deactivation reasons: 2080 -> 6176; animating application lifecycle event: 1
+2026-11-08 02:44:38.534 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason removed: 11; deactivation reasons: 6176 -> 4128; animating application lifecycle event: 1
+2026-11-08 02:44:38.534 Df GossipTown[61259:25479] [com.apple.FrontBoard:SceneExtension] Realizing settings extension <_UISceneIntelligenceSupportSettings> on FBSSceneSettings
+2026-11-08 02:44:38.535 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.535 Df GossipTown[61259:2548e] [com.apple.UIIntelligenceSupport:xpc] establishing connection to agent
+2026-11-08 02:44:38.544 Df GossipTown[61259:2548e] [com.apple.xpc:session] [0x109417e80] Session created.
+2026-11-08 02:44:38.544 Df GossipTown[61259:2548e] [com.apple.xpc:session] [0x109417e80] Session created from connection [0x10652ebc0]
+2026-11-08 02:44:38.544 Df GossipTown[61259:2548e] [com.apple.xpc:connection] [0x10652ebc0] activating connection: mach=true listener=false peer=false name=com.apple.uiintelligencesupport.agent
+2026-11-08 02:44:38.545 Df GossipTown[61259:2548e] [com.apple.xpc:session] [0x109417e80] Session activated
+2026-11-08 02:44:38.545 Df GossipTown[61259:2548f] [com.apple.BackBoard:EventDelivery] policyStatus:<BKSHIDEventDeliveryPolicyObserver: 0x1065f8720; token: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default; status: ancestor> was:target
+2026-11-08 02:44:38.840 Df GossipTown[61259:25479] [com.apple.xpc:connection] [0x1094861c0] activating connection: mach=true listener=false peer=false name=com.apple.lsd.mapdb
+2026-11-08 02:44:38.841 A  GossipTown[61259:25487] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:38.843 A  GossipTown[61259:2548f] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:38.847 Df GossipTown[61259:25479] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:1 [CA7056D9-8F51-4723-BDBC-98462590F0CC] (reporting strategy default)>
+2026-11-08 02:44:38.847 Df GossipTown[61259:25479] [com.apple.network:activity] Create activity from XPC object <nw_activity 50:2 [026B2A18-FCB6-4441-BB7C-5447CF7245AE] (reporting strategy default)>
+2026-11-08 02:44:38.847 Df GossipTown[61259:25479] [com.apple.network:activity] Set activity <nw_activity 50:1 [CA7056D9-8F51-4723-BDBC-98462590F0CC] (reporting strategy default)> as the global parent
+2026-11-08 02:44:38.847 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 1
+2026-11-08 02:44:38.847 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Ending task with identifier 1 and description: <_UIBackgroundTaskInfo: 0x10647ca80>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1462 (elapsed = 1), _expireHandler: (null)
+2026-11-08 02:44:38.847 Df GossipTown[61259:25479] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x105f7ca30> (used by background task with identifier 1: <_UIBackgroundTaskInfo: 0x10647ca80>: taskID = 1, taskName = Launch Background Task for Coalescing, creationTime = 1462 (elapsed = 1))
+2026-11-08 02:44:38.849 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Ending background task with UIBackgroundTaskIdentifier: 2
+2026-11-08 02:44:38.855 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Ending task with identifier 2 and description: <_UIBackgroundTaskInfo: 0x106628a40>: taskID = 2, taskName = Persistent SceneSession Map Update, creationTime = 1462 (elapsed = 1), _expireHandler: <__NSGlobalBlock__: 0x1e78c84e8>
+2026-11-08 02:44:38.856 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Decrementing reference count for assertion <BKSProcessAssertion: 0x105f7ca30> (used by background task with identifier 2: <_UIBackgroundTaskInfo: 0x106628a40>: taskID = 2, taskName = Persistent SceneSession Map Update, creationTime = 1462 (elapsed = 1))
+2026-11-08 02:44:38.857 Df GossipTown[61259:25487] [com.apple.UIKit:BackgroundTask] Will invalidate assertion: <BKSProcessAssertion: 0x105f7ca30> for task identifier: 2
+2026-11-08 02:44:38.861 Df GossipTown[61259:25479] [com.apple.audio.caulk:alloc] Registered notify signal com.apple.caulk.alloc.rtdump (0)
+2026-11-08 02:44:38.894 Df GossipTown[61259:25479] (CoreAudio)   HALPlugInManagement.cpp:443    HALPlugInManagement::RegisterPlugIns: loading in-process plug-ins
+2026-11-08 02:44:38.894 E  GossipTown[61259:25479] [com.apple.CFBundle:plugin] AddInstanceForFactory: No factory registered for id <CFUUID 0x1095e6500> F8BB1C28-BAE8-11D6-9C31-00039315CD46
+2026-11-08 02:44:38.921 Df GossipTown[61259:25479] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:44:38.921 Df GossipTown[61259:25479] [com.apple.coreaudio:as_client] AVAudioSessionImpl_Simulator.mm:111   Set volume on device 81 to 0.60
+2026-11-08 02:44:38.922 Df GossipTown[61259:25479] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:887   Creating DefaultDeviceAggregate
+2026-11-08 02:44:38.935 Df GossipTown[61259:25479] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 110
+2026-11-08 02:44:38.935 Df GossipTown[61259:25479] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:1008  PrimarySessionActiveWithInputEnabled 0 -> 1
+2026-11-08 02:44:38.949 A  GossipTown[61259:25488] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:38.950 Df GossipTown[61259:25479] [com.apple.coreaudio:ddagg]        AggregateDevice.mm:688   Built valid aggregate 113
+2026-11-08 02:44:38.958 Df GossipTown[61259:25479] [com.apple.UIKit:EventDeferring] [0x10662cf50] Scene target of event deferring environments did update: scene: 0x105f85ed0; current systemShellManagesKeyboardFocus: 1; systemShellManagesKeyboardFocusForScene: 1; eligibleForRecordRemoval: 1;
+2026-11-08 02:44:38.958 Df GossipTown[61259:25479] [com.apple.UIKit:KeyWindow] Scene became target of keyboard event deferring environment: UIWindowScene: 0x105f85ed0; scene identity: com.apple.frontboard.systemappservices/FBSceneManager:sceneID%3Acom.austin410203.gossiptown-default
+2026-11-08 02:44:38.958 Df GossipTown[61259:25479] [com.apple.Accessibility:AXCommon] Read Per-App on Init: Smart invert = (null)
+2026-11-08 02:44:38.958 Df GossipTown[61259:25479] [com.apple.UIKit:EventBus] Event Timing Profile for Touch: not found, path="/System/Library/EventTimingProfiles/Sim.Touch.plist"
+2026-11-08 02:44:38.959 Df GossipTown[61259:25479] [com.apple.UIKit:EventBus] Event Timing Profile for Pencil: not found, path="/System/Library/EventTimingProfiles/Sim.Pencil.plist"
+2026-11-08 02:44:38.959 Df GossipTown[61259:25479] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:38.959 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.959 Df GossipTown[61259:25479] [com.apple.UIKit:UpdateScheduler] Target list changed: <CADisplay:LCD PurpleMain>
+2026-11-08 02:44:38.965 Df GossipTown[61259:25479] [com.apple.UIKit:InterfaceStyle] Not push traits update to screen for new style 1, <UIWindowScene: 0x105f85ed0> (E0AB9BFA-CFB8-4EF6-A44B-182D1676278C)
+2026-11-08 02:44:38.965 Df GossipTown[61259:25479] [com.apple.UIKit:AppLifecycle] sceneOfRecord: sceneID: sceneID:com.austin410203.gossiptown-default  persistentID: E0AB9BFA-CFB8-4EF6-A44B-182D1676278C
+2026-11-08 02:44:38.965 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason removed: 12; deactivation reasons: 4128 -> 32; animating application lifecycle event: 1
+2026-11-08 02:44:38.965 Df GossipTown[61259:25479] [com.apple.KeyboardArbiter:Client] Send setDeactivating: N (-DeactivationReason:SuspendedEventsOnly)
+2026-11-08 02:44:38.966 Df GossipTown[61259:25479] [com.apple.UIKit:Application] Deactivation reason removed: 5; deactivation reasons: 32 -> 0; animating application lifecycle event: 0
+2026-11-08 02:44:38.967 Df GossipTown[61259:25479] [com.apple.KeyboardArbiter:Client] startConnection
+2026-11-08 02:44:38.967 Df GossipTown[61259:25479] [com.apple.KeyboardArbiter:Client] handleKeyboardChange: set currentKeyboard:N (wasKeyboard:N)
+2026-11-08 02:44:38.975 Df GossipTown[61259:25479] [com.apple.UIKit:KeyboardSceneDelegate] forceReloadInputViews
+2026-11-08 02:44:38.975 Df GossipTown[61259:25479] [com.apple.UIKit:KeyboardSceneDelegate] Reloading input views for key-window scene responder: <(null): 0x0; > force:Y
+2026-11-08 02:44:38.975 Df GossipTown[61259:25479] [com.apple.UIKit:KeyboardArbiterClientLog] isWritingToolsHandlingKeyboardTracking:Y (WT ready:Y, Arbiter ready:Y)
+2026-11-08 02:44:39.479 A  GossipTown[61259:25487] (RunningBoardServices) didChangeInheritances
+2026-11-08 02:44:43.353 Df GossipTown[61259:25479] [com.apple.app_launch_measurement:General] Bailing responsive launch check as reached maximum count
+2026-11-08 02:44:43.354 Df GossipTown[61259:25479] [com.apple.network:activity] <nw_activity 50:1 [CA7056D9-8F51-4723-BDBC-98462590F0CC] (global parent) (reporting strategy default) complete (reason failure)> complete with reason 3 (failure), duration 5318ms
+2026-11-08 02:44:43.354 Df GossipTown[61259:25479] [com.apple.network:activity] <nw_activity 50:2 [026B2A18-FCB6-4441-BB7C-5447CF7245AE] (reporting strategy default) complete (reason failure)> complete with reason 3 (failure), duration 5318ms
+2026-11-08 02:44:43.354 Df GossipTown[61259:25479] [com.apple.network:activity] Unsetting the global parent activity <nw_activity 50:1 [CA7056D9-8F51-4723-BDBC-98462590F0CC] (global parent) (reporting strategy default) complete (reason failure)>
+2026-11-08 02:44:43.354 Df GossipTown[61259:25479] [com.apple.network:activity] Unset the global parent activity
+2026-11-08 02:44:43.354 Df GossipTown[61259:25479] [com.apple.app_launch_measurement:ApplicationLaunch] alm_release_pageins_recording_assertion: releasing pageins recording assertion
+2026-11-08 02:44:43.354 Df GossipTown[61259:25479] [com.apple.app_launch_measurement:General] Bailing responsive launch check as reached maximum count
+Child process terminated with signal 15: Terminated

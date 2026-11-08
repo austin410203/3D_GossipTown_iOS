@@ -1,0 +1,24 @@
+Building for production...
+[0/5] Write sources
+[2/5] Write swift-version-7974D3F7F03D5E95.txt
+[4/6] Compiling GossipCore Data.swift
+[5/7] Compiling coretest main.swift
+[5/7] Write Objects.LinkFileList
+[6/7] Linking coretest
+Build of product 'coretest' complete! (23.13s)
+seed 1: OK (202 lines)
+seed 7: OK (203 lines)
+seed 42: OK (199 lines)
+seed 1234: OK (197 lines)
+seed 99991: OK (204 lines)
+seed 314159: OK (211 lines)
+seed 2718281: OK (201 lines)
+seed 123456789: OK (200 lines)
+seed 987654321: OK (208 lines)
+seed 55555: OK (186 lines)
+GOLDEN 10/10 PASS
+[0/1] Planning build
+Building for production...
+[0/2] Write swift-version-7974D3F7F03D5E95.txt
+Build of product 'coretest' complete! (0.21s)
+SMOKE OK days=1800 goalMet=1082
